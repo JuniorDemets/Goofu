@@ -1,11 +1,11 @@
 <?php
     $serveur = "localhost";
-    $dbname = "Goofu";
+    $dbname = "goofu";
     $user = "root";
     $pass = "";
     
     $Nom = $_POST["Nom"];
-    $Prenom = $_POST["Prénom"];
+    $Prénom = $_POST["Prénom"];
     $Genre = $_POST["Genre"];
     $E_mail = $_POST["E_mail"];
     $Mot_de_passe = $_POST["Mot de passe"];
@@ -17,10 +17,10 @@
     
         //On insère les données reçues
         $sth = $dbco->prepare("
-            INSERT INTO form(Nom, Prenom, Genre, E_mail, Mot_de_passe)
+            INSERT INTO form(Nom, Prénom, Genre, E_mail, Mot_de_passe)
             VALUES(:Nom, :Prénom, :Genre, :E_mail, :Mot de passe)");
         $sth->bindParam(':Nom',$Nom);
-        $sth->bindParam(':Prénom',$Prenom);
+        $sth->bindParam(':Prénom',$Prénom);
         $sth->bindParam(':Genre',$Genre);
         $sth->bindParam(':E_mail',$E_mail);
         $sth->bindParam(':Mot de passe',$Mot_de_passe);
