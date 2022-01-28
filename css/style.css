@@ -11,7 +11,11 @@
     padding-left: 1em;
     padding-top: 10px;
 }
+.search_total{
+    display: flex;
+    justify-content: center;
 
+}
 .barre_cherche{
     background-color: white;
     height: 25px;
@@ -22,21 +26,25 @@
     line-height: 25px;
     left: 300px;
     align-content: center;
-    text-align: left    ;
+    text-align: left;
     border-radius:   11px; 
+    
 }
 
 .bouton_rechercher{
     background-color: rgba(186, 185, 255, 1);
-    height: 25px;
-    
+    height: 30px;
     width: 100px;
     position: absolute;
-    top:50px;
+    top:51px;
     line-height: 25px;
-    left: 70em;
     text-align: center;
-    border-radius:  11px;  
+    border-bottom-left-radius:  none; 
+    border-top-left-radius:  none; 
+    border-bottom-right-radius:  11px; 
+    border-top-right-radius:  11px; 
+    display: flex; 
+    border: 0.5px solid none;
 }
 
 .panier{
@@ -46,7 +54,7 @@
     width: 100px;
     position: absolute;
     top:50px;
-    line-height: 25px;
+
     left: 77em;
     text-align: center;
     border-radius: 11px; 
