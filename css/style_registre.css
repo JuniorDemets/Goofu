@@ -1,7 +1,5 @@
 body{
-    background: url(../images/image_de_fond.jpeg) no-repeat center fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
+    background-color: #E0E0E4;
     margin: 0;
     padding: 0;
 }
@@ -41,7 +39,7 @@ body{
 }
 .button:hover{
     cursor: pointer;
-    background-color: #39dc79;
+    background-color: blueviolet;
     color: white;
 }
 .button{
