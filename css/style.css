@@ -3,6 +3,7 @@
     background-color: rgba(117, 114, 255, 1);
     width: 100%;
     height: 120px;
+    position: absolute; 
 }
 
 .logo{
@@ -14,6 +15,10 @@
 .search_total{
     display: flex;
     justify-content: center;
+    position: absolute;
+    top: 50px;
+    left: 25em;
+
 
 }
 .barre_cherche{
@@ -21,13 +26,15 @@
     height: 25px;
     padding-left: 50px;
     width: 40em;
-    position: absolute  ;
     top:50px;
     line-height: 25px;
     left: 300px;
     align-content: center;
     text-align: left;
-    border-radius:   11px; 
+    border-bottom-left-radius:  11px; 
+    border-top-left-radius:  11px; 
+    border-bottom-right-radius:  none; 
+    border-top-right-radius:  none;
     
 }
 
@@ -35,10 +42,9 @@
     background-color: rgba(186, 185, 255, 1);
     height: 30px;
     width: 100px;
-    position: absolute;
-    top:51px;
-    line-height: 25px;
+    line-height: 30px;
     text-align: center;
+    border-width: 1px;
     border-bottom-left-radius:  none; 
     border-top-left-radius:  none; 
     border-bottom-right-radius:  11px; 
@@ -49,19 +55,19 @@
 
 .panier{
     background-color: rgba(186, 185, 255, 1);
-    height: 25px;
+    height: 30px;
     line-height: 25px;
     width: 100px;
     position: absolute;
     top:50px;
-
-    left: 77em;
+    line-height: 25px;
+    left: 100em;
     text-align: center;
     border-radius: 11px; 
 }
 .connexion{
     background-color: rgba(186, 185, 255, 1);
-    height: 25px;
+    height: 30px;
     line-height: 25px;
     width: 100px;
     position: absolute ;
