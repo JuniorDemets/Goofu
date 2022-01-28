@@ -9,7 +9,6 @@ body{
     height: 730px;
     background-color: rgba(0,0,0,0.4);
     top: 10%;   
-    position: absolute;
     box-sizing: border-box;
     padding: 70px 30px;
     border-radius: 15px;
