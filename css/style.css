@@ -1,37 +1,65 @@
-#pageup{
-    height:100px;
-    width: 100%;
-    background-color: rgba(117, 114, 255, 1);
-    top: 0;
-}
-.logo{
-    width: 50px;
-    height: 50px;
-    padding-top: 25px;
-    padding-left: 30px;
-}
-.barre_recherche{
-    width: 600px;
-    border-radius: 25px;
-    border-radius: 11px;
-    flex: 5%;
 
+.pageup{
+    background-color: rgba(117, 114, 255, 1);
+    width: 100%;
+    height: 120px;
 }
+
+.logo{
+    width: 140px;
+    height: 100px;
+    padding-left: 1em;
+    padding-top: 10px;
+}
+
+.barre_cherche{
+    background-color: white;
+    height: 25px;
+    padding-left: 50px;
+    width: 40em;
+    position: absolute  ;
+    top:50px;
+    line-height: 25px;
+    left: 300px;
+    align-content: center;
+    text-align: left    ;
+    border-radius:   11px; 
+}
+
 .bouton_rechercher{
-    border-radius: 11px;
-    width: 10em;
-    height: 30px;
     background-color: rgba(186, 185, 255, 1);
+    height: 25px;
+    
+    width: 100px;
+    position: absolute;
+    top:50px;
+    line-height: 25px;
+    left: 70em;
+    text-align: center;
+    border-radius:  11px;  
 }
+
 .panier{
-    border-radius: 11px;
-    width: 10em;
-    height: 30px;
     background-color: rgba(186, 185, 255, 1);
+    height: 25px;
+    line-height: 25px;
+    width: 100px;
+    position: absolute;
+    top:50px;
+    line-height: 25px;
+    left: 77em;
+    text-align: center;
+    border-radius: 11px; 
 }
 .connexion{
-    border-radius: 11px;
-    width: 10em;
-    height: 30px;
     background-color: rgba(186, 185, 255, 1);
+    height: 25px;
+    line-height: 25px;
+    width: 100px;
+    position: absolute ;
+    top:50px;
+    line-height: 25px;
+    left: 110em; 
+    text-align: center;
+    border-radius: 11px; 
 }
