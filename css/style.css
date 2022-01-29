@@ -175,50 +175,49 @@ a:link, a:visited{
     width: 45%;
     top: 200px;
     left: 45px;
-    height: 200px;
+    height: 250px;
     position: absolute;
     background-color: rgba(196, 196, 196, 1);
     border: none;
     border-radius: 25px;
+
 }
 .categorie_2_2{
     width: 45%;
     top: 200px;
     right: 45px;
-    height: 200px;
+    height: 250px;
     position: absolute;
     background-color: rgba(196, 196, 196, 1);
     border: none;
     border-radius: 25px;
 }
 .categorie_3_2{
-    width: 30%;
+    width: 45%;
     top: 500px;
     left: 45px;
-    height: 200px;
+    height: 250px;
     position: absolute;
     background-color: rgba(196, 196, 196, 1);
     border: none;
     border-radius: 25px;
 }
 .categorie_4_2{
-    width: 30%;
+    width: 45%;
     top: 500px;
-    left: 35%;
-    right: 35%;
-    height: 200px;
+    right: 45px;
+    height: 250px;
     position: absolute;
     background-color: rgba(196, 196, 196, 1);
     border: none;
     border-radius: 25px;
 }
 .categorie_5_2{
-    width: 30%;
-    top: 500px;
-    right: 45px;
-    height: 200px;
+    width: 45%;
+    top: 800px;
+    left: 27%;
+    height: 250px;
     position: absolute;
     background-color: rgba(196, 196, 196, 1);
-    border: none;
     border-radius: 25px;
 }
