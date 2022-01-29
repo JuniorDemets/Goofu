@@ -1,40 +1,40 @@
 *{
     box-sizing: border-box;
+
 }
 /*première barre de naviguation*/
+body{
+    background-color: rgba(238, 240, 255, 1);
+}
+
 .pageup{
     background-color: rgba(117, 114, 255, 1);
     width: 100%;
-    height: 120px;
-    position: fixed; 
+    height: 75px;
+    position: absolute; 
     top: -1px;
     left: -1px;
 }
 
 .logo{
-    width: 140px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     padding-left: 1em;
-    padding-top: 10px;
+    padding-top: 7px;
 }
 .search_total{
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 40px;
-    left: 30em  ;
-    
-
-
+    top: 20px;
+    width: 100%;
 }
 .barre_cherche{
     background-color: white;
     height: 40px;
+    width: 40%;
     padding-left: 50px;
-    width: 50em;
-    top:50px;
     line-height: 25px;
-    left: 300px;
     align-content: center;
     text-align: left;
     border-bottom-left-radius:  11px; 
@@ -48,7 +48,7 @@
 .bouton_rechercher{
     background-color: rgba(186, 185, 255, 1);
     height: 40px;
-    width: 100px;
+    width: 5%;
     line-height: 30px;
     text-align: center;
     border-width: 1px;
@@ -64,24 +64,25 @@
     background-color: rgba(186, 185, 255, 1);
     height: 40px;
     line-height: 25px;
-    width: 100px;
+    width: 5%;
     position: absolute;
-    top:40px;
+    top:20px;
     line-height: 25px;
-    left: 120em;
+    left: 83%;
     text-align: center;
     border-radius: 11px; 
     border-width: 1px;
+
 }
 .connexion{
     background-color: rgba(186, 185, 255, 1);
     height: 40px;
     line-height: 25px;
-    width: 100px;
+    width: 5%;
     position: absolute ;
-    top:40px;
+    top:20px;
     line-height: 25px;
-    left: 130em; 
+    left: 90%; 
     text-align: center;
     border-width: 1px;
     border-radius: 11px; 
@@ -93,7 +94,7 @@
     background-color: rgba(117, 114, 255, 1);
     height: 60px;
     width: 100%;
-    top: 125px;
+    top: 80px;
     left: -1px;
     position: absolute;
 }
@@ -106,7 +107,6 @@
     width: 20%;
     position: absolute;
     left: -1px;
-    display: inline-block;
     border: none;
     background-color: rgba(117, 114, 255, 1);
 
@@ -167,6 +167,58 @@
 .categorie_1:hover , .categorie_2:hover , .categorie_3:hover , .categorie_4:hover , .categorie_5:hover{
     background-color: rgba(137, 124, 255, 1);
 }
-a:link{
+a:link, a:visited{
     color: black;
+}
+/*fin et debut catégories 2*/
+.categorie_1_2{
+    width: 45%;
+    top: 200px;
+    left: 45px;
+    height: 200px;
+    position: absolute;
+    background-color: rgba(196, 196, 196, 1);
+    border: none;
+    border-radius: 25px;
+}
+.categorie_2_2{
+    width: 45%;
+    top: 200px;
+    right: 45px;
+    height: 200px;
+    position: absolute;
+    background-color: rgba(196, 196, 196, 1);
+    border: none;
+    border-radius: 25px;
+}
+.categorie_3_2{
+    width: 30%;
+    top: 500px;
+    left: 45px;
+    height: 200px;
+    position: absolute;
+    background-color: rgba(196, 196, 196, 1);
+    border: none;
+    border-radius: 25px;
+}
+.categorie_4_2{
+    width: 30%;
+    top: 500px;
+    left: 35%;
+    right: 35%;
+    height: 200px;
+    position: absolute;
+    background-color: rgba(196, 196, 196, 1);
+    border: none;
+    border-radius: 25px;
+}
+.categorie_5_2{
+    width: 30%;
+    top: 500px;
+    right: 45px;
+    height: 200px;
+    position: absolute;
+    background-color: rgba(196, 196, 196, 1);
+    border: none;
+    border-radius: 25px;
 }
