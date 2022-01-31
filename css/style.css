@@ -97,127 +97,126 @@ body{
     top: 80px;
     left: -1px;
     position: absolute;
+    
+    
 }
 
-.categorie_1{
+.ordinateur{
     height: 60px;
     text-align: center;
     line-height: 60px;
-    text-decoration: underline;
     width: 20%;
     position: absolute;
     left: -1px;
     border: none;
     background-color: rgba(117, 114, 255, 1);
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
 
     
 }
-.categorie_2{
+.telephone{
     height: 60px;
     text-align: center;
     line-height: 60px;
-    text-decoration: underline;
     width: 20%;
     left: 20%;
     position: absolute;
-    display: inline-block;
     border: none;
     background-color: rgba(117, 114, 255, 1);
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
 }
-.categorie_3{
+.realite_virtuelle{
     position: absolute;
     height: 60px;
     text-align: center;
     line-height: 60px;
-    text-decoration: underline;
     width: 20%;
     left: 40%;
     position: absolute;
-    display: inline-block;
     border: none;
     background-color: rgba(117, 114, 255, 1);
-
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
 }
-.categorie_4{
+.console{
     height: 60px;
     text-align: center;
     line-height: 60px;
-    text-decoration: underline;
     width: 20%;
     left: 60%;
     position: absolute;
     position: absolute;
-    display: inline-block;
     border: none;
     background-color: rgba(117, 114, 255, 1);
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
 }
-.categorie_5{
+.cartes_cadeau{
     height: 60px;
     text-align: center;
     line-height: 60px;
-    text-decoration: underline;
     width: 20%;
     left: 20%;
     position: absolute;
-    display: inline-block;
     left: 80%;
     border: none;
     background-color: rgba(117, 114, 255, 1);
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
 }
-.categorie_1:hover , .categorie_2:hover , .categorie_3:hover , .categorie_4:hover , .categorie_5:hover{
+.ordinateur:hover , .telephone:hover , .realite_virtuelle:hover , .console:hover , .cartes_cadeau:hover{
     background-color: rgba(137, 124, 255, 1);
 }
 a:link, a:visited{
     color: black;
 }
 /*fin et debut catégories 2*/
-.categorie_1_2{
+.ordinateur_2 , .telephone_2 , .realite_virtuelle_2 , .console_2 , .cartes_cadeau_2{
     width: 45%;
-    top: 200px;
-    left: 45px;
     height: 250px;
     position: absolute;
-    background-color: rgba(196, 196, 196, 1);
     border: none;
     border-radius: 25px;
+    transition: transform 400ms ease-in-out 5ms;
+    font-size: 50px;
+    color: lightgray;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 190px;
 
 }
-.categorie_2_2{
-    width: 45%;
+.ordinateur_2{
+    background-image: url(../images/index/goofu_pc.png);
+    top: 200px;
+    left: 45px;
+}
+.telephone_2{
+    background-image: url(../images/index/telephone_game.jpg);
     top: 200px;
     right: 45px;
-    height: 250px;
-    position: absolute;
-    background-color: rgba(196, 196, 196, 1);
-    border: none;
-    border-radius: 25px;
 }
-.categorie_3_2{
-    width: 45%;
+.realite_virtuelle_2{
+    background-image: url(../images/index/vr.jpg);
     top: 500px;
     left: 45px;
-    height: 250px;
-    position: absolute;
-    background-color: rgba(196, 196, 196, 1);
-    border: none;
-    border-radius: 25px;
 }
-.categorie_4_2{
-    width: 45%;
+.console_2{
+    background-image: url(../images/index/consoles.jpg);
     top: 500px;
     right: 45px;
-    height: 250px;
-    position: absolute;
-    background-color: rgba(196, 196, 196, 1);
-    border: none;
-    border-radius: 25px;
 }
-.categorie_5_2{
-    width: 45%;
+.cartes_cadeau_2{
+    background-image: url(../images/index/cartes_cadeau.jpg);
     top: 800px;
     left: 27%;
-    height: 250px;
-    position: absolute;
-    background-color: rgba(196, 196, 196, 1);
-    border-radius: 25px;
+}
+.ordinateur_2:hover , .telephone_2:hover ,  .realite_virtuelle_2:hover , .console_2:hover , .cartes_cadeau_2:hover{
+    transform: translateX(0px) translateY(20px);
 }
