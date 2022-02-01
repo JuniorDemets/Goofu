@@ -4,7 +4,7 @@
 }
 /*première barre de naviguation*/
 body{
-    background-color: rgba(238, 240, 255, 1);
+    background-color: rgb(197, 199, 214);
 }
 
 .pageup{
@@ -21,6 +21,8 @@ body{
     height: 70px;
     padding-left: 1em;
     padding-top: 7px;
+    position: relative;
+
 }
 .search_total{
     display: flex;
@@ -68,7 +70,7 @@ body{
     position: absolute;
     top:20px;
     line-height: 25px;
-    left: 83%;
+    left: 80%;
     text-align: center;
     border-radius: 11px; 
     border-width: 1px;
@@ -82,10 +84,27 @@ body{
     position: absolute ;
     top:20px;
     line-height: 25px;
-    left: 90%; 
+    left: 86%; 
     text-align: center;
     border-width: 1px;
     border-radius: 11px; 
+
+    
+}
+.compte{
+    background-color: rgba(186, 185, 255, 1);
+    height: 40px;
+    line-height: 25px;
+    width: 5%;
+    position: absolute ;
+    top:20px;
+    line-height: 25px;
+    left: 92%; 
+    text-align: center;
+    border-width: 1px;
+    border-radius: 11px; 
+
+    
 }
 /*Fin de la première barre de navigation*/
 
@@ -190,10 +209,12 @@ a:link, a:visited{
     font-weight: bold;
     text-align: left;
     padding-top: 190px;
-
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .ordinateur_2{
     background-image: url(../images/index/goofu_pc.png);
+    max-width: 45%;
     top: 200px;
     left: 45px;
 }
