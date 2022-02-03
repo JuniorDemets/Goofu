@@ -1,0 +1,38 @@
+.choix_article{
+    width: 100%;
+    height: 275px;
+    background-color: white;
+    position: absolute;
+    left: -1px;
+    top: 150px;
+   
+}
+.choix_article1{
+    top: 150px;
+    
+}
+.photo_produit{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
+#affichage_prix_1{
+    position: absolute;
+    padding-left: 300px;
+    font-size: 35px;
+    font-weight: bold;  
+}
+#description_produit_1_head{
+    font-size: 25px;
+    padding-left: 500px;
+    font-weight: bolder;
+    text-decoration: underline;
+    
+}
+#description_produit_1{
+    font-size: 15px;
+    padding-left: 500px;
+    
+}
