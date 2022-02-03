@@ -38,7 +38,7 @@ body{
 }
 .button:hover{
     cursor: pointer;
-    background-color: blueviolet;
+    background-color:rgb(78, 78, 136);
     color: white;
 }
 .button{
