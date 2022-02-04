@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="../css/category.css">
+    <script src="ajouter_panier.js"></script> 
     <title>Ordinateurs</title>
 </head>
 <body>
@@ -28,7 +29,7 @@
         </div>
           <!--choix des catégories (nav bar)-->
    <div class="category_total">
-        <form action="1.html">
+        <form action="categorie_1.html">
             <input class="ordinateur" type="submit" value="Ordinateurs">
         </form>
         <form action="2.html">
@@ -44,13 +45,19 @@
             <input class="cartes_cadeau" type="submit" value="Cartes Cadeau">
         </form>
        </div>
-       <!--boite produits (présentation)-->
+       <!-- boite produits (présentation) +  bouton pour voir le produit -->
        <div class="choix_article">
             <img class="photo_produit" src="../images/category/150.png" alt="Image1">
             <p id="affichage_prix_1">$00.00</p>
             <p id="description_produit_1_head">PC Gamer de marque MSI :</p>
             <p id="description_produit_1">Ce pc de marque MSI exellent pour gaming next-gen. </p>
-       </div>
-       </div>
+            <form action="produit_1.html" >
+                <input class="produit_1" type="submit" value="Détails">
+            </form>
+            <form action="ajouter_panier.html" >
+                <input class="bouton__panier" type="submit" value="+">
+            </form>
+      
+      
 </body>
 </html>
