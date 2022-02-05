@@ -22,6 +22,10 @@ body{
     padding-left: 1em;
     padding-top: 7px;
     position: relative;
+}
+.lien_logo{
+    width: 70px;
+    height: 70px;
 
 }
 .search_total{
