@@ -1,0 +1,12 @@
+#article1panier{
+    position: relative;
+    background-color: antiquewhite;
+    margin-top: 180px;
+}
+#article1p{
+    position: relative;
+    vertical-align: middle;
+    margin-right: 25px;
+    padding-bottom: 50px; 
+    text-align: right;
+}
