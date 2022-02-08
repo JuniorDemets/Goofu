@@ -1,10 +1,16 @@
+#titre{
+    margin-top: 160px;
+    font-size: 50px;
+    text-decoration: underline;
+    text-align: center;
+}
 .choix_article{
     width: 100%;
     height: 275px;
     background-color: white;
     position: absolute;
     left: -1px;
-    top: 150px;
+    top: 250px;
 }
 .choix_article_2{
     width: 100%;
@@ -80,5 +86,20 @@
     text-align: center;
 }
 .ajout_souhait:hover{
+    background-color: rgb(156, 148, 148);
+}
+.bouton_achat{
+    background-color: rgba(117, 114, 255, 1);
+    position:absolute;
+    border-radius: 11px;
+    border: none;
+    left: 80%;
+    top: 310px;
+    width: 15%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.bouton_achat:hover{
     background-color: rgb(156, 148, 148);
 }
