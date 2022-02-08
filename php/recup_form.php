@@ -26,7 +26,7 @@
         $sth->execute();
         
         //On renvoie l'utilisateur vers la page de remerciement
-        alert("Merci pour votre inscription!!! Nous vous avons envoyé un mail de confirmation");
+        alert("Merci pour votre inscription!!! Un mail de confirmation vous a été envoyé.");
         header('Location: ../html/index.html');
 		die;
     }
