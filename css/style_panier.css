@@ -1,0 +1,105 @@
+#titre{
+    margin-top: 160px;
+    font-size: 50px;
+    text-decoration: underline;
+    text-align: center;
+}
+.choix_article{
+    width: 100%;
+    height: 275px;
+    background-color: white;
+    position: absolute;
+    left: -1px;
+    top: 250px;
+}
+.choix_article_2{
+    width: 100%;
+    height: 275px;
+    background-color: white;
+    position: absolute;
+    left: -1px;
+    top: 280px;
+}
+.choix_article_3{
+    width: 100%;
+    height: 275px;
+    background-color: white;
+    position: absolute;
+    left: -1px;
+    top: 280px;
+}
+.choix_article_4{
+    width: 100%;
+    height: 275px;
+    background-color: white;
+    position: absolute;
+    left: -1px;
+    top: 280px;
+}
+.photo_produit{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
+#affichage_prix_1{
+    position: absolute;
+    padding-left: 300px;
+    font-size: 35px;
+    font-weight: bold;  
+}
+#description_produit_1_head{
+    font-size: 25px;
+    padding-left: 580px;
+    font-weight: bolder;
+    text-decoration: underline;
+    
+}
+#description_produit_1{
+    font-size: 15px;
+    padding-left: 580px;
+    
+}
+.produit_1{
+    position:absolute;
+    left: 80%;
+    top: 85px;
+    border-radius: 25px;
+    width: 15%;
+    height: 100px;
+    background-color: rgba(117, 114, 255, 1);
+    font-size: 50px;
+    color: white;
+}
+.ajout_souhait{
+    background-color: rgba(117, 114, 255, 1);
+    border-radius: 11px;
+    padding: 20px;
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    padding-right: 25px;
+    width: 200px;
+    border: none;
+    color: white;
+    text-align: center;
+}
+.ajout_souhait:hover{
+    background-color: rgb(156, 148, 148);
+}
+.bouton_achat{
+    background-color: rgba(117, 114, 255, 1);
+    position:absolute;
+    border-radius: 11px;
+    border: none;
+    left: 80%;
+    top: 310px;
+    width: 15%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.bouton_achat:hover{
+    background-color: rgb(156, 148, 148);
+}
