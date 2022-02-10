@@ -65,6 +65,7 @@ body{
     border-top-right-radius:  11px; 
     display: flex; 
     border: 0.5px solid none;
+    cursor: pointer;
 }
 
 .panier{
@@ -79,7 +80,7 @@ body{
     text-align: center;
     border-radius: 11px; 
     border-width: 1px;
-
+    cursor: pointer;
 }
 .connexion{
     background-color: rgba(186, 185, 255, 1);
@@ -93,8 +94,7 @@ body{
     text-align: center;
     border-width: 1px;
     border-radius: 11px; 
-
-    
+    cursor: pointer;
 }
 .compte{
     background-color: rgba(186, 185, 255, 1);
@@ -108,8 +108,7 @@ body{
     text-align: center;
     border-width: 1px;
     border-radius: 11px; 
-
-    
+    cursor: pointer;
 }
 /*Fin de la première barre de navigation*/
 
@@ -137,8 +136,7 @@ body{
     color: white;
     font-size: 20px;
     font-family: sans-serif;
-
-    
+    cursor: pointer;
 }
 .telephone{
     height: 60px;
@@ -152,6 +150,7 @@ body{
     color: white;
     font-size: 20px;
     font-family: sans-serif;
+    cursor: pointer;
 }
 .realite_virtuelle{
     position: absolute;
@@ -166,6 +165,7 @@ body{
     color: white;
     font-size: 20px;
     font-family: sans-serif;
+    cursor: pointer;
 }
 .console{
     height: 60px;
@@ -180,6 +180,7 @@ body{
     color: white;
     font-size: 20px;
     font-family: sans-serif;
+    cursor: pointer;
 }
 .cartes_cadeau{
     height: 60px;
@@ -194,6 +195,7 @@ body{
     color: white;
     font-size: 20px;
     font-family: sans-serif;
+    cursor: pointer;
 }
 .ordinateur:hover , .telephone:hover , .realite_virtuelle:hover , .console:hover , .cartes_cadeau:hover{
     background-color: rgba(137, 124, 255, 1);

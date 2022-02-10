@@ -74,6 +74,7 @@
     background-color: rgba(117, 114, 255, 1);
     font-size: 50px;
     color: white;
+    cursor: pointer;
 }
 .ajout_souhait{
     background-color: rgba(117, 114, 255, 1);
@@ -87,6 +88,7 @@
     border: none;
     color: white;
     text-align: center;
+    cursor: pointer;
 }
 .ajout_souhait:hover{
     background-color: rgb(156, 148, 148);
@@ -102,6 +104,7 @@
     padding: 20px;
     text-align: center;
     color: white;
+    cursor: pointer;
 }
 .bouton_achat:hover{
     background-color: rgb(156, 148, 148);
