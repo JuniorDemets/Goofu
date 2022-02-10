@@ -15,6 +15,7 @@
     margin-bottom: 100px;
 }
 #img_1{
+    object-position: center;
     border: 2px solid red;
 }
 /* #prix{
