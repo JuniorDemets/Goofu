@@ -26,6 +26,7 @@ body{
 .lien_logo{
     width: 70px;
     height: 70px;
+    cursor: pointer;
 
 }
 .search_total{
@@ -64,6 +65,7 @@ body{
     border-top-right-radius:  11px; 
     display: flex; 
     border: 0.5px solid none;
+    cursor: pointer;
 }
 
 .panier{
@@ -78,6 +80,7 @@ body{
     text-align: center;
     border-radius: 11px; 
     border-width: 1px;
+    cursor: pointer;
 
 }
 .connexion{
@@ -92,6 +95,7 @@ body{
     text-align: center;
     border-width: 1px;
     border-radius: 11px; 
+    cursor: pointer;
 
     
 }
@@ -107,6 +111,7 @@ body{
     text-align: center;
     border-width: 1px;
     border-radius: 11px; 
+    cursor: pointer;
 
     
 }
@@ -120,6 +125,7 @@ body{
     top: 80px;
     left: -1px;
     position: absolute;
+    cursor: pointer;
     
     
 }
@@ -136,6 +142,7 @@ body{
     color: white;
     font-size: 20px;
     font-family: sans-serif;
+    cursor: pointer;
 
     
 }
@@ -151,6 +158,7 @@ body{
     color: white;
     font-size: 20px;
     font-family: sans-serif;
+    cursor: pointer;
 }
 .realite_virtuelle{
     position: absolute;
@@ -165,6 +173,7 @@ body{
     color: white;
     font-size: 20px;
     font-family: sans-serif;
+    cursor: pointer;
 }
 .console{
     height: 60px;
@@ -179,6 +188,7 @@ body{
     color: white;
     font-size: 20px;
     font-family: sans-serif;
+    cursor: pointer;
 }
 .cartes_cadeau{
     height: 60px;
@@ -193,6 +203,7 @@ body{
     color: white;
     font-size: 20px;
     font-family: sans-serif;
+    cursor: pointer;
 }
 .ordinateur:hover , .telephone:hover , .realite_virtuelle:hover , .console:hover , .cartes_cadeau:hover{
     background-color: rgba(137, 124, 255, 1);
@@ -215,6 +226,7 @@ a:link, a:visited{
     padding-top: 190px;
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: pointer;
 }
 .ordinateur_2{
     background-image: url(../images/index/goofu_pc.jpg);

@@ -11,6 +11,7 @@
     position: absolute;
     left: -1px;
     top: 250px;
+
 }
 .choix_article_2{
     width: 100%;
@@ -84,6 +85,7 @@
     border: none;
     color: white;
     text-align: center;
+    cursor: pointer;
 }
 .ajout_souhait:hover{
     background-color: rgb(156, 148, 148);
