@@ -1,8 +1,11 @@
 #titre{
     margin-top: 160px;
-    font-size: 50px;
-    text-decoration: underline;
     text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+#titre1{
+    text-decoration: dotted underline;
 }
 .choix_article{
     width: 100%;
@@ -72,6 +75,7 @@
     background-color: rgba(117, 114, 255, 1);
     font-size: 50px;
     color: white;
+    cursor: pointer;
 }
 .ajout_souhait{
     background-color: rgba(117, 114, 255, 1);
@@ -101,6 +105,7 @@
     padding: 20px;
     text-align: center;
     color: white;
+    cursor: pointer;
 }
 .bouton_achat:hover{
     background-color: rgb(156, 148, 148);

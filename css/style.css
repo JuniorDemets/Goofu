@@ -49,6 +49,7 @@ body{
     border-bottom-right-radius:  none; 
     border-top-right-radius:  none;
     font-size: 15px;
+
     
 }
 
@@ -81,7 +82,6 @@ body{
     border-radius: 11px; 
     border-width: 1px;
     cursor: pointer;
-
 }
 .connexion{
     background-color: rgba(186, 185, 255, 1);
