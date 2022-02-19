@@ -8,8 +8,8 @@
     top: 150px;
 }
 .photo_msi{
-    width: 200px;
-    height: 200px;
+    width: 124px;
+    height: 170;
     position: absolute;
     top: 35px;
     left: 50px;
@@ -30,6 +30,7 @@
 #description_msi_1{
     font-size: 15px;
     padding-left: 30%;
+    width: 50%;
     
 }
 .msi_1{

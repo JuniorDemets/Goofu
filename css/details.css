@@ -1,0 +1,8 @@
+.all_items{
+    position: absolute;
+    background-color: white;
+    width: 90%;
+    height: 2000px;
+    top: 150px;
+    left: 5%;
+}
