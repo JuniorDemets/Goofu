@@ -2,7 +2,47 @@
     position: absolute;
     background-color: white;
     width: 90%;
-    height: 2000px;
+    height: 5000px;
     top: 150px;
     left: 5%;
+}
+.msi_image{
+    top: 2%;
+    left: 8%;
+    width: 15%;
+    height: auto;
+    border: solid rgb(197, 199, 214) 1px;
+    position: absolute;
+    
+}
+.ajouter_liste_souhaits{
+    top: 8%;
+    left: 8%;
+    width: 15%;
+    height: 1%;
+    position: absolute;
+    background-color: rgba(117, 114, 255, 1);
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.ajouter_panier:hover{
+    background-color: rgba(137, 124, 255, 1);
+}
+/*Description du produit*/
+.details{
+    text-decoration: underline;
+    text-align: center;
+}
+.description_complete{
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    right: auto;
+    width: 50%;
+}
+.prix{
+    font-size: 70px;
+    padding-left: 85%;
+    font-weight: bold;
 }
