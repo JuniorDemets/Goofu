@@ -35,7 +35,7 @@
     text-align: center;
 }
 .description_complete{
-    text-align: center;
+    text-align: left;
     position: absolute;
     left: 25%;
     right: auto;
@@ -43,6 +43,17 @@
 }
 .prix{
     font-size: 70px;
-    padding-left: 85%;
+    padding-left: 81%;
     font-weight: bold;
+}
+.ajouter_panier{
+    top: 5%;
+    left: 80%;
+    width: 15%;
+    height: 1%;
+    position: absolute;
+    background-color: rgba(117, 114, 255, 1);
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
 }
