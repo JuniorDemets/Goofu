@@ -18,7 +18,7 @@
 .ajouter_liste_souhaits{
     top: 8%;
     left: 8%;
-    width: 15%;
+    width: 50%;
     height: 1%;
     position: absolute;
     background-color: rgba(117, 114, 255, 1);
@@ -57,3 +57,34 @@
     border-radius: 15px;
     cursor: pointer;
 }
+#nbre_panier{
+    top: 6.5%;
+    left: 80%;
+    width: 15%;
+    height: 1%;
+    position: absolute;
+    background-color: rgba(117, 114, 255, 1);
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#img_wishlist
+{
+    border: 1px solid red;
+    width: 25%;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.titre_description{
+    border: 1px solid red;
+}
+.prix_panier{
+    border: 1px solid red;
+    position: absolute; 
+    width: 15%;
+    left: 80%;
+}
+/* 
+#div général{
+    display: flex;
+    justify-content: center; */
