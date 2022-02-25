@@ -73,3 +73,26 @@
     margin-left: 55px;
     padding-bottom: 20px;
 }
+.boutons_ducompte{
+	/* border: 2px solid red; */
+	margin-left: 50px;
+	width: 20%;
+	text-align: center;
+}
+#bt_compte, #bt_sécurité, #bt_retours, #bt_retour_article, #bt_souhaits, #bt_promo, #bt_deconnexion{
+	background-color: beige;
+	margin-top: 20px;
+	height: 50px;
+	width: 60%;
+}
+#bt_deconnexion{
+	margin-top: 80px;
+}
+#bt_compte:hover, #bt_sécurité:hover, #bt_retours:hover, #bt_retour_article:hover, #bt_souhaits:hover, #bt_promo:hover, #bt_deconnexion:hover{
+	background-color: rgb(197, 199, 214);
+}
+#account_title{
+	margin-top: 20%;
+	/* border: 2px solid red; */
+	margin-left: 25%;
+}
