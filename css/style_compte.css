@@ -40,11 +40,14 @@
     display: flex;
     flex-grow: 1;
     justify-content: center;
+	margin-top: 80px;
 }
 #ligne2{
     display: flex;
     flex-grow: 1;
     justify-content: center;
+	margin-top: 50px;
+	Margin-bottom: 50px;
 }
 #article_4{
     background-color: white;
