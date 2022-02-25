@@ -2,24 +2,20 @@
     position: absolute;
     background-color: white;
     width: 90%;
-    height: 5000px;
+    height: 1000%;
     top: 150px;
     left: 5%;
 }
 .msi_image{
-    top: 2%;
-    left: 8%;
-    width: 15%;
+    max-width: 75%;
     height: auto;
-    border: solid rgb(197, 199, 214) 1px;
     position: absolute;
     
 }
 .ajouter_liste_souhaits{
-    top: 8%;
-    left: 8%;
-    width: 50%;
-    height: 1%;
+    width: 15%;
+    margin-top: 23%;
+    left: 5%;
     position: absolute;
     background-color: rgba(117, 114, 255, 1);
     color: white;
@@ -43,14 +39,16 @@
 }
 .prix{
     font-size: 70px;
-    padding-left: 81%;
+    padding-bottom: 50%;
+    text-align: center;
     font-weight: bold;
+
 }
 .ajouter_panier{
-    top: 5%;
-    left: 80%;
-    width: 15%;
-    height: 1%;
+    left: 14.5%;
+    right: auto;
+    width: 75%;
+    top: 65%;
     position: absolute;
     background-color: rgba(117, 114, 255, 1);
     color: white;
@@ -58,28 +56,26 @@
     cursor: pointer;
 }
 #nbre_panier{
-    top: 6.5%;
-    left: 80%;
-    width: 15%;
-    height: 1%;
+    left: 14.5%;
+    right: auto;
+    text-align: center;
+    top: 80%;
+    width: 75%;
     position: absolute;
     background-color: rgba(117, 114, 255, 1);
     color: white;
     border-radius: 15px;
     cursor: pointer;
 }
-#img_wishlist
-{
-    border: 1px solid red;
-    width: 25%;
-    margin-left: 25px;
-    margin-top: 25px;
-}
-.titre_description{
-    border: 1px solid red;
-}
+#img_wishlist{
+    width: 20%;
+    height: 20%;
+    left: 5%;
+    top: 10%;
+    position: absolute;
+    }
+
 .prix_panier{
-    border: 1px solid red;
     position: absolute; 
     width: 15%;
     left: 80%;
