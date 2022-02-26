@@ -100,13 +100,14 @@
 	margin-left: 22%;
 }
 #commande{
-    background-color: beige;
     position: absolute;
     width: 75%;
     margin-top: 235px;
     margin-left: 22%;
 }
 #category-name{
+    background-color: beige;
+    border-radius: 11px;
     display: flex;
     flex-grow: 1;
     width: 999px;
@@ -125,6 +126,7 @@
 }
 #tableau-com{
     background-color: beige;
+    border-radius: 5px;
     position: absolute;
     margin-top: 10px;
     width: 990px;
@@ -144,4 +146,12 @@
 }
 #t-etat{
     width: 26%;
+}
+#t-details{
+    width: 26%;
+    border-right: 1px solid black;
+}
+td{
+    border: 1px solid black;
+    border-right: none;
 }
