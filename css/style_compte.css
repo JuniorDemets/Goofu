@@ -155,3 +155,10 @@ td{
     border: 1px solid black;
     border-right: none;
 }
+#bt-tt-afficher{
+    margin-top: 100px;
+}
+#tt-afficher{
+    background-color: beige;
+    border-radius: 11px;
+}
