@@ -180,3 +180,78 @@ td{
     border-right: none;
     border-bottom: none; 
 }
+.code-title{
+    text-decoration: underline;
+}
+#code1{
+    position: absolute;
+    margin-top: 255px;
+    margin-left: 300px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#code11{
+    position: absolute;
+    margin-top: 254px;
+    margin-left: 360px; 
+}
+#code2{
+    position: absolute;
+    margin-top: 315px;
+    margin-left: 300px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#code22{
+    position: absolute;
+    margin-top: 315px;
+    margin-left: 360px; 
+}
+#code3{
+    position: absolute;
+    margin-top: 375px;
+    margin-left: 300px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#code33{
+    position: absolute;
+    margin-top: 375px;
+    margin-left: 360px; 
+}
+#code4{
+    position: absolute;
+    margin-top: 435px;
+    margin-left: 300px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#code44{
+    position: fixed;
+    margin-top: 435px;
+    margin-left: 360px; 
+}
+#code5{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 300px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#code55{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 360px; 
+}
+#code6{
+    position: absolute;
+    margin-top: 555px;
+    margin-left: 300px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#code66{
+    position: absolute;
+    margin-top: 555px;
+    margin-left: 360px; 
+}
