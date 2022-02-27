@@ -106,7 +106,6 @@
     margin-left: 22%;
 }
 #category-name{
-    background-color: beige;
     border-radius: 11px;
     display: flex;
     flex-grow: 1;
@@ -122,10 +121,9 @@
     margin-left: 5px;
 }
 #details{
-    margin-left: 75px;
+    margin-left: 90px;
 }
 #tableau-com{
-    background-color: beige;
     border-radius: 5px;
     position: absolute;
     margin-top: 10px;
@@ -158,7 +156,28 @@ td{
 #bt-tt-afficher{
     margin-top: 100px;
 }
-#tt-afficher{
-    background-color: beige;
-    border-radius: 11px;
+
+#titre-com{
+    margin-top: 14%;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+#tableau-com1{
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 10px;
+    width: 98%;
+    margin-left: 20px;
+}
+#titre-t{
+    height: 40px;
+    text-decoration: 2px solid underline gray;
+}
+#titre-t1{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none; 
 }
