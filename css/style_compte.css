@@ -74,7 +74,7 @@
     padding-bottom: 20px;
 }
 .boutons_ducompte{
-    position: fixed;
+    position: relative;
 	margin-left: 50px;
     padding-top: 230px;
 	width: 20%;
@@ -94,8 +94,8 @@
 	background-color: rgb(197, 199, 214);
 }
 #account_title{
-    position: fixed;
-	margin-top: 12%;
+    position: absolute;
+	margin-top: 15%;
 	margin-left: 22%;
 }
 #commande{
@@ -182,6 +182,9 @@ td{
 }
 .code-title{
     text-decoration: underline;
+    position: relative;
+	margin-top: 10%;
+	margin-left: 22%;
 }
 #code1{
     position: absolute;
@@ -227,7 +230,7 @@ td{
     font-weight: bold;
 }
 #code44{
-    position: fixed;
+    position: absolute;
     margin-top: 435px;
     margin-left: 360px; 
 }
@@ -254,4 +257,16 @@ td{
     position: absolute;
     margin-top: 555px;
     margin-left: 360px; 
+}
+#sous-titre-retour{
+    position: absolute;
+    margin-top: 21%;
+    margin-left: 22%;
+    font-size: large;
+}
+#sous-titre-retour1{
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 22%;
+    font-size: large;
 }
