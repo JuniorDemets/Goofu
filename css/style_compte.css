@@ -270,3 +270,18 @@ td{
     margin-left: 22%;
     font-size: large;
 }
+#commentaire{
+    position: absolute;
+    margin-top: 22%;
+    margin-left: 22%;
+}
+#bt-commentaire{
+    position: absolute;
+    margin-top: 46%;
+    margin-left: 22%;
+}
+#données-perso{
+    position: absolute;
+    margin-top: 24%;
+    margin-left: 22%;
+}
