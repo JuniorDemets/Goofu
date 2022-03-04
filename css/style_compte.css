@@ -7,33 +7,281 @@
     text-decoration: dotted underline;
 }
 #article_1{
-    display: flex;
-    justify-content: center;
     background-color: white;
-    margin-top: 150px;
-    padding: 150px;
-    width: 120px;
-    margin-left: 65px;
-    margin-bottom: 100px;
-    text-align: center;
+    width:20%;
+    text-align:center;
+    padding-top:60px;
+    margin-left: 55px;
+    padding-bottom: 20px;
 }
 #article_2{
-    display: flex;
-    justify-content: center;
     background-color: white;
-    margin-top: 150px;
-    padding: 150px;
-
-    text-align: center;
+    width:20%;
+    text-align:center;
+    padding-top:60px;
+    margin-left: 55px;
+    padding-bottom: 20px;
 }
 #article_3{
-    display: flex;
-    justify-content: center;
     background-color: white;
-    margin-top: 150px;
-    padding: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    width:20%;
+    text-align:center;
+    padding-top:60px;
+    margin-left: 55px;
+    padding-bottom: 20px;
+}
+#prix1{
+    text-align:center;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#ligne1{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+	margin-top: 80px;
+}
+#ligne2{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+	margin-top: 50px;
+	Margin-bottom: 50px;
+}
+#article_4{
+    background-color: white;
+    width:20%;
+    text-align:center;
+    padding-top:60px;
+    margin-left: 55px;
+    padding-bottom: 20px;
+}
+#article_5{
+    background-color: white;
+    width:20%;
+    text-align:center;
+    padding-top:60px;
+    margin-left: 55px;
+    padding-bottom: 20px;
+}
+#article_6{
+    background-color: white;
+    width:20%;
+    text-align:center;
+    padding-top:60px;
+    margin-left: 55px;
+    padding-bottom: 20px;
+}
+.boutons_ducompte{
+    position: relative;
+	margin-left: 50px;
+    padding-top: 230px;
+	width: 20%;
+	text-align: center;
+}
+#bt_compte, #bt_sécurité, #bt_retours, #bt_retour_article, #bt_souhaits, #bt_promo, #bt_deconnexion{
+	background-color: beige;
+	margin-top: 10px;
+	height: 50px;
+	width: 60%;
+    border-radius: 11px;
+}
+#bt_deconnexion{
+    margin-bottom: 50px;
+}
+#bt_compte:hover, #bt_sécurité:hover, #bt_retours:hover, #bt_retour_article:hover, #bt_souhaits:hover, #bt_promo:hover, #bt_deconnexion:hover{
+	background-color: rgb(197, 199, 214);
+}
+#account_title{
+    position: absolute;
+	margin-top: 15%;
+	margin-left: 22%;
+}
+#commande{
+    position: absolute;
+    width: 75%;
+    margin-top: 235px;
+    margin-left: 22%;
+}
+#category-name{
+    border-radius: 11px;
+    display: flex;
+    flex-grow: 1;
+    width: 999px;
+}
+#num-com, #date, #montant, #mode-paiement, #etat, #details{
+    margin-right: 50px;
+    margin-left: 20px;
+    font-size: large;
+    text-decoration: underline;
+}
+#num-com{
+    margin-left: 5px;
+}
+#details{
+    margin-left: 90px;
+}
+#tableau-com{
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 10px;
+    width: 990px;
+}
+#t-num-com{
+    width: 20%;
+    height: 10px;
+}
+#t-date{
+    width: 11%;
+}
+#t-montant{
+    width: 13%;
+}
+#t-mode-paiement{
+    width: 21%;
+}
+#t-etat{
+    width: 26%;
+}
+#t-details{
+    width: 26%;
+    border-right: 1px solid black;
+}
+td{
+    border: 1px solid black;
+    border-right: none;
+}
+#bt-tt-afficher{
+    margin-top: 100px;
 }
 
+#titre-com{
+    margin-top: 14%;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+#tableau-com1{
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 10px;
+    width: 98%;
+    margin-left: 20px;
+}
+#titre-t{
+    height: 40px;
+    text-decoration: 2px solid underline gray;
+}
+#titre-t1{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none; 
+}
+.code-title{
+    text-decoration: underline;
+    position: relative;
+	margin-top: 10%;
+	margin-left: 22%;
+}
+#code1{
+    position: absolute;
+    margin-top: 255px;
+    margin-left: 300px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#code11{
+    position: absolute;
+    margin-top: 254px;
+    margin-left: 360px; 
+}
+#code2{
+    position: absolute;
+    margin-top: 315px;
+    margin-left: 300px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#code22{
+    position: absolute;
+    margin-top: 315px;
+    margin-left: 360px; 
+}
+#code3{
+    position: absolute;
+    margin-top: 375px;
+    margin-left: 300px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#code33{
+    position: absolute;
+    margin-top: 375px;
+    margin-left: 360px; 
+}
+#code4{
+    position: absolute;
+    margin-top: 435px;
+    margin-left: 300px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#code44{
+    position: absolute;
+    margin-top: 435px;
+    margin-left: 360px; 
+}
+#code5{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 300px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#code55{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 360px; 
+}
+#code6{
+    position: absolute;
+    margin-top: 555px;
+    margin-left: 300px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#code66{
+    position: absolute;
+    margin-top: 555px;
+    margin-left: 360px; 
+}
+#sous-titre-retour{
+    position: absolute;
+    margin-top: 21%;
+    margin-left: 22%;
+    font-size: large;
+}
+#sous-titre-retour1{
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 22%;
+    font-size: large;
+}
+#commentaire{
+    position: absolute;
+    margin-top: 22%;
+    margin-left: 22%;
+}
+#bt-commentaire{
+    position: absolute;
+    margin-top: 46%;
+    margin-left: 22%;
+}
+#données-perso{
+    position: absolute;
+    margin-top: 24%;
+    margin-left: 22%;
+}
