@@ -1,0 +1,18 @@
+#nom_article{
+    font-size: 35px;
+    text-decoration: underline;
+    text-align: center;
+}
+.image_produit{
+    position: absolute;
+    width: 15%;
+    height: auto;
+    left: 3%;
+    top: 25px;
+}
+.box{
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+}
