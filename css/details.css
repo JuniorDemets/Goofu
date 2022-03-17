@@ -2,7 +2,7 @@
     position: absolute;
     background-color: white;
     width: 90%;
-    height: 1000%;
+    height: 75vh;
     top: 150px;
     left: 5%;
 }
@@ -80,7 +80,4 @@
     width: 15%;
     left: 80%;
 }
-/* 
-#div général{
-    display: flex;
-    justify-content: center; */
+
