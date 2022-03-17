@@ -268,3 +268,23 @@ a:link, a:visited{
     border-top-left-radius: 11px;
     border-top-right-radius: 11px;
 }
+.signature1{
+    position: absolute;
+    top: 160%;
+    text-align: center; 
+    width: 100%;
+    font: 20px arial bold;
+    color: gray;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+}
+.signature2{
+    position: absolute;
+    margin-top: 35%;
+    text-align: center; 
+    width: 100%;
+    font: 20px arial bold;
+    color: gray;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+}
