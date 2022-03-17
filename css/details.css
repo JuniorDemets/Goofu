@@ -83,12 +83,17 @@
 }
 .ajouter_commentaire{
     width: 20%;
-    height: 30%;
+    height: 25%;
     position: absolute;
     top: 50vh;
     left: 2%;
     text-align: left;
-    vertical-align: 50px;
+}
+.bt_send_com{
+    position: absolute;
+    top: 70vh;
+    left: 9%;
+    text-align: left;
 }
 .signature{
     position: absolute;
