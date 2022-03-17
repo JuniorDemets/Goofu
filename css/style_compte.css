@@ -76,7 +76,6 @@
 .boutons_ducompte{
     position: relative;
 	margin-left: 50px;
-    padding-top: 230px;
 	width: 20%;
 	text-align: center;
 }
@@ -94,14 +93,13 @@
 	background-color: rgb(197, 199, 214);
 }
 #account_title{
-    position: absolute;
-	margin-top: 15%;
+    position: relative;
+    margin-top: 15%;
 	margin-left: 22%;
 }
 #commande{
     position: absolute;
     width: 75%;
-    margin-top: 235px;
     margin-left: 22%;
 }
 #category-name{
@@ -186,102 +184,60 @@ td{
 	margin-top: 10%;
 	margin-left: 22%;
 }
-#code1{
+#code{
     position: absolute;
-    margin-top: 255px;
-    margin-left: 300px;
+    margin-top: 0.5%;
+    margin-left: 335px;
+}
+#code1{
     text-decoration: underline;
     font-weight: bold;
-}
-#code11{
-    position: absolute;
-    margin-top: 254px;
-    margin-left: 360px; 
 }
 #code2{
-    position: absolute;
-    margin-top: 315px;
-    margin-left: 300px;
     text-decoration: underline;
     font-weight: bold;
-}
-#code22{
-    position: absolute;
-    margin-top: 315px;
-    margin-left: 360px; 
 }
 #code3{
-    position: absolute;
-    margin-top: 375px;
-    margin-left: 300px;
     text-decoration: underline;
     font-weight: bold;
-}
-#code33{
-    position: absolute;
-    margin-top: 375px;
-    margin-left: 360px; 
 }
 #code4{
-    position: absolute;
-    margin-top: 435px;
-    margin-left: 300px;
     text-decoration: underline;
     font-weight: bold;
-}
-#code44{
-    position: absolute;
-    margin-top: 435px;
-    margin-left: 360px; 
 }
 #code5{
-    position: absolute;
-    margin-top: 500px;
-    margin-left: 300px;
     text-decoration: underline;
     font-weight: bold;
-}
-#code55{
-    position: absolute;
-    margin-top: 500px;
-    margin-left: 360px; 
 }
 #code6{
-    position: absolute;
-    margin-top: 555px;
-    margin-left: 300px;
     text-decoration: underline;
     font-weight: bold;
-}
-#code66{
-    position: absolute;
-    margin-top: 555px;
-    margin-left: 360px; 
 }
 #sous-titre-retour{
     position: absolute;
-    margin-top: 21%;
+    margin-top: 2%;
     margin-left: 22%;
     font-size: large;
 }
 #sous-titre-retour1{
     position: absolute;
-    margin-top: 25%;
+    margin-top: 5%;
     margin-left: 22%;
     font-size: large;
 }
 #commentaire{
     position: absolute;
-    margin-top: 22%;
+    margin-top: 1%; 
     margin-left: 22%;
 }
 #bt-commentaire{
     position: absolute;
-    margin-top: 46%;
+    margin-top: 21%;
     margin-left: 22%;
+    margin-bottom: 10%;
 }
 #données-perso{
     position: absolute;
-    margin-top: 24%;
+    margin-top: 1%;
     margin-left: 22%;
 }
