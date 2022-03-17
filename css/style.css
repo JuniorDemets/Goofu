@@ -257,3 +257,16 @@ a:link, a:visited{
 .ordinateur_2:hover , .telephone_2:hover ,  .realite_virtuelle_2:hover , .console_2:hover , .cartes_cadeau_2:hover{
     transform: translateX(0px) translateY(20px);
 }
+/*Signature*/
+.signature{
+    position: absolute;
+    top: 150%;
+    text-align: center; 
+    width: 100%;
+    /* background-color: lightgrey;  */
+    /* text-decoration: underline; */
+    font: 20px arial bold;
+    color: gray;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+}
