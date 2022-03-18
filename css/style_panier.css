@@ -5,7 +5,8 @@
     font-weight: bold;
 }
 #titre1{
-    text-decoration: dotted underline;
+    text-decoration: underline;
+    font-style: bold;
 }
 .choix_article{
     width: 100%;
