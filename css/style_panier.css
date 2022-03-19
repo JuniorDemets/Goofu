@@ -97,11 +97,12 @@
 }
 .bouton_achat{
     background-color: rgba(117, 114, 255, 1);
-    position:absolute;
+    position: relative;
     border-radius: 11px;
     border: none;
-    left: 80%;
-    top: 310px;
+    margin-top: 5px;
+    left: 80.5%;
+    top: 87%;
     width: 15%;
     padding: 20px;
     text-align: center;
