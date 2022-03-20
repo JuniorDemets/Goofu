@@ -8,6 +8,7 @@ if (isset($_POST['E_mail'], $_POST['Mot_de_passe'])) {
 
     $db = new PDO('mysql:host=localhost;dbname=4tt_junior', 'junior', 'junior5');
 
+    // $sql = "SELECT 'E_mail' && 'Mot_de_passe' FROM goofu where E_mail = ?";
     $sql = "SELECT * FROM goofu where E_mail = ?";
     $result = $db->prepare($sql);
     $result->execute($E_mail);
