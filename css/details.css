@@ -12,6 +12,12 @@
     position: absolute;
     
 }
+.acer_image{
+    max-width: 75%;
+    height: auto;
+    position: absolute;
+    
+}
 .ajouter_liste_souhaits{
     width: 15%;
     margin-top: 23%;
@@ -46,7 +52,6 @@
 
 }
 .ajouter_panier{
-    left: 14.5%;
     right: auto;
     width: 75%;
     top: 35vh;
@@ -57,7 +62,6 @@
     cursor: pointer;
 }
 #nbre_panier{
-    left: 14.5%;
     right: auto;
     text-align: center;
     top: 30vh;
@@ -80,19 +84,20 @@
     position: absolute; 
     width: 15%;
     left: 80%;
+    top: 25vh;
 }
 .ajouter_commentaire{
     width: 20%;
     height: 25%;
     position: absolute;
-    top: 50vh;
-    left: 2%;
+    top: 62vh;
+    left: 7%;
     text-align: left;
 }
 .bt_send_com{
     position: absolute;
-    top: 70vh;
-    left: 9%;
+    top: 87vh;
+    left: 15%;
     text-align: left;
 }
 .signature{
