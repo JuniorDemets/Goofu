@@ -21,7 +21,7 @@ body{
     height: 70px;
     padding-left: 1em;
     padding-top: 7px;
-    position: relative;
+    position: absolute;
 }
 .lien_logo{
     width: 70px;
@@ -49,8 +49,6 @@ body{
     border-bottom-right-radius:  none; 
     border-top-right-radius:  none;
     font-size: 15px;
-
-    
 }
 
 .bouton_rechercher{
@@ -75,11 +73,11 @@ body{
     line-height: 25px;
     width: 5%;
     position: absolute;
-    top:20px;
+    top: 20px;
     line-height: 25px;
     left: 80%;
     text-align: center;
-    border-radius: 11px; 
+    border-radius: 11px;
     border-width: 1px;
     cursor: pointer;
 }
@@ -96,8 +94,6 @@ body{
     border-width: 1px;
     border-radius: 11px; 
     cursor: pointer;
-
-    
 }
 .compte{
     background-color: rgba(186, 185, 255, 1);
@@ -111,9 +107,7 @@ body{
     text-align: center;
     border-width: 1px;
     border-radius: 11px; 
-    cursor: pointer;
-
-    
+    cursor: pointer;  
 }
 /*Fin de la première barre de navigation*/
 
