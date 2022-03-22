@@ -24,3 +24,4 @@ if (isset($_POST['E_mail'], $_POST['Mot_de_passe'])) {
         echo "Connexion impossible...";
     }
 }
+?>
