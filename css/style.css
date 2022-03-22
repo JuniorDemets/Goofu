@@ -80,6 +80,7 @@ body{
     border-radius: 11px;
     border-width: 1px;
     cursor: pointer;
+
 }
 .connexion{
     background-color: rgba(186, 185, 255, 1);
@@ -253,7 +254,7 @@ a:link, a:visited{
 /*Signature*/
 .signature{
     position: absolute;
-    top: 150%;
+    top: 220%;
     text-align: center; 
     width: 100%;
     font: 20px arial bold;

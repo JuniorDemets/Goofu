@@ -1,3 +1,6 @@
+.panier, .connexion, .compte{
+    top: 0px;
+}
 .all_items{
     position: absolute;
     background-color: white;
