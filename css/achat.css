@@ -7,12 +7,131 @@
     position: absolute;
     width: 15%;
     height: auto;
-    left: 3%;
-    top: 25px;
+    left: 2%;
+    top: 15px;
 }
 .box{
     position: absolute;
-    width: 100%;
-    height: 1000px;
+    margin-top: 6%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 95%;
+    height: 25%;
+    background-color: rgb(223, 218, 213);
+}
+#box-principal{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 95%;
+    height: 100%;
+    margin-bottom: 10%;
     background-color: white;
+}
+#promo{
+    background-color: lightgrey;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 15%;
+    width: 30%;
+}
+#txt{
+    position: absolute;
+    margin-top: 11%;
+    margin-left: 15px;
+}
+.input-code{
+    position: absolute;
+    margin-top: 11%;
+    margin-left: 110px;
+}
+#prix{
+    position: absolute;
+    background-color: lightgrey;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 65%;
+    height: 15%;
+    width: 30%;
+}
+.prix{
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+}
+#mode-paiement{
+    position: absolute;
+    background-color: lightgrey;
+    margin-top: 20%;
+    margin-left: 50px;
+    width: 91%;
+    height: 25%;
+}
+#title{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.bancontact{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 80px;
+    width: 180px;
+    height: 50px;
+    border-radius: 11px;
+}
+.carte-credit{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 280px;
+    width: 180px;
+    height: 50px;
+    border-radius: 11px;
+}
+.belfius{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 480px;
+    width: 180px;
+    height: 50px;
+    border-radius: 11px;
+}
+.cbc{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 680px;
+    width: 180px;
+    height: 50px;
+    border-radius: 11px;
+}
+.virement{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 880px;
+    width: 180px;
+    height: 50px;
+    border-radius: 11px;
+}
+.valider{
+    position: absolute;
+    background-color: lightgrey;
+    margin-top: 35%;
+    margin-left: 75%;
+    width: 20%;
+    height: 10%;
+    border-radius: 11px;
+}
+#commentaire{
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 50px;
+    text-align: center;
+}
+#bt-commentaire{
+    position: absolute;
+    margin-top: 48%;
+    margin-left: 50px;
 }

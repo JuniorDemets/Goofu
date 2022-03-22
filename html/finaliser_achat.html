@@ -20,12 +20,46 @@
             </form>
             <form action="compte/compte.html" target="_blank">
                 <input class="compte" type="submit" value="Compte">
-            </form>
-        <!--Nom de l'article + Image-->
-            <h2 id="nom_article">NOM DE L'ARTICLE :</h2>
+            </form>   
+        </div>
         <!--Boite qui contient tout-->
         <div class="box">
             <img class="image_produit" src="https://via.placeholder.com/140x100" alt="logo">
+            <h2 id="nom_article">Votre commande :</h2>
+        </div>
+        <div id="box-principal">
+            <div id="promo">
+                <p id="txt">Code promo:</p>
+                <input class="input-code" placeholder="Votre code promotionnel...">
+            </div>
+            <div id="prix">
+                <p class="prix">Prix d'achat</p>
+            </div>
+            <div id="mode-paiement">
+                <p id="title"> Choix de la méthode de paiement </p>
+                <form action="panier.html">
+                    <input class="bancontact" type="submit" value="Bancontact">
+                </form>
+                <form action="connexion.html" target="_blank">
+                    <input class="carte-credit" type="submit" value="Carte de crédit">
+                </form>
+                <form action="compte/compte.html" target="_blank">
+                    <input class="belfius" type="submit" value="Belfius">
+                </form> 
+                <form action="panier.html">
+                    <input class="cbc" type="submit" value="CBC">
+                </form>
+                <form action="connexion.html" target="_blank">
+                    <input class="virement" type="submit" value="Virement banquaire">
+                </form>
+            </div>
+            <form action="connexion.html">
+                <input class="valider" type="submit" value="Valider la commande">
+            </form>
+            <form action="../../php/recup_com.php" method="POST">
+                <textarea cols="100" rows="10" id="commentaire" name="Commentaire" placeholder="Votre commentaire!!"></textarea>
+                <input id="bt-commentaire" type="submit" value="Envoyer">
+            </form>
         </div>
     </body>
 </html>
