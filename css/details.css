@@ -9,13 +9,7 @@
     top: 150px;
     left: 5%;
 }
-.msi_image{
-    max-width: 75%;
-    height: auto;
-    position: absolute;
-    
-}
-.acer_image{
+.msi_image, .acer_image, .legion_image{
     max-width: 75%;
     height: auto;
     position: absolute;
