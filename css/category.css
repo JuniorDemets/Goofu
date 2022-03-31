@@ -222,12 +222,6 @@
     top: 35px;
     left: 50px;
 }
-#affichage_prix_1{
-    position: absolute;
-    padding-left: 300px;
-    font-weight: bold;  
-    font-size: 50px;
-}
 #description_xiaomi_1_head{
     font-size: 25px;
     padding-left: 30%;
@@ -252,20 +246,8 @@
     color: white; 
     cursor: pointer;
 }
-.bouton__panier{
-    position:absolute;
-    left: 90%;
-    top: 100px;
-    border-radius: 11px;
-    width: 4%;
-    height: 70px;
-    background-color: rgb(190, 190, 190);
-    font-size: 60px;
-    color: white;
-    cursor: pointer;
-}
-/*asuz*/
-.choix_asuz{
+/*asuz phone*/
+.choix_asuz_phone{
     width: 100%;
     height: 275px;
     background-color: white;
@@ -274,31 +256,26 @@
     top: 280px;
    
 }
-.photo_asuz{
+.photo_asuz_phone{
     width: 200px;
     height: 200px;
     position: absolute;
     top: 35px;
     left: 50px;
 }
-#affichage_prix_1{
-    position: absolute;
-    padding-left: 300px;
-    top: 150px; 
-}
-#description_asuz_1_head{
+#description_asuz_phone_1_head{
     font-size: 25px;
     padding-left: 30%;
     font-weight: bolder;
     text-decoration: underline;
     
 }
-#description_asuz_1{
+#description_asuz_phone_1{
     font-size: 15px;
     padding-left: 30%;
     
 }
-.asuz_1{
+.asuz_phone_1{
     position:absolute;
     left: 70%;
     top: 85px;
@@ -307,18 +284,6 @@
     height: 100px;
     background-color: rgba(117, 114, 255, 1);
     font-size: 50px;
-    color: white;
-    cursor: pointer;
-}
-.bouton__panier_1{
-    position:absolute;
-    left: 90%;
-    top: 100px;
-    border-radius: 11px;
-    width: 4%;
-    height: 70px;
-    background-color: rgb(190, 190, 190);
-    font-size: 60px;
     color: white;
     cursor: pointer;
 }
