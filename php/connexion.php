@@ -5,7 +5,6 @@ session_start();
 if (isset($_POST['E_mail'], $_POST['Mot_de_passe'])) {
     $E_mail = $_POST['E_mail'];
     $Mot_de_passe = $_POST['Mot_de_passe'];
-
     try {
         $dbh = new PDO('mysql:host=localhost;dbname=4tt_junior', 'junior', 'junior5');
         foreach($dbh->query("SELECT * from goofu where E_mail='$E_mail'") as $row) {
@@ -16,7 +15,5 @@ if (isset($_POST['E_mail'], $_POST['Mot_de_passe'])) {
         print "Error!: " . $e->getMessage() . "<br/>";
         die();
     }
-
 }
-// Ajouter des cookies afin que l'utilisateur soit connecter sur tout le site et pas juste sur la page d'accueil.
 ?>
