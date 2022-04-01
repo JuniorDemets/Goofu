@@ -67,6 +67,7 @@
 #description_acer_1{
     font-size: 15px;
     padding-left: 30%;
+    padding-right: 40%;
     
 }
 .acer_1{
@@ -108,6 +109,7 @@
 #description_legion_1{
     font-size: 15px;
     padding-left: 30%;
+    padding-right: 40%;
     
 }
 .legion_1{
@@ -187,6 +189,7 @@
     
 }
 #description_hp_1{
+    position: absolute;
     font-size: 15px;
     padding-left: 30%;
     width: 50%;
@@ -232,6 +235,7 @@
 #description_xiaomi_1{
     font-size: 15px;
     padding-left: 30%;
+    padding-right: 40%;
     
 }
 .xiaomi_1{
@@ -273,6 +277,7 @@
 #description_asuz_phone_1{
     font-size: 15px;
     padding-left: 30%;
+    padding-right: 40%;
     
 }
 .asuz_phone_1{
@@ -319,7 +324,7 @@
 #description_oneplus_1{
     font-size: 15px;
     padding-left: 30%;
-    
+    padding-right: 40%;
 }
 .oneplus_1{
     position:absolute;
@@ -347,40 +352,35 @@
 }
 /*---------------------Réalité Virtuelle------------------------*/
 /*Oculus*/
-.choix_oculus{
+.choix_quest{
     width: 100%;
     height: 275px;
     background-color: white;
     position: absolute;
     left: -1px;
-    top: 70px;
+    top: 150px;
 }
-.photo_oculus{
+.photo_quest{
     width: 200px;
     height: 200px;
     position: absolute;
     top: 35px;
     left: 50px;
 }
-#affichage_prix_1{
-    position: absolute;
-    padding-left: 300px;
-    font-weight: bold;  
-    font-size: 50px;
-}
-#description_oculus_1_head{
+#description_quest_1_head{
     font-size: 25px;
     padding-left: 30%;
     font-weight: bolder;
     text-decoration: underline;
     
 }
-#description_oculus_1{
+#description_quest_1{
     font-size: 15px;
     padding-left: 30%;
+    padding-right: 40%;
     
 }
-.oculus_1{
+.quest_1{
     position:absolute;
     left: 70%;
     top: 85px;
