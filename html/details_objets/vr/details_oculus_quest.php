@@ -7,7 +7,7 @@
         <link rel="stylesheet" type="text/css" href="../../../css/style.css">
         <link rel="stylesheet" type="text/css" href="../../../css/details.css">
         <script src="ajouter_panier.js"></script> 
-        <title>Asuz phone</title>
+        <title>Oculus Quest</title>
     </head>
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
@@ -48,7 +48,7 @@
         <!--Boite qui prends tout-->
         <div class="all_items">
             <div id="img_wishlist">
-                <img src="../../../images/category/tel_asuz.jpg" class="msi_image" alt="pc msi">
+                <img src="../../../images/category/oculus-quest.png" class="msi_image" alt="pc msi">
             </div>
             <form action="....">
                 <input class="ajouter_liste_souhaits" type="submit" value="Ajouter à la Liste des Souhaits">
@@ -56,18 +56,15 @@
             <div class="titre_description">
                 <h2 class="details">Détails du produit :</h2>
                 <p class="description_complete">
-                    Jouez au maximum des possibilités avec le ROG Phone 5, le smartphone gaming qui ne fait aucun prisonnier. 
-                    <br>
-                    Propulsé pour gagner par la dernière plateforme mobile 5G Qualcomm® Snapdragon™ 888, cette merveille futuriste est équipée d’un écran incroyablement réactif de 144 Hz et d’1ms, 
-                    <br>
-                    d’un monstrueux système de batterie de 6000 mAh1, des contrôles de jeux largement améliorés AirTrigger 5 et de notre système audio iconique GameFX. 
-                    <br>
-                    Le ROG Phone 5 amènera votre niveau de jeu dans une nouvelle dimension, si vous l’osez !
+                    Oculus Quest 2 est notre système de VR tout-en-un le plus abouti. Chaque détail a été conçu pour retranscrire au mieux vos mouvements dans l’univers virtuel. Vous profitez ainsi de jeux et d’expériences à couper le souffle avec une liberté inégalée. Aucun PC ni console requis. Vivez intensément chaque instant grâce à des performances ultra-rapides et à des graphismes nouvelle génération.
+                    L’écran affiche 50 % de pixels en plus que le Quest original. De plus, vous bénéficiez d’un accès privilégié à des concerts en direct et à des évènements exclusifs. 
+                    Les nouvelles manettes Touch présentent une ergonomie améliorée et des commandes intuitives qui transposent vos gestes, mouvements et actions en VR. Connectez votre casque VR à un ordinateur compatible à l’aide d’un câble Oculus Link et accédez à des centaines de jeux et d’expériences en VR sur PC. Avec le Quest 2, vous pouvez aussi jouer entre amis. 
+                    Partagez votre expérience en VR avec les personnes autour de vous grâce à la mise en miroir, retrouvez vos amis virtuellement pour vous affronter dans des compétitions multijoueurs ou passez tout simplement du temps ensemble. Oculus Quest 2 : jouez, créez et explorez des mondes virtuels sans limites. Câble Oculus Link vendu séparément.
                 </p>
                 </div>
             </div>
             <div class="prix_panier">
-                <p class="prix">999€</p>
+                <p class="prix">450€</p>
                 <form action="add_cart">
                     <input class="ajouter_panier" type="submit" value="Ajouter au panier">
                 </form>
