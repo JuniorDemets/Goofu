@@ -71,17 +71,17 @@
             </form>
         <!-- Fin boite un -->
         <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
-        <!-- <div class="choix_htc">
-            <img class="photo_htc" src="../images/category/150.png" alt="Image2">
-            <h2 id="affichage_prix_1">$00.00</h2>
+        <div class="choix_htc">
+            <img class="photo_htc" src="../../images/category/vr-htc-vive-pro2.jpg" alt="Image2">
+            <h2 id="affichage_prix_1">1 399€</h2>
             <p id="description_htc_1_head">PC Gamer de marque htc :</p>
             <p id="description_htc_1">Ce pc de marque htc exellent pour gaming next-gen. </p>
-            <form action="htc.php" >
+            <form action="../details_objets/vr/details_htc_vive_pro2.php" >
                 <input class="htc_1" type="submit" value="Détails">
             </form>
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
-            </form> -->
+            </form>
         <!-- Fin boite un -->
         <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
         <!-- <div class="choix_oneplus">

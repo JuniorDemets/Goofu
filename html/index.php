@@ -22,8 +22,6 @@ if(!isset($_COOKIE["utilisateur"])) {
  ?>
 
 
-
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
