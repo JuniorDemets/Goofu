@@ -70,18 +70,3 @@
         <div class="signature">Standaert-De Clercq Simon  et Demets Junior </div>  
     </body>
 </html>
- <?php
-//  Cookies pour la connexion sur tout le site
-    $E_mail = $_POST['E_mail'];
-    // setcookie("Cookie", $E_mail, time()+360000000000000000000000000000000000000000);
-
-    // setcookie('oulala', 'test',  time()+3600*24);
-
-    // setcookie('user_id', '1234');
-   
-    // if (isset($_COOKIE["Cookie"])){ 
-    //     echo 'Le cookie existe ' . $_COOKIE["Cookie"] . '!<br />';
-    // }
-
-    // setcookie('user_pref', 'dark_theme', time()+3600*24, '/', '', true, true);
-?>
