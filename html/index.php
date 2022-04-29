@@ -1,5 +1,23 @@
 <?php
- setcookie('user_pref', 'dark_theme', time()+3600*24, '/', '', true, true);
+
+
+// setcookie('user_pref', 'dark_theme', time()+3600*24, '/', '', true, true);
+$dbh = new PDO('mysql:host=localhost;dbname=4tt_junior', 'junior', 'junior5');
+
+$email = $E_mail;
+$expire = time() + 60*60*24*3; // 3 days from now
+
+
+setcookie("utilisateur", $email, $expire); 
+
+
+
+if(!isset($_COOKIE["utilisateur"])) {
+    echo "pas de cookie ! ";
+  } else {
+    echo  $_COOKIE[$email];
+  }
+
 
  ?>
 
