@@ -1,3 +1,12 @@
+<?php>
+//  Cookies pour la connexion sur tout le site
+    $E_mail = $_POST['E_mail'];
+    setcookie("Cookie", $E_mail, time()+3600000000000000000000000000000000000000000000000000000000000000000000000000000000000000);
+    if (isset($_COOKIE["Cookie"])){ 
+        echo 'Le cookie existe ' . $_COOKIE["Cookie"] . '!<br />';
+    }else
+        echo 'Le cookie n\'existe pas <br />';
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -7,48 +16,48 @@
         <link rel="stylesheet" type="text/css" href="../../../css/style.css">
         <link rel="stylesheet" type="text/css" href="../../../css/details.css">
         <script src="ajouter_panier.js"></script> 
-        <title>Oculus Quest</title>
+        <title>Xiaomi</title>
     </head>
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
         <div class="pageup">
-            <a href="../../index.html"><img class="logo" src="https://via.placeholder.com/140x100" alt="logo"></a>
+            <a href="../../index.php"><img class="logo" src="https://via.placeholder.com/140x100" alt="logo"></a>
         </div>
         <div class="search_total">
             <input class="barre_cherche" placeholder="Recherche..." >
             <input class="bouton_rechercher"  type="submit" value="Rechercher"> 
-                <form action="../../panier.html">
+                <form action="../../panier.php">
                     <input class="panier" type="submit" value="Panier">
                 </form>
-                <form action="../../connexion.html" target="_blank">
+                <form action="../../connexion.php" target="_blank">
                     <input class="connexion" type="submit" value="Connexion">
                 </form>
-                <form action="../../compte.html" target="_blank">
+                <form action="../../compte.php" target="_blank">
                     <input class="compte" type="submit" value="Compte">
                 </form>
         </div>   
          <!--choix des catégories (nav bar)-->
         <div class="category_total">
-            <form action="../../categories/ordinateurs.html">
+            <form action="../../categories/ordinateurs.php">
                 <input class="ordinateur" type="submit" value="Ordinateurs">
             </form>
-            <form action="../../categories/telephones.html">
+            <form action="../../categories/telephones.php">
                 <input class="telephone" type="submit" value="Téléphones">
             </form>
-            <form action="../../categories/vr.html">
+            <form action="../../categories/vr.php">
                 <input class="realite_virtuelle" type="submit" value="Réalite Virtuelle">
             </form>
-            <form action="../../categories/console.html">
+            <form action="../../categories/console.php">
                 <input class="console" type="submit" value="Consoles">
             </form>
-            <form action="../../categories/giftcard.html">
+            <form action="../../categories/giftcard.php">
                 <input class="cartes_cadeau" type="submit" value="Cartes Cadeau">
             </form>
         </div>
         <!--Boite qui prends tout-->
         <div class="all_items">
             <div id="img_wishlist">
-                <img src="../../../images/category/oculus-quest.png" class="msi_image" alt="pc msi">
+                <img src="../../../images/category/tel_xiaomi.jpg" class="msi_image" alt="pc msi">
             </div>
             <form action="....">
                 <input class="ajouter_liste_souhaits" type="submit" value="Ajouter à la Liste des Souhaits">
@@ -56,10 +65,15 @@
             <div class="titre_description">
                 <h2 class="details">Détails du produit :</h2>
                 <p class="description_complete">
-                    Oculus Quest 2 est notre système de VR tout-en-un le plus abouti. Chaque détail a été conçu pour retranscrire au mieux vos mouvements dans l’univers virtuel. Vous profitez ainsi de jeux et d’expériences à couper le souffle avec une liberté inégalée. Aucun PC ni console requis. Vivez intensément chaque instant grâce à des performances ultra-rapides et à des graphismes nouvelle génération.
-                    L’écran affiche 50 % de pixels en plus que le Quest original. De plus, vous bénéficiez d’un accès privilégié à des concerts en direct et à des évènements exclusifs. 
-                    Les nouvelles manettes Touch présentent une ergonomie améliorée et des commandes intuitives qui transposent vos gestes, mouvements et actions en VR. Connectez votre casque VR à un ordinateur compatible à l’aide d’un câble Oculus Link et accédez à des centaines de jeux et d’expériences en VR sur PC. Avec le Quest 2, vous pouvez aussi jouer entre amis. 
-                    Partagez votre expérience en VR avec les personnes autour de vous grâce à la mise en miroir, retrouvez vos amis virtuellement pour vous affronter dans des compétitions multijoueurs ou passez tout simplement du temps ensemble. Oculus Quest 2 : jouez, créez et explorez des mondes virtuels sans limites. Câble Oculus Link vendu séparément.
+                    Le Black Shark 2 profite d’un grand écran de 6,39 pouces au ratio 19,5:9. C’est une dalle OLED supportant une définition maximale en Full HD+
+                    <br>
+                    et promettant une couverture de 108,9% de l’espace de couleurs DCI-P3.
+                    <br>
+                    Le Black Shark 2 s’équipe du Snapdragon 855 et de 8 ou 12 Go de RAM selon la configuration
+                    <br>
+                    PUBG Mobile débloque également toutes ses options, permettant l’accès au mode HDR, la fréquence d’image Ultra, 
+                    <br>
+                    l’activation de l’anti-aliasing et tout ceci sans ajustement graphique auto bien sûr.
                 </p>
                 </div>
             </div>

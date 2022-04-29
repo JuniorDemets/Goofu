@@ -56,15 +56,13 @@
             <div class="titre_description">
                 <h2 class="details">Détails du produit :</h2>
                 <p class="description_complete">
-                    Oculus Quest 2 est notre système de VR tout-en-un le plus abouti. Chaque détail a été conçu pour retranscrire au mieux vos mouvements dans l’univers virtuel. Vous profitez ainsi de jeux et d’expériences à couper le souffle avec une liberté inégalée. Aucun PC ni console requis. Vivez intensément chaque instant grâce à des performances ultra-rapides et à des graphismes nouvelle génération.
-                    L’écran affiche 50 % de pixels en plus que le Quest original. De plus, vous bénéficiez d’un accès privilégié à des concerts en direct et à des évènements exclusifs. 
-                    Les nouvelles manettes Touch présentent une ergonomie améliorée et des commandes intuitives qui transposent vos gestes, mouvements et actions en VR. Connectez votre casque VR à un ordinateur compatible à l’aide d’un câble Oculus Link et accédez à des centaines de jeux et d’expériences en VR sur PC. Avec le Quest 2, vous pouvez aussi jouer entre amis. 
-                    Partagez votre expérience en VR avec les personnes autour de vous grâce à la mise en miroir, retrouvez vos amis virtuellement pour vous affronter dans des compétitions multijoueurs ou passez tout simplement du temps ensemble. Oculus Quest 2 : jouez, créez et explorez des mondes virtuels sans limites. Câble Oculus Link vendu séparément.
+                Conçu pour répondre aux besoins des utilisateurs de RV les plus exigeants, HTC VIVE Pro 2 est un système de Réalité Virtuelle qui offre des graphismes et un son de niveau supérieur.
+                Avec une ergonomie utile et pragmatique, bénéficiez d'une immersion fluide et confortable.
                 </p>
                 </div>
             </div>
             <div class="prix_panier">
-                <p class="prix">449€</p>
+                <p class="prix">1400€</p>
                 <form action="add_cart">
                     <input class="ajouter_panier" type="submit" value="Ajouter au panier">
                 </form>
