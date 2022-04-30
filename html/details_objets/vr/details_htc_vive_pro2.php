@@ -7,7 +7,7 @@
         <link rel="stylesheet" type="text/css" href="../../../css/style.css">
         <link rel="stylesheet" type="text/css" href="../../../css/details.css">
         <script src="ajouter_panier.js"></script> 
-        <title>HP</title>
+        <title>Oculus Quest</title>
     </head>
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
@@ -17,13 +17,13 @@
         <div class="search_total">
             <input class="barre_cherche" placeholder="Recherche..." >
             <input class="bouton_rechercher"  type="submit" value="Rechercher"> 
-                <form action="../panier.php">
+                <form action="../../panier.php">
                     <input class="panier" type="submit" value="Panier">
                 </form>
-                <form action="../connexion.php" target="_blank">
+                <form action="../../connexion.php" target="_blank">
                     <input class="connexion" type="submit" value="Connexion">
                 </form>
-                <form action="../compte.php" target="_blank">
+                <form action="../../compte.php" target="_blank">
                     <input class="compte" type="submit" value="Compte">
                 </form>
         </div>   
@@ -48,7 +48,7 @@
         <!--Boite qui prends tout-->
         <div class="all_items">
             <div id="img_wishlist">
-                <img src="../../../images/category/pc_hp.jpg" class="msi_image" alt="pc msi">
+                <img src="../../../images/category/vr-htc-vive-pro2.jpg" class="msi_image" alt="pc msi">
             </div>
             <form action="....">
                 <input class="ajouter_liste_souhaits" type="submit" value="Ajouter à la Liste des Souhaits">
@@ -56,18 +56,13 @@
             <div class="titre_description">
                 <h2 class="details">Détails du produit :</h2>
                 <p class="description_complete">
-                    Jouez aux jeux vidéo les plus récents comme Cyberpunk 2077 aux paramètres les plus élevés sur le HP Pavillon Gaming TG01-2960nd. 
-                    <br>
-                    La carte graphique NVIDIA RTX 3060Ti est suffisamment puissante pour ça. Grâce à cette nouvelle génération de carte graphique, vous pourrez même jouer en 4K avec un nombre élevé d'images par seconde. De plus, cet HP est adapté aux programmes lourds comme Adobe Premiere Pro grâce au processeur AMD Ryzen 7. 
-                    <br>
-                    Travaillez sans soucis dans plusieurs fenêtres simultanément, car avec la mémoire vive de 16 Go, vous pouvez faire du multitâche sans ralentissements. Installez vos jeux vidéo favoris sur le SSD 512 Go pour qu'ils démarrent en quelques secondes. 
-                    <br>
-                    Enregistrez le reste de vos fichiers sur le disque dur de 1 To. 
+                Conçu pour répondre aux besoins des utilisateurs de RV les plus exigeants, HTC VIVE Pro 2 est un système de Réalité Virtuelle qui offre des graphismes et un son de niveau supérieur.
+                Avec une ergonomie utile et pragmatique, bénéficiez d'une immersion fluide et confortable.
                 </p>
                 </div>
             </div>
             <div class="prix_panier">
-                <p class="prix">1299€</p>
+                <p class="prix">1 399€</p>
                 <form action="add_cart">
                     <input class="ajouter_panier" type="submit" value="Ajouter au panier">
                 </form>
