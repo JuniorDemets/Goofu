@@ -1,83 +1,86 @@
+<?php>
+//  Cookies pour la connexion sur tout le site
+    $E_mail = $_POST['E_mail'];
+    setcookie("Cookie", $E_mail, time()+3600000000000000000000000000000000000000000000000000000000000000000000000000000000000000);
+    if (isset($_COOKIE["Cookie"])){ 
+        echo 'Le cookie existe ' . $_COOKIE["Cookie"] . '!<br />';
+    }else
+        echo 'Le cookie n\'existe pas <br />';
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" type="text/css" href="../../../../css/style.css">
-        <link rel="stylesheet" type="text/css" href="../../../../css/details.css">
+        <link rel="stylesheet" type="text/css" href="../../../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../../../css/details.css">
         <script src="ajouter_panier.js"></script> 
-        <title>Asuz</title>
+        <title>Acer</title>
     </head>
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
         <div class="pageup">
-            <a href="../../index.html"><img class="logo" src="https://via.placeholder.com/140x100" alt="logo"></a>
+            <a href="../../index.php"><img class="logo" src="https://via.placeholder.com/140x100" alt="logo"></a>
         </div>
         <div class="search_total">
             <input class="barre_cherche" placeholder="Recherche..." >
             <input class="bouton_rechercher"  type="submit" value="Rechercher"> 
-                <form action="../../panier.html">
+                <form action="../../panier.php">
                     <input class="panier" type="submit" value="Panier">
                 </form>
-                <form action="../../connexion.html" target="_blank">
+                <form action="../../connexion.php" target="_blank">
                     <input class="connexion" type="submit" value="Connexion">
                 </form>
-                <form action="../../compte.html" target="_blank">
+                <form action="../../compte.php" target="_blank">
                     <input class="compte" type="submit" value="Compte">
                 </form>
         </div>   
          <!--choix des catégories (nav bar)-->
         <div class="category_total">
-            <form action="../../categories/ordinateurs.html">
+            <form action="../../categories/ordinateurs.php">
                 <input class="ordinateur" type="submit" value="Ordinateurs">
             </form>
-            <form action="../../categories/telephones.html">
+            <form action="../../categories/telephones.php">
                 <input class="telephone" type="submit" value="Téléphones">
             </form>
-            <form action="../../categories/vr.html">
+            <form action="../../categories/vr.php">
                 <input class="realite_virtuelle" type="submit" value="Réalite Virtuelle">
             </form>
-            <form action="../../categories/console.html">
+            <form action="../../categories/console.php">
                 <input class="console" type="submit" value="Consoles">
             </form>
-            <form action="../../categories/giftcard.html">
+            <form action="../../categories/giftcard.php">
                 <input class="cartes_cadeau" type="submit" value="Cartes Cadeau">
             </form>
         </div>
         <!--Boite qui prends tout-->
         <div class="all_items">
             <div id="img_wishlist">
-                <img src="../../../images/category/pc_asuz.jpg" class="msi_image" alt="pc msi">
+                <img src="../../../images/category/pc_msi.jpg" class="msi_image" alt="pc msi">
             </div>
             <form action="....">
                 <input class="ajouter_liste_souhaits" type="submit" value="Ajouter à la Liste des Souhaits">
             </form>
             <div class="titre_description">
-                <h2 class="details">ASUS ROG STRIX G17 :</h2>
+                <h2 class="details">Détails du produit :</h2>
                 <p class="description_complete">
-                    Le PC Portable Gaming ASUS ROG STRIX G17 vous permettra de jouer dans les meilleures conditions à vos jeux PC favoris grâce à des composants ultra-performants, 
+                    Le MSI MAG Codex X5 11-463MYS est un PC gamer puissant qui vous permet de jouer aux jeux actuels et futurs avec des paramètres ultra.
                     <br>
-                    un écran 144 Hz et une conception haut de gamme qui ne laisse rien au hasard. Le PC portable Gamer ASUS ROG STRIX G17 G713IM-HX055 offre de hautes performances grâce à son processeur AMD Ryzen 7 4800H, 
+                    Grâce à la carte graphique NVIDIA GeForce RTX 3090, vous pourrez atteindre des fréquences d'images élevées dans des jeux exigeants tels que Cyberpunk 2077 et Elden Ring.
                     <br>
-                    ses 16 Go de mémoire DDR4, son SSD M.2 PCIe de 512 Go et sa puce graphique NVIDIA GeForce RTX 3060.
+                    Quelle que soit l'intensité de vos sessions de jeu, le MSI continuera de bien fonctionner grâce au refroidissement liquide.
                     <br>
-                    En plus de ses composants ultra-performants nouvelle génération, le ROG Strix G17 bénéficie d'un superbe design. 
+                    Équipé d'un processeur Intel Core i9 et d'une mémoire vive de 32 Go, ce PC ne ralentira pas si vous exécutez plusieurs programmes lourds en même temps ou streamez votre gameplay à vos amis via Twitch ou Discord. 
                     <br>
-                    Avec son processeur AMD Ryzen 7 4800H et sa puce graphique GeForce RTX série 3000, 
+                    Grâce à la capacité de stockage totale de 4 téraoctets, vous pourrez sauvegarder au moins 80 jeux de 45 Go en moyenne.
                     <br>
-                    ce PC portable ASUS se montrera capable de vous hisser au plus près des joueurs professionnels.
-                    <br>
-                    Avec cet ordinateur portable de jeu aux vitesses d'affichage ultrarapides, mettez vous dans la peau d'un professionnel de l'eSport ! 
-                    <br>
-                    La dalle de 144 Hz / 3 ms permet de jouer aux meilleurs jeux FPS du moment afin que vous soyez toujours au meilleur niveau, prêt à côtoyer l'élite.
-                
-                
+                    Besoin d'encore plus de puissance ou de stockage ? La paroi latérale en verre vous permet d'accéder à tous les composants pour une mise à niveau facile. 
                 </p>
                 </div>
             </div>
             <div class="prix_panier">
-                <p class="prix">1499€</p>
+                <p class="prix">4999€</p>
                 <form action="add_cart">
                     <input class="ajouter_panier" type="submit" value="Ajouter au panier">
                 </form>
@@ -106,3 +109,4 @@
         </div>
         <div class="signature">Standaert-De Clercq Simon  et Demets Junior </div>         
     </body>
+</html>

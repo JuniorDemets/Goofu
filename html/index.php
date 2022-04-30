@@ -5,7 +5,7 @@
     if (isset($_COOKIE["Cookie"])){ 
         echo 'Le cookie existe ' . $_COOKIE["Cookie"] . '!<br />';
     }else
-        echo 'Le cookie n\'existe pas <br />';
+        echo 'Le cookie n\'existe pas ';
 ?>
 <!DOCTYPE HTML>
 <html lang="en">
