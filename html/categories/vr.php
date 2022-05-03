@@ -74,8 +74,9 @@
         <div class="choix_htc">
             <img class="photo_htc" src="../../images/category/vr-htc-vive-pro2.jpg" alt="Image2">
             <h2 id="affichage_prix_1">1 399€</h2>
-            <p id="description_htc_1_head">PC Gamer de marque htc :</p>
-            <p id="description_htc_1">Ce pc de marque htc exellent pour gaming next-gen. </p>
+            <p id="description_htc_1_head">HTC VIVE pro 2</p>
+            <p id="description_htc_1">Conçu pour répondre aux besoins des utilisateurs de RV les plus exigeants, 
+                HTC VIVE Pro 2 est un système de Réalité Virtuelle qui offre des graphismes et un son de niveau supérieur. </p>
             <form action="../details_objets/vr/details_htc_vive_pro2.php" >
                 <input class="htc_1" type="submit" value="Détails">
             </form>
@@ -84,17 +85,18 @@
             </form>
         <!-- Fin boite un -->
         <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
-        <!-- <div class="choix_oneplus">
-            <img class="photo_oneplus" src="../images/category/" alt="Image2">
-            <h2 id="affichage_prix_1">$00.00</h2>
-            <p id="description_oneplus_1_head">Téléphone gaming de marque OnePlus :</p>
-            <p id="description_oneplus_1">Téléphone gaming de marque OnePlus exellent pour gaming next-gen. </p>
-            <form action="oneplus.php" >
-                <input class="oneplus_1" type="submit" value="Détails">
+        <div class="choix_hp_reverb_G2">
+            <img class="photo_hp_reverb_G2" src="../../images/category/HP-reverb-g2.jpg" alt="Image2">
+            <h2 id="affichage_prix_1">659 €</h2>
+            <p id="description_hp_reverb_G2_1_head">HP Reverb G2 :</p>
+            <p id="description_hp_reverb_G2_1">Optez pour une expérience de réalité virtuelle réaliste avec le HP Reverb G2. 
+                Vous disposez d'un écran LCD par œil, avec une résolution de 2160 x 2160. Vous avez donc plus de pixels que sur un écran 4K.</p>
+            <form action="../details_objets/vr/details_hp_reverb_G2.php" >
+                <input class="hp_reverb_G2_1" type="submit" value="Détails">
             </form>
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
-            </form> -->
+            </form>
         <!-- Fin boite un -->
         <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
         <!-- <div class="choix_asuz">
