@@ -36,13 +36,14 @@ body{
     justify-content: center;
     position: absolute;
     top: 20px;
-    width: 100%;
+    width: 50%;
+    margin-left: 25%;
 }
 .barre_cherche{
     background-color: white;
     height: 40px;
     display: flex;
-    width: 40%;
+    width: 70%;
     padding-left: 50px;
     line-height: 25px;
     align-content: center;
@@ -57,7 +58,7 @@ body{
 .bouton_rechercher{
     background-color: rgba(186, 185, 255, 1);
     height: 40px;
-    width: 5%;
+    width: 10%;
     line-height: 30px;
     text-align: center;
     border-width: 1px;

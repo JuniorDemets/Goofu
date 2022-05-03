@@ -21,7 +21,7 @@
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
         <div class="pageup">
-            <a href="../../index.php"><img class="logo" src="https://via.placeholder.com/140x100" alt="logo"></a>
+            <a href="../../index.php"><img class="logo" src="../../../images/logo.png" alt="logo"></a>
         </div>
         <div class="search_total">
             <input class="barre_cherche" placeholder="Recherche..." >
