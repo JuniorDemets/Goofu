@@ -74,12 +74,10 @@ body{
 .panier{
     background-color: rgba(186, 185, 255, 1);
     height: 40px;
-    line-height: 25px;
     width: 5%;
     position: absolute;
-    top: 20px;
-    line-height: 25px;
     left: 80%;
+    top: 25%;
     text-align: center;
     border-radius: 11px;
     border-width: 1px;
@@ -92,9 +90,8 @@ body{
     line-height: 25px;
     width: 5%;
     position: absolute ;
-    top:20px;
-    line-height: 25px;
-    left: 86%; 
+    left: 86%;
+    top: 25%; 
     text-align: center;
     border-width: 1px;
     border-radius: 11px; 
@@ -106,9 +103,8 @@ body{
     line-height: 25px;
     width: 5%;
     position: absolute ;
-    top:20px;
-    line-height: 25px;
     left: 92%; 
+    top: 25%;
     text-align: center;
     border-width: 1px;
     border-radius: 11px; 
