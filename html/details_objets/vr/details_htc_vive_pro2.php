@@ -82,7 +82,7 @@
                 </select>
             </div>
             <!--Commentaires sur l'article-->
-            <form action="commentaire.php">
+            <form action="../../../php/recup_com.php">
                 <textarea class="ajouter_commentaire" name="commentaires"
                 rows="5" cols="33" placeholder="Ajoutez un commentaire..."></textarea>
             <!--Bouton-->
