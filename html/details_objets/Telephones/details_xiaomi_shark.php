@@ -21,20 +21,20 @@
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
         <div class="pageup">
-            <a href="../../index.php"><img class="logo" src="https://via.placeholder.com/140x100" alt="logo"></a>
-        </div>
-        <div class="search_total">
-            <input class="barre_cherche" placeholder="Recherche..." >
-            <input class="bouton_rechercher"  type="submit" value="Rechercher"> 
-                <form action="../../panier.php">
-                    <input class="panier" type="submit" value="Panier">
-                </form>
-                <form action="../../connexion.php" target="_blank">
-                    <input class="connexion" type="submit" value="Connexion">
-                </form>
-                <form action="../../compte.php" target="_blank">
-                    <input class="compte" type="submit" value="Compte">
-                </form>
+            <a href="../../index.php" class="lien_logo"><img class="logo" src="../../../images/logo.png" alt="logo"></a>
+            <div class="search_total">
+                <input class="barre_cherche" placeholder="Recherche..." >
+                <input class="bouton_rechercher"  type="submit" value="Rechercher">
+            </div> 
+            <form action="../../panier.php">
+                <input class="panier" type="submit" value="Panier">
+            </form>
+            <form action="../../connexion.php" target="_blank">
+                <input class="connexion" type="submit" value="Connexion">
+            </form>
+            <form action="../compte/compte.php" target="_blank">
+                <input class="compte" type="submit" value="Compte">
+            </form>
         </div>   
          <!--choix des catégories (nav bar)-->
         <div class="category_total">

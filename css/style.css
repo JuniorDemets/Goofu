@@ -25,8 +25,10 @@ body{
 }
 .lien_logo{
     width: 70px;
+    position: fixed;
     height: 70px;
     cursor: pointer;
+    display: flex;
 
 }
 .search_total{
@@ -34,12 +36,14 @@ body{
     justify-content: center;
     position: absolute;
     top: 20px;
-    width: 100%;
+    width: 50%;
+    margin-left: 25%;
 }
 .barre_cherche{
     background-color: white;
     height: 40px;
-    width: 40%;
+    display: flex;
+    width: 70%;
     padding-left: 50px;
     line-height: 25px;
     align-content: center;
@@ -54,7 +58,7 @@ body{
 .bouton_rechercher{
     background-color: rgba(186, 185, 255, 1);
     height: 40px;
-    width: 5%;
+    width: 10%;
     line-height: 30px;
     text-align: center;
     border-width: 1px;
@@ -70,12 +74,10 @@ body{
 .panier{
     background-color: rgba(186, 185, 255, 1);
     height: 40px;
-    line-height: 25px;
     width: 5%;
     position: absolute;
-    top: 20px;
-    line-height: 25px;
     left: 80%;
+    top: 25%;
     text-align: center;
     border-radius: 11px;
     border-width: 1px;
@@ -88,9 +90,8 @@ body{
     line-height: 25px;
     width: 5%;
     position: absolute ;
-    top:20px;
-    line-height: 25px;
-    left: 86%; 
+    left: 86%;
+    top: 25%; 
     text-align: center;
     border-width: 1px;
     border-radius: 11px; 
@@ -102,9 +103,8 @@ body{
     line-height: 25px;
     width: 5%;
     position: absolute ;
-    top:20px;
-    line-height: 25px;
     left: 92%; 
+    top: 25%;
     text-align: center;
     border-width: 1px;
     border-radius: 11px; 
@@ -144,6 +144,7 @@ body{
     height: 60px;
     text-align: center;
     line-height: 60px;
+    top: 0px;
     width: 20%;
     left: 20%;
     position: absolute;
@@ -155,19 +156,19 @@ body{
     cursor: pointer;
 }
 .realite_virtuelle{
-    position: absolute;
+    position:  absolute;
     height: 60px;
     text-align: center;
     line-height: 60px;
     width: 20%;
     left: 40%;
-    position: absolute;
     border: none;
     background-color: rgba(117, 114, 255, 1);
     color: white;
     font-size: 20px;
     font-family: sans-serif;
     cursor: pointer;
+    top: 0px;
 }
 .console{
     height: 60px;
@@ -176,13 +177,13 @@ body{
     width: 20%;
     left: 60%;
     position: absolute;
-    position: absolute;
     border: none;
     background-color: rgba(117, 114, 255, 1);
     color: white;
     font-size: 20px;
     font-family: sans-serif;
     cursor: pointer;
+    top: 0px;
 }
 .cartes_cadeau{
     height: 60px;
@@ -198,6 +199,7 @@ body{
     font-size: 20px;
     font-family: sans-serif;
     cursor: pointer;
+    top: 0px;
 }
 .ordinateur:hover , .telephone:hover , .realite_virtuelle:hover , .console:hover , .cartes_cadeau:hover{
     background-color: rgba(137, 124, 255, 1);
