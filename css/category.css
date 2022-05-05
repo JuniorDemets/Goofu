@@ -257,7 +257,7 @@
     background-color: white;
     position: absolute;
     left: -1px;
-    top: 280px;
+    top: 430px;
    
 }
 .photo_asuz_phone{
@@ -299,7 +299,7 @@
     background-color: white;
     position: absolute;
     left: -1px;
-    top: 280px;
+    top: 710px;
    
 }
 .photo_oneplus{
@@ -347,6 +347,47 @@
     height: 70px;
     background-color: rgb(190, 190, 190);
     font-size: 60px;
+    color: white;
+    cursor: pointer;
+}
+/*lenovo legion*/
+.choix_lenovo_legion{
+    width: 100%;
+    height: 275px;
+    background-color: white;
+    position: absolute;
+    left: -1px;
+    top: 990px;
+   
+}
+.photo_lenovo_legion{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
+#description_lenovo_legion_1_head{
+    font-size: 25px;
+    padding-left: 30%;
+    font-weight: bolder;
+    text-decoration: underline;
+    
+}
+#description_lenovo_legion_1{
+    font-size: 15px;
+    padding-left: 30%;
+    padding-right: 40%;
+}
+.lenovo_legion_1{
+    position:absolute;
+    left: 70%;
+    top: 85px;
+    border-radius: 25px;
+    width: 15%;
+    height: 100px;
+    background-color: rgba(117, 114, 255, 1);
+    font-size: 50px;
     color: white;
     cursor: pointer;
 }
@@ -815,7 +856,7 @@
     cursor: pointer;
 }
 /*oneplus*/
-.choix_oneplus{
+/* .choix_oneplus{
     width: 100%;
     height: 275px;
     background-color: white;
@@ -872,4 +913,4 @@
     color: white;
     cursor: pointer;
     line-height: 0px;
-}
+} */

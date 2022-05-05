@@ -72,6 +72,7 @@
             <form action="ajouter_panier.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
+        </div>
         <!-- Fin boite un -->
         <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
         <div class="choix_asuz_phone">
@@ -91,6 +92,7 @@
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
+        </div>
         <!-- Fin boite un -->
         <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
         <div class="choix_oneplus">
@@ -108,6 +110,27 @@
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
+        </div>
+        <!-- Fin boite un -->
+        <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
+        <div class="choix_lenovo_legion">
+            <img class="photo_lenovo_legion" src="../../images/category/tel_lenovo.png" alt="Image2">
+            <h2 id="affichage_prix_1">819€</h2>
+            <p id="description_lenovo_legion_1_head">Lenovo Legion Duel Dual Sim :</p>
+            <p id="description_lenovo_legion_1">Découvrez une expérience de gaming mobile, évoluée. 
+                                                <br>
+                                                Avec sa double architecture sous-jacente et la première interface utilisateur horizontale profondément personnalisée au monde, 
+                                                <br>
+                                                vous découvrirez une évolution à 
+                                                <br>
+                                                tous les niveaux dans le Lenovo Legion Phone Duel </p>
+            <form action="../details_objets/Telephones/details_lenovo_legion_phone.php" >
+                <input class="lenovo_legion_1" type="submit" value="Détails">
+            </form>
+            <form action="ajouter_panier2.php" >
+                <input class="bouton__panier_1" type="submit" value="+">
+            </form>
+        </div>
         <!-- Fin boite un -->
         <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
         <!-- <div class="choix_asuz">
@@ -120,20 +143,8 @@
             </form>
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
-            </form> -->
-        <!-- Fin boite un -->
-        <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
-        <!-- <div class="choix_asuz">
-            <img class="photo_asuz" src="../images/category/150.png" alt="Image2">
-            <h2 id="affichage_prix_1">$00.00</h2>
-            <p id="description_asuz_1_head">PC Gamer de marque Asuz :</p>
-            <p id="description_asuz_1">Ce pc de marque Asuz exellent pour gaming next-gen. </p>
-            <form action="asuz.php" >
-                <input class="asuz_1" type="submit" value="Détails">
             </form>
-            <form action="ajouter_panier2.php" >
-                <input class="bouton__panier_1" type="submit" value="+">
-            </form> -->
+            </div> -->
         <!-- Fin boite un -->
         <div class="signature">Standaert-De Clercq Simon  et Demets Junior </div>
     </body>
