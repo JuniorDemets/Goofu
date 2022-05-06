@@ -97,6 +97,6 @@
                 <input class="bouton_achat" type="submit" value="Passer votre commande">
             </form>
         </div> 
-        <div class="signature">Standaert-De Clercq Simon  et Demets Junior </div>
+        <div class="signature">Standaert-De Clercq Simon, Demets Junior et Ugo Koch </div>
     </body>
 </HTML>

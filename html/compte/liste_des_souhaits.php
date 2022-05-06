@@ -86,6 +86,6 @@
                 <p id="prix1"> 00.00$ </p>
             </div>
         </div>
-        <div class="signature1">Standaert-De Clercq Simon  et Demets Junior </div>
+        <div class="signature1">Standaert-De Clercq Simon, Demets Junior et Ugo Koch </div>
     </body>
 </html>
