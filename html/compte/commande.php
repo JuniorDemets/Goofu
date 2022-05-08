@@ -233,6 +233,6 @@
                 </tr>
             </table>
         </div>
-        <div class="signature">Standaert-De Clercq Simon  et Demets Junior </div>
+        <div class="signature">Standaert-De Clercq Simon, Demets Junior et Ugo Koch </div>
     </body>
 </html>

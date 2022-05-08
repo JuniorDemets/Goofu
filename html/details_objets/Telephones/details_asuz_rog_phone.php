@@ -77,7 +77,7 @@
             </div>
             <div class="prix_panier">
                 <p class="prix">999€</p>
-                <form action="add_cart">
+                <form action="../../panier.php">
                     <input class="ajouter_panier" type="submit" value="Ajouter au panier">
                 </form>
                 <select name="Nombre d'ajouts" id="nbre_panier">
@@ -96,13 +96,13 @@
                 </select>
             </div>
             <!--Commentaires sur l'article-->
-            <form action="commentaire.php">
-                <textarea class="ajouter_commentaire" name="commentaires"
+            <form action="../../../php/recup_com.php" method="POST">
+                <textarea class="ajouter_commentaire" name="Commentaire"
                 rows="5" cols="33" placeholder="Ajoutez un commentaire..."></textarea>
             <!--Bouton-->
                 <input class="bt_send_com" type="submit" value="Envoyer">
             </form>   
         </div>
-        <div class="signature">Standaert-De Clercq Simon  et Demets Junior </div>         
+        <div class="signature">Standaert-De Clercq Simon, Demets Junior et Ugo Koch </div>         
     </body>
 </html>
