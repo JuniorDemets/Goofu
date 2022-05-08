@@ -133,18 +133,22 @@
         </div>
         <!-- Fin boite un -->
         <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
-        <!-- <div class="choix_asuz">
-            <img class="photo_asuz" src="../images/category/150.png" alt="Image2">
-            <h2 id="affichage_prix_1">$00.00</h2>
-            <p id="description_asuz_1_head">PC Gamer de marque Asuz :</p>
-            <p id="description_asuz_1">Ce pc de marque Asuz exellent pour gaming next-gen. </p>
-            <form action="asuz.php" >
-                <input class="asuz_1" type="submit" value="Détails">
+        <div class="choix_redmagic">
+            <img class="photo_redmagic" src="../../images/category/tel_redmagic.jpg" alt="Image2">
+            <h2 id="affichage_prix_1">799€</h2>
+            <p id="description_redmagic_1_head">Redmagic 7 :</p>
+            <p id="description_redmagic_1">Pour des fréquences d'images optimales dans n'importe quel jeu, REDMAGIC utilise la dernière technologie de fréquence d'images adaptative 
+                                       <br>
+                                       avec Touch Choreographer 4.0. Le REDMAGIC 7 précharge également le monde du jeu et les visuels en temps réel pour créer une mémoire tampon 
+                                       <br>
+                                       afin qu'il n'y ait pas de bégaiement ou de perte de qualité.</p>
+            <form action="../details_objets/Telephones/details_redmagic_7.php" >
+                <input class="redmagic_1" type="submit" value="Détails">
             </form>
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
-            </div> -->
+            </div>
         <!-- Fin boite un -->
         <div class="signature">Standaert-De Clercq Simon  et Demets Junior </div>
     </body>

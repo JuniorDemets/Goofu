@@ -1,3 +1,12 @@
+<?php>
+//  Cookies pour la connexion sur tout le site
+    $E_mail = $_POST['E_mail'];
+    setcookie("Cookie", $E_mail, time()+3600000000000000000000000000000000000000000000000000000000000000000000000000000000000000);
+    if (isset($_COOKIE["Cookie"])){ 
+        echo 'Le cookie existe ' . $_COOKIE["Cookie"] . '!<br />';
+    }else
+        echo 'Le cookie n\'existe pas <br />';
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -12,43 +21,43 @@
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
         <div class="pageup">
-            <a href="../../index.html"><img class="logo" src="https://via.placeholder.com/140x100" alt="logo"></a>
-        </div>
-        <div class="search_total">
-            <input class="barre_cherche" placeholder="Recherche..." >
-            <input class="bouton_rechercher"  type="submit" value="Rechercher"> 
-                <form action="../../panier.html">
-                    <input class="panier" type="submit" value="Panier">
-                </form>
-                <form action="../../connexion.html" target="_blank">
-                    <input class="connexion" type="submit" value="Connexion">
-                </form>
-                <form action="../../compte.html" target="_blank">
-                    <input class="compte" type="submit" value="Compte">
-                </form>
+            <a href="../../index.php" class="lien_logo"><img class="logo" src="../../../images/logo.png" alt="logo"></a>
+            <div class="search_total">
+                <input class="barre_cherche" placeholder="Recherche..." >
+                <input class="bouton_rechercher"  type="submit" value="Rechercher">
+            </div> 
+            <form action="../../panier.php">
+                <input class="panier" type="submit" value="Panier">
+            </form>
+            <form action="../../connexion.php" target="_blank">
+                <input class="connexion" type="submit" value="Connexion">
+            </form>
+            <form action="../compte/compte.php" target="_blank">
+                <input class="compte" type="submit" value="Compte">
+            </form>
         </div>   
          <!--choix des catégories (nav bar)-->
         <div class="category_total">
-            <form action="../../categories/ordinateurs.html">
+            <form action="../../categories/ordinateurs.php">
                 <input class="ordinateur" type="submit" value="Ordinateurs">
             </form>
-            <form action="../../categories/telephones.html">
+            <form action="../../categories/telephones.php">
                 <input class="telephone" type="submit" value="Téléphones">
             </form>
-            <form action="../../categories/vr.html">
+            <form action="../../categories/vr.php">
                 <input class="realite_virtuelle" type="submit" value="Réalite Virtuelle">
             </form>
-            <form action="../../categories/console.html">
+            <form action="../../categories/console.php">
                 <input class="console" type="submit" value="Consoles">
             </form>
-            <form action="../../categories/giftcard.html">
+            <form action="../../categories/giftcard.php">
                 <input class="cartes_cadeau" type="submit" value="Cartes Cadeau">
             </form>
         </div>
         <!--Boite qui prends tout-->
         <div class="all_items">
             <div id="img_wishlist">
-                <img src="../../../images/category/tel_asuz.jpg" class="msi_image" alt="pc msi">
+                <img src="../../../images/category/tel_redmagic.jpg" class="msi_image" alt="pc msi">
             </div>
             <form action="....">
                 <input class="ajouter_liste_souhaits" type="submit" value="Ajouter à la Liste des Souhaits">
@@ -56,13 +65,13 @@
             <div class="titre_description">
                 <h2 class="details">Détails du produit :</h2>
                 <p class="description_complete">
-                    Jouez au maximum des possibilités avec le ROG Phone 5, le smartphone gaming qui ne fait aucun prisonnier. 
-                    <br>
-                    Propulsé pour gagner par la dernière plateforme mobile 5G Qualcomm® Snapdragon™ 888, cette merveille futuriste est équipée d’un écran incroyablement réactif de 144 Hz et d’1ms, 
-                    <br>
-                    d’un monstrueux système de batterie de 6000 mAh1, des contrôles de jeux largement améliorés AirTrigger 5 et de notre système audio iconique GameFX. 
-                    <br>
-                    Le ROG Phone 5 amènera votre niveau de jeu dans une nouvelle dimension, si vous l’osez !
+                Pour des fréquences d'images optimales dans n'importe quel jeu, REDMAGIC utilise la dernière technologie de fréquence d'images adaptative avec Touch Choreographer 4.0. 
+                <br>
+                Le REDMAGIC 7 précharge également le monde du jeu et les visuels en temps réel pour créer une mémoire tampon afin qu'il n'y ait pas de bégaiement ou de perte de qualité.
+                <br>
+                REDMAGIC utilise des méthodes de dissipation thermique actives et passives combinées pour former un système de refroidissement multidimensionnel. 
+                <br>
+                Il peut maintenir efficacement le fonctionnement au frais même pendant un jeu intense, garantissant ainsi des performances optimales tout au long de vos parties.
                 </p>
                 </div>
             </div>
