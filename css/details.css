@@ -7,7 +7,7 @@
     top: 150px;
     left: 5%;
 }
-.msi_image, .acer_image, .legion_image{
+.produit_image{
     max-width: 75%;
     height: auto;
     position: absolute;
@@ -82,11 +82,12 @@
 }
 .ajouter_commentaire{
     width: 20%;
-    height: 25%;
+    height: 23%;
     position: absolute;
     top: 62vh;
     left: 7%;
     text-align: left;
+    resize: none;
 }
 .bt_send_com{
     position: absolute;

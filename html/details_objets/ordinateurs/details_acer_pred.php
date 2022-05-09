@@ -57,7 +57,7 @@
         <!--Boite qui prends tout-->
         <div class="all_items">
             <div id="img_wishlist">
-                <img src="../../../images/category/pc_acer.jpg" class="msi_image" alt="pc msi">
+                <img src="../../../images/category/pc_acer.jpg" class="produit_image" alt="Acer Predator">
             </div>
             <form action="....">
                 <input class="ajouter_liste_souhaits" type="submit" value="Ajouter à la Liste des Souhaits">

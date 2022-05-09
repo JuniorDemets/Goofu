@@ -6,7 +6,7 @@
     background-color: white;
     position: absolute;
     left: -1px;
-    top: 800px;
+    top: 275px;
 }
 .photo_msi{
     width: 124px;
@@ -605,8 +605,8 @@
     cursor: pointer;
 }
 /*----------------------consoles-----------------------------*/
-/*msi*/
-.choix_msi{
+/*XBOX*/
+.choix_xbox{
     width: 100%;
     height: 275px;
     background-color: white;
@@ -614,32 +614,26 @@
     left: -1px;
     top: 150px;
 }
-.photo_msi{
+.photo_xbox{
     width: 200px;
     height: 200px;
     position: absolute;
     top: 35px;
     left: 50px;
 }
-#affichage_prix_1{
-    position: absolute;
-    padding-left: 300px;
-    font-weight: bold;  
-    font-size: 50px;
-}
-#description_msi_1_head{
+#description_xbox_1_head{
     font-size: 25px;
     padding-left: 30%;
     font-weight: bolder;
     text-decoration: underline;
     
 }
-#description_msi_1{
+#description_xbox_1{
     font-size: 15px;
     padding-left: 30%;
     
 }
-.msi_1{
+.xbox_1{
     position:absolute;
     left: 70%;
     top: 85px;
@@ -651,20 +645,9 @@
     color: white; 
     cursor: pointer;
 }
-.bouton__panier{
-    position:absolute;
-    left: 90%;
-    top: 100px;
-    border-radius: 11px;
-    width: 4%;
-    height: 70px;
-    background-color: rgb(190, 190, 190);
-    font-size: 60px;
-    color: white;
-    cursor: pointer;
-}
-/*asuz*/
-.choix_asuz{
+
+/*Playstation*/
+.choix_playstation{
     width: 100%;
     height: 275px;
     background-color: white;
@@ -673,31 +656,26 @@
     top: 280px;
    
 }
-.photo_asuz{
+.photo_playstation{
     width: 200px;
     height: 200px;
     position: absolute;
     top: 35px;
     left: 50px;
 }
-#affichage_prix_1{
-    position: absolute;
-    padding-left: 300px;
-    top: 150px; 
-}
-#description_asuz_1_head{
+#description_playstation_1_head{
     font-size: 25px;
     padding-left: 30%;
     font-weight: bolder;
     text-decoration: underline;
     
 }
-#description_asuz_1{
+#description_playstation_1{
     font-size: 15px;
     padding-left: 30%;
     
 }
-.asuz_1{
+.playstation_1{
     position:absolute;
     left: 70%;
     top: 85px;
@@ -709,20 +687,8 @@
     color: white;
     cursor: pointer;
 }
-.bouton__panier_1{
-    position:absolute;
-    left: 90%;
-    top: 100px;
-    border-radius: 11px;
-    width: 4%;
-    height: 70px;
-    background-color: rgb(190, 190, 190);
-    font-size: 60px;
-    color: white;
-    cursor: pointer;
-}
-/*hp*/
-.choix_hp{
+/*switch*/
+.choix_switch{
     width: 100%;
     height: 275px;
     background-color: white;
@@ -731,31 +697,26 @@
     top: 280px;
    
 }
-.photo_hp{
+.photo_switch{
     width: 200px;
     height: 200px;
     position: absolute;
     top: 35px;
     left: 50px;
 }
-#affichage_prix_1{
-    position: absolute;
-    padding-left: 300px;
-    font-weight: bold;  
-}
-#description_hp_1_head{
+#description_switch_1_head{
     font-size: 25px;
     padding-left: 30%;
     font-weight: bolder;
     text-decoration: underline;
     
 }
-#description_hp_1{
+#description_switch_1{
     font-size: 15px;
     padding-left: 30%;
     
 }
-.hp_1{
+.switch_1{
     position:absolute;
     left: 70%;
     top: 85px;
@@ -764,18 +725,6 @@
     height: 100px;
     background-color: rgba(117, 114, 255, 1);
     font-size: 50px;
-    color: white;
-    cursor: pointer;
-}
-.bouton__panier_1{
-    position:absolute;
-    left: 90%;
-    top: 100px;
-    border-radius: 11px;
-    width: 4%;
-    height: 70px;
-    background-color: rgb(190, 190, 190);
-    font-size: 60px;
     color: white;
     cursor: pointer;
 }

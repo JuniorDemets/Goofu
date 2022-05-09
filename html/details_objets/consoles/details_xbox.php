@@ -16,7 +16,7 @@
         <link rel="stylesheet" type="text/css" href="../../../css/style.css">
         <link rel="stylesheet" type="text/css" href="../../../css/details.css">
         <script src="ajouter_panier.js"></script> 
-        <title>HP</title>
+        <title>AsuzXbox</title>
     </head>
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
@@ -57,26 +57,32 @@
         <!--Boite qui prends tout-->
         <div class="all_items">
             <div id="img_wishlist">
-                <img src="../../../images/category/pc_hp.jpg" class="produit_image" alt="pc msi">
+                <img src="../../../images/category/console_xbox.jpg" class="produit_image" alt="Console xbox">
             </div>
             <form action="....">
                 <input class="ajouter_liste_souhaits" type="submit" value="Ajouter à la Liste des Souhaits">
             </form>
             <div class="titre_description">
-                <h2 class="details">Détails du produit :</h2>
+                <h2 class="details">Console Microsoft Xbox Series X :</h2>
                 <p class="description_complete">
-                    Jouez aux jeux vidéo les plus récents comme Cyberpunk 2077 aux paramètres les plus élevés sur le HP Pavillon Gaming TG01-2960nd. 
+                    Plongez dans des univers ultra détaillés avec une résolution native 4K HDR . Compatible avec la technologie 8K HDR en connectant votre Xbox Series X à votre téléviseur 8K 
                     <br>
-                    La carte graphique NVIDIA RTX 3060Ti est suffisamment puissante pour ça. Grâce à cette nouvelle génération de carte graphique, vous pourrez même jouer en 4K avec un nombre élevé d'images par seconde. De plus, cet HP est adapté aux programmes lourds comme Adobe Premiere Pro grâce au processeur AMD Ryzen 7. 
+                    pour jouer dans les meilleures conditions grâce à la mise à l'échelle (4320p)
                     <br>
-                    Travaillez sans soucis dans plusieurs fenêtres simultanément, car avec la mémoire vive de 16 Go, vous pouvez faire du multitâche sans ralentissements. Installez vos jeux vidéo favoris sur le SSD 512 Go pour qu'ils démarrent en quelques secondes. 
+                    La Xbox Series S permet un rendu encore plus fluide et dynamique allant jusqu’à 120 images par seconde (compatible Fortnite, Call of Duty : Warzone , Rocket League etc)
                     <br>
-                    Enregistrez le reste de vos fichiers sur le disque dur de 1 To. 
+                    Disque SSD 1To - Profitez d’un espace de stockage important pour tous vos jeux avec le disque SSD de 1 To pour des chargements rapides et des reprises de jeux instantanées
+                    <br>
+                    100% Rétrocompatible - Profitez d'une large sélection de vos anciens jeux Xbox (100% des jeux Xbox One, des centaines de jeux Xbox 360 & Xbox originale) directement sur votre Xbox Series X
+                    <br>
+                    Raytracing - Encore plus d’immersion avec le Raytracing qui permet d’afficher des lumières et reflets réalistes, pour des environnements plus vrais que nature sur les jeux Xbox Series X compatibles
+                    <br>
+                    Smart Delivery 
                 </p>
                 </div>
             </div>
             <div class="prix_panier">
-                <p class="prix">1299€</p>
+                <p class="prix">799,99€</p>
                 <form action="../../panier.php">
                     <input class="ajouter_panier" type="submit" value="Ajouter au panier">
                 </form>
@@ -97,7 +103,7 @@
             </div>
             <!--Commentaires sur l'article-->
             <form action="../../../php/recup_com.php" method="POST">
-                <textarea class="ajouter_commentaire" name="Commentaire"
+                <textarea class="ajouter_commentaire" name="commentaire"
                 rows="5" cols="33" placeholder="Ajoutez un commentaire..."></textarea>
             <!--Bouton-->
                 <input class="bt_send_com" type="submit" value="Envoyer">

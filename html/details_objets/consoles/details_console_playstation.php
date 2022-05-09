@@ -16,7 +16,7 @@
         <link rel="stylesheet" type="text/css" href="../../../css/style.css">
         <link rel="stylesheet" type="text/css" href="../../../css/details.css">
         <script src="ajouter_panier.js"></script> 
-        <title>HP</title>
+        <title>PS5</title>
     </head>
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
@@ -57,26 +57,28 @@
         <!--Boite qui prends tout-->
         <div class="all_items">
             <div id="img_wishlist">
-                <img src="../../../images/category/pc_hp.jpg" class="produit_image" alt="pc msi">
+                <img src="../../../images/category/console_playstation.jpg" class="produit_image" alt="playstation">
             </div>
             <form action="....">
                 <input class="ajouter_liste_souhaits" type="submit" value="Ajouter à la Liste des Souhaits">
             </form>
             <div class="titre_description">
-                <h2 class="details">Détails du produit :</h2>
+                <h2 class="details">Console Console Sony PS5 Edition Digital :</h2>
                 <p class="description_complete">
-                    Jouez aux jeux vidéo les plus récents comme Cyberpunk 2077 aux paramètres les plus élevés sur le HP Pavillon Gaming TG01-2960nd. 
+                    Découvrez des temps de chargement accélérés grâce au disque SSD ultra rapide, une immersion plus poussée grâce au retour haptique, aux gâchettes adaptatives et au son 3D, sans oublier un catalogue exceptionnel de jeux PlayStation® nouvelle génération.
                     <br>
-                    La carte graphique NVIDIA RTX 3060Ti est suffisamment puissante pour ça. Grâce à cette nouvelle génération de carte graphique, vous pourrez même jouer en 4K avec un nombre élevé d'images par seconde. De plus, cet HP est adapté aux programmes lourds comme Adobe Premiere Pro grâce au processeur AMD Ryzen 7. 
+                    Profitez de toute la puissance d'un CPU, d'un GPU et d'un disque SSD personnalisés intégrant des opérations d'entrées/sorties redéfinissant ce dont une console PlayStation est capable.
                     <br>
-                    Travaillez sans soucis dans plusieurs fenêtres simultanément, car avec la mémoire vive de 16 Go, vous pouvez faire du multitâche sans ralentissements. Installez vos jeux vidéo favoris sur le SSD 512 Go pour qu'ils démarrent en quelques secondes. 
+                    Émerveillez-vous devant des graphismes incroyables et découvrez les nouvelles fonctionnalités de la PS5™.
                     <br>
-                    Enregistrez le reste de vos fichiers sur le disque dur de 1 To. 
+                    Découvrez une expérience de jeu encore plus immersive grâce au retour haptique, aux gâchettes adaptatives et à la technologie audio 3D.
+                    <br>
+                    Maximisez vos sessions de jeu avec des temps de chargement quasi instantanés pour les jeux PS5™ installés.
                 </p>
                 </div>
             </div>
             <div class="prix_panier">
-                <p class="prix">1299€</p>
+                <p class="prix">799,99€</p>
                 <form action="../../panier.php">
                     <input class="ajouter_panier" type="submit" value="Ajouter au panier">
                 </form>
@@ -97,7 +99,7 @@
             </div>
             <!--Commentaires sur l'article-->
             <form action="../../../php/recup_com.php" method="POST">
-                <textarea class="ajouter_commentaire" name="Commentaire"
+                <textarea class="ajouter_commentaire" name="commentaire"
                 rows="5" cols="33" placeholder="Ajoutez un commentaire..."></textarea>
             <!--Bouton-->
                 <input class="bt_send_com" type="submit" value="Envoyer">

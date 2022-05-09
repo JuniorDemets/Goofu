@@ -54,47 +54,64 @@
                 <input class="cartes_cadeau" type="submit" value="Cartes Cadeau">
             </form>
         </div>
-        <!-- boite pc msi (présentation) +  bouton pour voir le pc msi -->
-        <div class="choix_oculus">
-            <img class="photo_oculus" src="../images/category/150.png" alt="Image1">
-            <h2 id="affichage_prix_1">$00.00</h2>
-            <p id="description_oculus_1_head">PC Gamer de marque oculus :</p>
-            <p id="description_oculus_1">Ce pc de marque oculus exellent pour gaming next-gen. </p>
-            <form action="oculus.php" >
-                <input class="oculus_1" type="submit" value="Détails">
+        <!-- boite XBOX (présentation) +  bouton pour voir le XBOX -->
+        <div class="choix_xbox">
+            <img class="photo_xbox" src="../../images/category/console_xbox.jpg" alt="Image1">
+            <h2 id="affichage_prix_1">799,99€</h2>
+            <p id="description_xbox_1_head">Console Microsoft Xbox Series X :</p>
+            <p id="description_xbox_1">Plongez dans des univers ultra détaillés avec une résolution native 4K HDR . Compatible avec la technologie 
+                                       <br>
+                                       8K HDR en connectant votre Xbox Series X à votre téléviseur 8K pour jouer dans les meilleures conditions
+                                       <br>
+                                       grâce à la mise à l'échelle (4320p)
+            </p>
+            <form action="../details_objets/consoles/details_xbox.php" >
+                <input class="xbox_1" type="submit" value="Détails">
             </form>
             <form action="ajouter_panier.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
         <!-- Fin boite un -->
-        <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
-        <div class="choix_htc">
-            <img class="photo_htc" src="../images/category/150.png" alt="Image2">
+        <!-- boite console playstation (présentation) +  bouton pour voir la console playstation -->
+        <div class="choix_playstation">
+            <img class="photo_playstation" src="../../images/category/console_playstation.jpg" alt="Image2">
+            <h2 id="affichage_prix_1">1199,99€</h2>
+            <p id="description_playstation_1_head">Console Sony PS5 Edition Digital  :</p>
+            <p id="description_playstation_1">La console PS5™ recèle de possibilités de jeu inédites.
+                                        <br>
+                                        Découvrez des temps de chargement accélérés grâce au disque SSD ultra rapide, une immersion plus 
+                                        <br>
+                                        poussée grâce au retour haptique, aux gâchettes adaptatives et au son 3D, 
+                                        <br>
+                                        sans oublier un catalogue exceptionnel de jeux PlayStation® nouvelle génération. </p>
+            <form action="../details_objets/consoles/details_console_playstation.php" >
+                <input class="playstation_1" type="submit" value="Détails">
+            </form>
+            <form action="ajouter_panier2.php" >
+                <input class="bouton__panier_1" type="submit" value="+">
+            </form>
+        <!-- Fin boite un -->
+        <!-- boite console switch (présentation) +  bouton pour voir le console switch -->
+        <div class="choix_switch">
+            <img class="photo_switch" src="../../images/category/console_switch.jpeg" alt="switch Image">
             <h2 id="affichage_prix_1">$00.00</h2>
-            <p id="description_htc_1_head">PC Gamer de marque htc :</p>
-            <p id="description_htc_1">Ce pc de marque htc exellent pour gaming next-gen. </p>
-            <form action="htc.php" >
-                <input class="htc_1" type="submit" value="Détails">
+            <p id="description_switch_1_head">Console Nintendo Switch :</p>
+            <p id="description_switch_1">Avez-vous déjà abandonné un jeu parce que vous n'aviez pas assez de temps pour y jouer ?
+                                        <br>
+                                        La console Nintendo Switch peut se transformer pour s'adapter à votre situation, 
+                                        <br>
+                                        de manière à ce que vous puissiez profiter de vos jeux
+                                        <br>
+                                        quel que soit votre rythme de vie.</p>
+            <form action="switch.php" >
+                <input class="switch_1" type="submit" value="Détails">
             </form>
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
         <!-- Fin boite un -->
         <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
-        <div class="choix_oneplus">
-            <img class="photo_oneplus" src="../../images/category/150.png" alt="Image2">
-            <h2 id="affichage_prix_1">$00.00</h2>
-            <p id="description_oneplus_1_head">Téléphone gaming de marque OnePlus :</p>
-            <p id="description_oneplus_1">Téléphone gaming de marque OnePlus exellent pour gaming next-gen. </p>
-            <form action="oneplus.php" >
-                <input class="oneplus_1" type="submit" value="Détails">
-            </form>
-            <form action="ajouter_panier2.php" >
-                <input class="bouton__panier_1" type="submit" value="+">
-            </form>
-        <!-- Fin boite un -->
-        <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
-        <div class="choix_asuz">
+        <!-- <div class="choix_asuz">
             <img class="photo_asuz" src="../images/category/150.png" alt="Image2">
             <h2 id="affichage_prix_1">$00.00</h2>
             <p id="description_asuz_1_head">PC Gamer de marque Asuz :</p>
@@ -104,10 +121,10 @@
             </form>
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
-            </form>
+            </form> -->
         <!-- Fin boite un -->
         <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
-        <div class="choix_asuz">
+        <!-- <div class="choix_asuz">
             <img class="photo_asuz" src="../images/category/150.png" alt="Image2">
             <h2 id="affichage_prix_1">$00.00</h2>
             <p id="description_asuz_1_head">PC Gamer de marque Asuz :</p>
@@ -117,8 +134,8 @@
             </form>
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
-            </form>
+            </form> -->
         <!-- Fin boite un -->
-        <div class="signature2">Standaert-De Clercq Simon, Demets Junior et Ugo Koch </div>
+        <!-- <div class="signature2">Standaert-De Clercq Simon, Demets Junior et Ugo Koch </div> -->
     </body>
 </html>
