@@ -132,14 +132,35 @@
             <img class="photo_xbox_x" src="../../images/category/console_xbox_x.jpg" alt="Image2">
             <h2 id="affichage_prix_1">250€</h2>
             <p id="description_xbox_x_1_head">Microsoft Xbox One X :</p>
-            <p id="description_xbox_x_1">Ce pc de marque Asuz exellent pour gaming next-gen. </p>
-            <form action="xbox_x.php" >
+            <p id="description_xbox_x_1">Au-delà d’un design renouvelé, légèrement plus compact que celui de la One S 
+                                        <br>
+                                        (30 x 24 x 6 cm au lieu de 29,5 x 23 x 6,5 cm), elle intègre un nouveau hardware avec 
+                                        <br>
+                                        davantage de performances.  Cette puissance de jeu permettra de faire tourner les jeux en définition 4K, 
+                                        <br>
+                                        théoriquement à 60 images par secondes, et les jeux en définition 1080p avec un plus grand nombre d’images par seconde.</p>
+            <form action="../details_objets/consoles/details_xbox_x.php" >
                 <input class="xbox_x_1" type="submit" value="Détails">
             </form>
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
         <!-- Fin boite un -->
-        <!-- <div class="signature2">Standaert-De Clercq Simon, Demets Junior et Ugo Koch </div> -->
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="signature2">Standaert-De Clercq Simon, Demets Junior et Ugo Koch </div>
     </body>
 </html>
