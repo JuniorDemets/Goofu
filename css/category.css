@@ -6,11 +6,11 @@
     background-color: white;
     position: absolute;
     left: -1px;
-    top: 275px;
+    top: 150px;
 }
 .photo_msi{
-    width: 124px;
-    height: 170;
+    width: 200px;
+    height: 200px;
     position: absolute;
     top: 35px;
     left: 50px;
@@ -47,7 +47,7 @@
     background-color: white;
     position: absolute;
     left: -1px;
-    top: 560px;
+    top: 280px;
    
 }
 .photo_acer{
@@ -89,7 +89,7 @@
     background-color: white;
     position: absolute;
     left: -1px;
-    top: 840px;
+    top: 560px;
    
 }
 .photo_legion{
@@ -131,7 +131,7 @@
     background-color: white;
     position: absolute;
     left: -1px;
-    top: 1120px;
+    top: 840px;
 }
 .photo_rog{
     width: 200px;
@@ -172,7 +172,7 @@
     background-color: white;
     position: absolute;
     left: -1px;
-    top: 900px;
+    top: 1120px;
 }
 .photo_hp{
     width: 200px;
@@ -717,6 +717,88 @@
     
 }
 .switch_1{
+    position:absolute;
+    left: 70%;
+    top: 85px;
+    border-radius: 25px;
+    width: 15%;
+    height: 100px;
+    background-color: rgba(117, 114, 255, 1);
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+/*Playstation 4 Pro*/
+.choix_playstation_pro{
+    width: 100%;
+    height: 275px;
+    background-color: white;
+    position: absolute;
+    left: -1px;
+    top: 280px;
+   
+}
+.photo_choix_playstation_pro{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
+#description_playstation_pro_1_head{
+    font-size: 25px;
+    padding-left: 30%;
+    font-weight: bolder;
+    text-decoration: underline;
+    
+}
+#description_playstation_pro_1{
+    font-size: 15px;
+    padding-left: 30%;
+    
+}
+.playstation_pro_1{
+    position:absolute;
+    left: 70%;
+    top: 85px;
+    border-radius: 25px;
+    width: 15%;
+    height: 100px;
+    background-color: rgba(117, 114, 255, 1);
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+/*Xbox One X*/
+.choix_xbox_x{
+    width: 100%;
+    height: 275px;
+    background-color: white;
+    position: absolute;
+    left: -1px;
+    top: 280px;
+   
+}
+.photo_xbox_x{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
+#description_xbox_x_1_head{
+    font-size: 25px;
+    padding-left: 30%;
+    font-weight: bolder;
+    text-decoration: underline;
+    
+}
+#description_xbox_x_1{
+    font-size: 15px;
+    padding-left: 30%;
+    
+}
+.xbox_x_1{
     position:absolute;
     left: 70%;
     top: 85px;

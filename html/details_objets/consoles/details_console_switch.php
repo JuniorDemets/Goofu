@@ -16,25 +16,25 @@
         <link rel="stylesheet" type="text/css" href="../../../css/style.css">
         <link rel="stylesheet" type="text/css" href="../../../css/details.css">
         <script src="ajouter_panier.js"></script> 
-        <title>Oneplus7 Pro</title>
+        <title>Nintendo Switch</title>
     </head>
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
         <div class="pageup">
-            <a href="../../index.php"><img class="logo" src="../../../images/logo.png" alt="logo"></a>
-        </div>
-        <div class="search_total">
-            <input class="barre_cherche" placeholder="Recherche..." >
-            <input class="bouton_rechercher"  type="submit" value="Rechercher"> 
-                <form action="../../panier.php">
-                    <input class="panier" type="submit" value="Panier">
-                </form>
-                <form action="../../connexion.php" target="_blank">
-                    <input class="connexion" type="submit" value="Connexion">
-                </form>
-                <form action="../../compte.php" target="_blank">
-                    <input class="compte" type="submit" value="Compte">
-                </form>
+            <a href="../../index.php" class="lien_logo"><img class="logo" src="../../../images/logo.png" alt="logo"></a>
+            <div class="search_total">
+                <input class="barre_cherche" placeholder="Recherche..." >
+                <input class="bouton_rechercher"  type="submit" value="Rechercher">
+            </div> 
+            <form action="../../panier.php">
+                <input class="panier" type="submit" value="Panier">
+            </form>
+            <form action="../../connexion.php" target="_blank">
+                <input class="connexion" type="submit" value="Connexion">
+            </form>
+            <form action="../compte/compte.php" target="_blank">
+                <input class="compte" type="submit" value="Compte">
+            </form>
         </div>   
          <!--choix des catégories (nav bar)-->
         <div class="category_total">
@@ -57,7 +57,7 @@
         <!--Boite qui prends tout-->
         <div class="all_items">
             <div id="img_wishlist">
-                <img src="../../../images/category/tel_oneplus.jpg" class="produit_image" alt="oneplus phone">
+                <img src="../../../images/category/console_switch.jpg" class="produit_image" alt="switch console">
             </div>
             <form action="....">
                 <input class="ajouter_liste_souhaits" type="submit" value="Ajouter à la Liste des Souhaits">
@@ -65,18 +65,18 @@
             <div class="titre_description">
                 <h2 class="details">Détails du produit :</h2>
                 <p class="description_complete">
-                    L’écran Fluid AMOLED de 6,67 pouces du OnePlus 7 Pro est notre écran le plus évolué de tous les temps. 
+                    La console de Switch de Nintendo, c’est une petite révolution dans le monde du gaming ! Cette console portable dispose d’un grand écran tactile de 6,2 pouces et de manettes pouvant être scindées afin de pouvoir jouer à deux 
                     <br>
-                    Il vous permet de bénéficier d’une fluidité et d’une clarté inégalées avec une fréquence de rafraîchissement de 90 Hz et une résolution QHD+.
+                    à certains jeux comme NBA 2K et Mario Kart. Tu es assis confortablement chez toi ? Pose la Switch sur son dock et continue ta partie sur ta télévision.
                     <br>
-                    Chaque contact, balayage et pression sur les touches sont instantanés et sans effort grâce au premier écran AMOLED au monde à afficher un taux de rafraîchissement de 90 Hz.
+                    Les Joy-Con sont amovibles pour te permettre de jouer assis confortablement dans ton fauteuil… Mais si tu préfères les controllers plus classiques, choisis la manette Nintendo Switch Pro. Bien entendu, chaque joueur possédant une manette Switch peut jouer !
                     <br>
-                    Accélérez votre charge grâce à la fonction Warp Charge 30 et préparez votre OnePlus 7 Pro à l’action en seulement 20 minutes.
+                    Les Joy-Con disposent d’un gyroscope et d’un accéléromètre. Grâce à ces ajouts, chaque manette peut être utilisée comme une épée, une raquette de tennis ou autre. Ensuite, la caméra de mouvement infrarouge enregistre chaque mouvement de main.
                 </p>
                 </div>
             </div>
             <div class="prix_panier">
-                <p class="prix">449€</p>
+                <p class="prix">299€</p>
                 <form action="../../panier.php">
                     <input class="ajouter_panier" type="submit" value="Ajouter au panier">
                 </form>

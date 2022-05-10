@@ -57,7 +57,7 @@
         <!--Boite qui prends tout-->
         <div class="all_items">
             <div id="img_wishlist">
-                <img src="../../../images/category/tel_asuz.jpg" class="msi_image" alt="pc msi">
+                <img src="../../../images/category/tel_asuz.jpg" class="produit_image" alt="asuz phone">
             </div>
             <form action="....">
                 <input class="ajouter_liste_souhaits" type="submit" value="Ajouter à la Liste des Souhaits">

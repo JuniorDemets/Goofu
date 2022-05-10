@@ -93,8 +93,8 @@
         <!-- Fin boite un -->
         <!-- boite console switch (présentation) +  bouton pour voir le console switch -->
         <div class="choix_switch">
-            <img class="photo_switch" src="../../images/category/console_switch.jpeg" alt="switch Image">
-            <h2 id="affichage_prix_1">$00.00</h2>
+            <img class="photo_switch" src="../../images/category/console_switch.jpg" alt="switch Image">
+            <h2 id="affichage_prix_1">299€</h2>
             <p id="description_switch_1_head">Console Nintendo Switch :</p>
             <p id="description_switch_1">Avez-vous déjà abandonné un jeu parce que vous n'aviez pas assez de temps pour y jouer ?
                                         <br>
@@ -103,38 +103,42 @@
                                         de manière à ce que vous puissiez profiter de vos jeux
                                         <br>
                                         quel que soit votre rythme de vie.</p>
-            <form action="switch.php" >
+            <form action="../details_objets/consoles/details_console_switch.php" >
                 <input class="switch_1" type="submit" value="Détails">
             </form>
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
         <!-- Fin boite un -->
-        <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
-        <!-- <div class="choix_asuz">
-            <img class="photo_asuz" src="../images/category/150.png" alt="Image2">
-            <h2 id="affichage_prix_1">$00.00</h2>
-            <p id="description_asuz_1_head">PC Gamer de marque Asuz :</p>
-            <p id="description_asuz_1">Ce pc de marque Asuz exellent pour gaming next-gen. </p>
-            <form action="asuz.php" >
-                <input class="asuz_1" type="submit" value="Détails">
+        <!-- boite console ps4 pro (présentation) +  bouton pour voir le console ps4 pro -->
+        <div class="choix_playstation_pro">
+            <img class="photo_choix_playstation_pro" src="../../images/category/console_playstation_pro.jpg" alt="Image2">
+            <h2 id="affichage_prix_1">399€</h2>
+            <p id="description_playstation_pro_1_head">Console Sony PS4 Pro :</p>
+            <p id="description_playstation_pro_1">Le système PlayStation®4 ouvre la porte à un incroyable voyage à travers de
+                                                  <br>
+                                                  nouveaux mondes de jeu immersifs et une communauté de joueurs très connectée. 
+                                                  <br>
+                                                  PS4 Pro donne la priorité aux joueurs. Par les développeurs, pour les joueurs. </p>
+            <form action="../details_objets/consoles/details_playstation_pro.php" >
+                <input class="playstation_pro_1" type="submit" value="Détails">
             </form>
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
-            </form> -->
+            </form>
         <!-- Fin boite un -->
-        <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
-        <!-- <div class="choix_asuz">
-            <img class="photo_asuz" src="../images/category/150.png" alt="Image2">
-            <h2 id="affichage_prix_1">$00.00</h2>
-            <p id="description_asuz_1_head">PC Gamer de marque Asuz :</p>
-            <p id="description_asuz_1">Ce pc de marque Asuz exellent pour gaming next-gen. </p>
-            <form action="asuz.php" >
-                <input class="asuz_1" type="submit" value="Détails">
+        <!-- boite Xbox one x (présentation) +  bouton pour voir la xbox one x -->
+        <div class="choix_xbox_x">
+            <img class="photo_xbox_x" src="../../images/category/console_xbox_x.jpg" alt="Image2">
+            <h2 id="affichage_prix_1">250€</h2>
+            <p id="description_xbox_x_1_head">Microsoft Xbox One X :</p>
+            <p id="description_xbox_x_1">Ce pc de marque Asuz exellent pour gaming next-gen. </p>
+            <form action="xbox_x.php" >
+                <input class="xbox_x_1" type="submit" value="Détails">
             </form>
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
-            </form> -->
+            </form>
         <!-- Fin boite un -->
         <!-- <div class="signature2">Standaert-De Clercq Simon, Demets Junior et Ugo Koch </div> -->
     </body>

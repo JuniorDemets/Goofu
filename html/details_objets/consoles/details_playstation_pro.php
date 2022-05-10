@@ -16,25 +16,25 @@
         <link rel="stylesheet" type="text/css" href="../../../css/style.css">
         <link rel="stylesheet" type="text/css" href="../../../css/details.css">
         <script src="ajouter_panier.js"></script> 
-        <title>Oneplus7 Pro</title>
+        <title>PS4 Pro</title>
     </head>
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
         <div class="pageup">
-            <a href="../../index.php"><img class="logo" src="../../../images/logo.png" alt="logo"></a>
-        </div>
-        <div class="search_total">
-            <input class="barre_cherche" placeholder="Recherche..." >
-            <input class="bouton_rechercher"  type="submit" value="Rechercher"> 
-                <form action="../../panier.php">
-                    <input class="panier" type="submit" value="Panier">
-                </form>
-                <form action="../../connexion.php" target="_blank">
-                    <input class="connexion" type="submit" value="Connexion">
-                </form>
-                <form action="../../compte.php" target="_blank">
-                    <input class="compte" type="submit" value="Compte">
-                </form>
+            <a href="../../index.php" class="lien_logo"><img class="logo" src="../../../images/logo.png" alt="logo"></a>
+            <div class="search_total">
+                <input class="barre_cherche" placeholder="Recherche..." >
+                <input class="bouton_rechercher"  type="submit" value="Rechercher">
+            </div> 
+            <form action="../../panier.php">
+                <input class="panier" type="submit" value="Panier">
+            </form>
+            <form action="../../connexion.php" target="_blank">
+                <input class="connexion" type="submit" value="Connexion">
+            </form>
+            <form action="../compte/compte.php" target="_blank">
+                <input class="compte" type="submit" value="Compte">
+            </form>
         </div>   
          <!--choix des catégories (nav bar)-->
         <div class="category_total">
@@ -57,26 +57,26 @@
         <!--Boite qui prends tout-->
         <div class="all_items">
             <div id="img_wishlist">
-                <img src="../../../images/category/tel_oneplus.jpg" class="produit_image" alt="oneplus phone">
+                <img src="../../../images/category/console_playstation_pro.jpg" class="produit_image" alt="pc msi">
             </div>
             <form action="....">
                 <input class="ajouter_liste_souhaits" type="submit" value="Ajouter à la Liste des Souhaits">
             </form>
             <div class="titre_description">
-                <h2 class="details">Détails du produit :</h2>
+                <h2 class="details">Sony PlayStation 4 Pro :</h2>
                 <p class="description_complete">
-                    L’écran Fluid AMOLED de 6,67 pouces du OnePlus 7 Pro est notre écran le plus évolué de tous les temps. 
+                    Le système PlayStation®4 ouvre la porte à un incroyable voyage à travers de nouveaux mondes de jeu immersifs et une communauté de joueurs très connectée. PS4 Pro donne la priorité aux joueurs. Par les développeurs, pour les joueurs.
                     <br>
-                    Il vous permet de bénéficier d’une fluidité et d’une clarté inégalées avec une fréquence de rafraîchissement de 90 Hz et une résolution QHD+.
+                    Utilisez les capacités interactives des jeux de toutes les manières dont vous êtes habitué, ainsi que de manières que vous n'auriez jamais cru possible. Des joysticks plus précis, des capteurs de mouvement intégrés, 
                     <br>
-                    Chaque contact, balayage et pression sur les touches sont instantanés et sans effort grâce au premier écran AMOLED au monde à afficher un taux de rafraîchissement de 90 Hz.
+                    un haut-parleur intégré et des commandes tactiles ne sont que quelques-unes des raisons pour lesquelles la manette sans fil DUALSHOCK 4 offre une expérience de jeu intuitive et renouvelée entre vos mains. 
                     <br>
-                    Accélérez votre charge grâce à la fonction Warp Charge 30 et préparez votre OnePlus 7 Pro à l’action en seulement 20 minutes.
+                    Mises à jour automatiques en arrière-plan: le logiciel système et les mises à jour du jeu sont téléchargés en arrière-plan pour que votre PS4 soit toujours prête. 
                 </p>
                 </div>
             </div>
             <div class="prix_panier">
-                <p class="prix">449€</p>
+                <p class="prix">399€</p>
                 <form action="../../panier.php">
                     <input class="ajouter_panier" type="submit" value="Ajouter au panier">
                 </form>
@@ -103,6 +103,6 @@
                 <input class="bt_send_com" type="submit" value="Envoyer">
             </form>   
         </div>
-        <div class="signature">Standaert-De Clercq Simon, Demets Junior et Ugo Koch </div>         
+        <div class="signature">Standaert-De Clercq Simon, Demets Junior et Koch Ugo </div>         
     </body>
 </html>

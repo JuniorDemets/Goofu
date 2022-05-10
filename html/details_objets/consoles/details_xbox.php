@@ -16,7 +16,7 @@
         <link rel="stylesheet" type="text/css" href="../../../css/style.css">
         <link rel="stylesheet" type="text/css" href="../../../css/details.css">
         <script src="ajouter_panier.js"></script> 
-        <title>AsuzXbox</title>
+        <title>Xbox</title>
     </head>
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
