@@ -98,8 +98,7 @@
             </div>
             <!--Commentaires sur l'article-->
             <form action="commentaire.php">
-                <textarea class="ajouter_commentaire" name="commentaires"
-                rows="5" cols="33" placeholder="Ajoutez un commentaire..."></textarea>
+                <textarea class="ajouter_commentaire" name="commentaires" placeholder="Ajoutez un commentaire..."></textarea>
             <!--Bouton-->
                 <input class="bt_send_com" type="submit" value="Envoyer">
             </form>   

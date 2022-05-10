@@ -16,7 +16,7 @@
 }
 .ajouter_liste_souhaits{
     width: 15%;
-    margin-top: 23%;
+    margin-top: 21%;
     left: 5%;
     position: absolute;
     background-color: rgba(117, 114, 255, 1);
@@ -50,7 +50,7 @@
 .ajouter_panier{
     right: auto;
     width: 75%;
-    top: 35vh;
+    top: 1200%;
     position: absolute;
     background-color: rgba(117, 114, 255, 1);
     color: white;
@@ -60,7 +60,7 @@
 #nbre_panier{
     right: auto;
     text-align: center;
-    top: 30vh;
+    top: 1500%;
     width: 75%;
     position: absolute;
     background-color: rgba(117, 114, 255, 1);
@@ -84,15 +84,16 @@
 }
 .ajouter_commentaire{
     width: 20%;
-    height: 25%;
+    height: auto;
     position: absolute;
-    top: 62vh;
+    top: 63%;
     left: 7%;
     text-align: left;
+    resize: none;
 }
 .bt_send_com{
     position: absolute;
-    top: 87vh;
+    top: 78%;
     left: 15%;
     text-align: left;
 }
