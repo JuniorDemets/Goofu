@@ -1,4 +1,4 @@
-<?php>
+<?php
 //  Cookies pour la connexion sur tout le site
     $E_mail = $_POST['E_mail'];
     setcookie("Cookie", $E_mail, time()+3600000000000000000000000000000000000000000000000000000000000000000000000000000000000000);
@@ -61,11 +61,9 @@
             <p id="description_xiaomi_1_head">Xiaomi Black Shark 2 :</p>
             <p id="description_xiaomi_1">Le Black Shark 2 est un smartphone haut de gamme annoncé le 18 mars 2019. 
                                          <br>
-                                         Orienté pour les joueurs nomades, il est équipé d'un SoC Qualcomm Snapdragon 855 
+                                         Orienté pour les joueurs nomades, il est capable de faire tourner 
                                          <br>
-                                         épaulé par 6 à 12 Go de RAM, 
-                                         <br>
-                                         d'un écran AMOLED de 6,39 pouces et d'une batterie de 4000 mAh. </p>
+                                         des jeux comme PUBG : Mobile, ou Call Of Duty : Mobile avec une fluidité exemplaire </p>
             <form action="../details_objets/Telephones/details_xiaomi_shark.php" >
                 <input class="xiaomi_1" type="submit" value="Détails">
             </form>
@@ -79,13 +77,10 @@
             <img class="photo_asuz_phone" src="../../images/category/tel_asuz.jpg" alt="Image2">
             <h2 id="affichage_prix_1">999€</h2>
             <p id="description_asuz_phone_1_head">Asus ROG Phone 5s</p>
-            <p id="description_asuz_phone_1">Équipé du dernier processeur Qualcomm® Snapdragon® 888+ 5G, 
+            <p id="description_asuz_phone_1">Équipé du dernier processeur Qualcomm® Snapdragon® 888, 
                                              <br>
                                              le ROG Phone 5s propulse votre expérience gaming sur mobile dans une nouvelle dimension. 
-                                             <br>
-                                             Avec son taux d'échantillonnage tactile natif de 360 Hz, 
-                                             <br>
-                                             la dalle 144 Hz/ 1 ms du ROG Phone 5s met à votre portée une expérience visuelle ultra-fluide.</p>
+                                             </p>
             <form action="../details_objets/Telephones/details_asuz_rog_phone.php" >
                 <input class="asuz_phone_1" type="submit" value="Détails">
             </form>
@@ -101,9 +96,7 @@
             <p id="description_oneplus_1_head">OnePlus 7 Pro :</p>
             <p id="description_oneplus_1">Le OnePlus 7 Pro est un smartphone haut de gamme annoncé le 14 mai 2019, version améliorée du OnePlus 7. 
                                           <br>
-                                          Il est équipé d'un écran AMOLED QHD+ de 6,67 pouces sans encoche, 
-                                          <br>
-                                          d'un SoC Qualcomm Snapdragon 855 et d'un triple capteur photo de 48+8+16 mégapixels .</p>
+                                          Il est multitâches, prendre des photos, jouer, ou regarder des films, rien de lui fait peur.</p>
             <form action="../details_objets/Telephones/details_oneplus_pro.php" >
                 <input class="oneplus_1" type="submit" value="Détails">
             </form>
@@ -120,10 +113,8 @@
             <p id="description_lenovo_legion_1">Découvrez une expérience de gaming mobile, évoluée. 
                                                 <br>
                                                 Avec sa double architecture sous-jacente et la première interface utilisateur horizontale profondément personnalisée au monde, 
-                                                <br>
-                                                vous découvrirez une évolution à 
-                                                <br>
-                                                tous les niveaux dans le Lenovo Legion Phone Duel </p>
+                                                le Lenovo Legion bats tout les records !    
+                                                </p>
             <form action="../details_objets/Telephones/details_lenovo_legion_phone.php" >
                 <input class="lenovo_legion_1" type="submit" value="Détails">
             </form>
@@ -139,9 +130,7 @@
             <p id="description_redmagic_1_head">Redmagic 7 :</p>
             <p id="description_redmagic_1">Pour des fréquences d'images optimales dans n'importe quel jeu, REDMAGIC utilise la dernière technologie de fréquence d'images adaptative 
                                        <br>
-                                       avec Touch Choreographer 4.0. Le REDMAGIC 7 précharge également le monde du jeu et les visuels en temps réel pour créer une mémoire tampon 
-                                       <br>
-                                       afin qu'il n'y ait pas de bégaiement ou de perte de qualité.</p>
+                                       avec Touch Choreographer 4.0.</p>
             <form action="../details_objets/Telephones/details_redmagic_7.php" >
                 <input class="redmagic_1" type="submit" value="Détails">
             </form>

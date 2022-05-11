@@ -1,3 +1,12 @@
+<?php
+//  Cookies pour la connexion sur tout le site
+    $E_mail = $_POST['E_mail'];
+    setcookie("Cookie", $E_mail, time()+3600000000000000000000000000000000000000000000000000000000000000000000000000000000000000);
+    if (isset($_COOKIE["Cookie"])){ 
+        echo 'Le cookie existe ' . $_COOKIE["Cookie"] . '!<br />';
+    }else
+        echo 'Le cookie n\'existe pas <br />';
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -7,7 +16,7 @@
         <link rel="stylesheet" type="text/css" href="../../../css/style.css">
         <link rel="stylesheet" type="text/css" href="../../../css/details.css">
         <script src="ajouter_panier.js"></script> 
-        <title>Oculus Quest</title>
+        <title>HP Reverb G2</title>
     </head>
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
@@ -48,7 +57,7 @@
         <!--Boite qui prends tout-->
         <div class="all_items">
             <div id="img_wishlist">
-                <img src="../../../images/category/HP-reverb-g2.jpg" class="msi_image" alt="pc msi">
+                <img src="../../../images/category/HP-reverb-g2.jpg" class="produit_image" alt="HP reverb">
             </div>
             <form action="....">
                 <input class="ajouter_liste_souhaits" type="submit" value="Ajouter à la Liste des Souhaits">

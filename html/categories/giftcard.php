@@ -1,4 +1,4 @@
-<?php>
+<?php
 //  Cookies pour la connexion sur tout le site
     $E_mail = $_POST['E_mail'];
     setcookie("Cookie", $E_mail, time()+3600000000000000000000000000000000000000000000000000000000000000000000000000000000000000);
@@ -51,21 +51,21 @@
             <form action="giftcard.php">
                 <input class="cartes_cadeau" type="submit" value="Cartes Cadeau">
             </form>
-        <!-- boite pc msi (présentation) +  bouton pour voir le pc msi -->
-        <div class="choix_oculus">
-            <img class="photo_oculus" src="../images/category/150.png" alt="Image1">
-            <h2 id="affichage_prix_1">$00.00</h2>
-            <p id="description_oculus_1_head">PC Gamer de marque oculus :</p>
-            <p id="description_oculus_1">Ce pc de marque oculus exellent pour gaming next-gen. </p>
-            <form action="oculus.php" >
-                <input class="oculus_1" type="submit" value="Détails">
+        <!-- boite xbox gift card (présentation) +  bouton pour voir le xbox_gift_card -->
+        <div class="choix_xbox_gift_card">
+            <img class="photo_xbox_gift_card" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1XDkS?ver=6779&q=90&m=6&h=200&w=200&b=%23FFFFFFFF&o=f&aim=true" alt="xbox_gift_card">
+            <h2 id="affichage_prix_1">10€</h2>
+            <p id="description_xbox_gift_card_1_head">Carte Cadeau Xbox :</p>
+            <p id="description_xbox_gift_card_1">Carte cadeau xbox de 10€ à dépenser sur le microsoft store.</p>
+            <form action="../details_objets/giftcards/details_xbox_giftcards.php" >
+                <input class="xbox_gift_card_1" type="submit" value="Détails">
             </form>
             <form action="ajouter_panier.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
         <!-- Fin boite un -->
         <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
-        <div class="choix_htc">
+        <!-- <div class="choix_htc">
             <img class="photo_htc" src="../images/category/150.png" alt="Image2">
             <h2 id="affichage_prix_1">$00.00</h2>
             <p id="description_htc_1_head">PC Gamer de marque htc :</p>
@@ -75,10 +75,10 @@
             </form>
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
-            </form>
+            </form> -->
         <!-- Fin boite un -->
         <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
-        <div class="choix_oneplus">
+        <!-- <div class="choix_oneplus">
             <img class="photo_oneplus" src="../../images/category/150.png" alt="Image2">
             <h2 id="affichage_prix_1">$00.00</h2>
             <p id="description_oneplus_1_head">Téléphone gaming de marque OnePlus :</p>
@@ -88,10 +88,10 @@
             </form>
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
-            </form>
+            </form> -->
         <!-- Fin boite un -->
         <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
-        <div class="choix_asuz">
+        <!-- <div class="choix_asuz">
             <img class="photo_asuz" src="../images/category/150.png" alt="Image2">
             <h2 id="affichage_prix_1">$00.00</h2>
             <p id="description_asuz_1_head">PC Gamer de marque Asuz :</p>
@@ -101,10 +101,10 @@
             </form>
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
-            </form>
+            </form> -->
         <!-- Fin boite un -->
         <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
-        <div class="choix_asuz">
+        <!-- <div class="choix_asuz">
         <img class="photo_asuz" src="../images/category/150.png" alt="Image2">
             <h2 id="affichage_prix_1">$00.00</h2>
             <p id="description_asuz_1_head">PC Gamer de marque Asuz :</p>
@@ -114,7 +114,7 @@
             </form>
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
-            </form>
+            </form> -->
         <!-- Fin boite un -->
         <div class="signature">Standaert-De Clercq Simon, Demets Junior et Ugo Koch </div>
     </body>

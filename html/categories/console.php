@@ -1,4 +1,4 @@
-<?php>
+<?php
 //  Cookies pour la connexion sur tout le site
     $E_mail = $_POST['E_mail'];
     setcookie("Cookie", $E_mail, time()+3600000000000000000000000000000000000000000000000000000000000000000000000000000000000000);
@@ -59,11 +59,9 @@
             <img class="photo_xbox" src="../../images/category/console_xbox.jpg" alt="Image1">
             <h2 id="affichage_prix_1">799,99€</h2>
             <p id="description_xbox_1_head">Console Microsoft Xbox Series X :</p>
-            <p id="description_xbox_1">Plongez dans des univers ultra détaillés avec une résolution native 4K HDR . Compatible avec la technologie 
+            <p id="description_xbox_1">Plongez dans des univers ultra détaillés avec une résolution native 4K HDR, 
                                        <br>
-                                       8K HDR en connectant votre Xbox Series X à votre téléviseur 8K pour jouer dans les meilleures conditions
-                                       <br>
-                                       grâce à la mise à l'échelle (4320p)
+                                       avec son équipement nouvelle génération, la Xbox Series X vous surprendra.
             </p>
             <form action="../details_objets/consoles/details_xbox.php" >
                 <input class="xbox_1" type="submit" value="Détails">
@@ -79,11 +77,7 @@
             <p id="description_playstation_1_head">Console Sony PS5 Edition Digital  :</p>
             <p id="description_playstation_1">La console PS5™ recèle de possibilités de jeu inédites.
                                         <br>
-                                        Découvrez des temps de chargement accélérés grâce au disque SSD ultra rapide, une immersion plus 
-                                        <br>
-                                        poussée grâce au retour haptique, aux gâchettes adaptatives et au son 3D, 
-                                        <br>
-                                        sans oublier un catalogue exceptionnel de jeux PlayStation® nouvelle génération. </p>
+                                        Découvrez un catalogue exceptionnel de jeux next generation. </p>
             <form action="../details_objets/consoles/details_console_playstation.php" >
                 <input class="playstation_1" type="submit" value="Détails">
             </form>
@@ -100,9 +94,7 @@
                                         <br>
                                         La console Nintendo Switch peut se transformer pour s'adapter à votre situation, 
                                         <br>
-                                        de manière à ce que vous puissiez profiter de vos jeux
-                                        <br>
-                                        quel que soit votre rythme de vie.</p>
+                                        de manière à ce que vous puissiez profiter de vos jeux quel que soit votre rythme de vie.</p>
             <form action="../details_objets/consoles/details_console_switch.php" >
                 <input class="switch_1" type="submit" value="Détails">
             </form>
@@ -118,8 +110,7 @@
             <p id="description_playstation_pro_1">Le système PlayStation®4 ouvre la porte à un incroyable voyage à travers de
                                                   <br>
                                                   nouveaux mondes de jeu immersifs et une communauté de joueurs très connectée. 
-                                                  <br>
-                                                  PS4 Pro donne la priorité aux joueurs. Par les développeurs, pour les joueurs. </p>
+                                                  </p>
             <form action="../details_objets/consoles/details_playstation_pro.php" >
                 <input class="playstation_pro_1" type="submit" value="Détails">
             </form>
@@ -132,13 +123,10 @@
             <img class="photo_xbox_x" src="../../images/category/console_xbox_x.jpg" alt="Image2">
             <h2 id="affichage_prix_1">250€</h2>
             <p id="description_xbox_x_1_head">Microsoft Xbox One X :</p>
-            <p id="description_xbox_x_1">Au-delà d’un design renouvelé, légèrement plus compact que celui de la One S 
+            <p id="description_xbox_x_1">Au-delà d’un design renouvelé, légèrement plus compact que celui de la Xbox One S 
                                         <br>
-                                        (30 x 24 x 6 cm au lieu de 29,5 x 23 x 6,5 cm), elle intègre un nouveau hardware avec 
-                                        <br>
-                                        davantage de performances.  Cette puissance de jeu permettra de faire tourner les jeux en définition 4K, 
-                                        <br>
-                                        théoriquement à 60 images par secondes, et les jeux en définition 1080p avec un plus grand nombre d’images par seconde.</p>
+                                        elle intègre un nouvel équipement pour faire tourner tout un catalogue de jeux.
+                                        </p>
             <form action="../details_objets/consoles/details_xbox_x.php" >
                 <input class="xbox_x_1" type="submit" value="Détails">
             </form>

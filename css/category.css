@@ -1,3 +1,13 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#affichage_prix_1{
+    position: absolute;
+    padding-left: 300px;
+    font-weight: bold;  
+    top: 150px;
+    font-size: 50px;
+}
 
 /*msi*/
 .choix_msi{
@@ -19,7 +29,6 @@
     font-size: 25px;
     padding-left: 30%;
     font-weight: bolder;
-    text-decoration: underline;
     
 }
 #description_msi_1{
@@ -61,7 +70,6 @@
     font-size: 25px;
     padding-left: 30%;
     font-weight: bolder;
-    text-decoration: underline;
     
 }
 #description_acer_1{
@@ -103,7 +111,6 @@
     font-size: 25px;
     padding-left: 30%;
     font-weight: bolder;
-    text-decoration: underline;
     
 }
 #description_legion_1{
@@ -144,7 +151,6 @@
     font-size: 25px;
     padding-left: 30%;
     font-weight: bolder;
-    text-decoration: underline;
     
 }
 #description_rog_1{
@@ -185,7 +191,6 @@
     font-size: 25px;
     padding-left: 30%;
     font-weight: bolder;
-    text-decoration: underline;
     
 }
 #description_hp_1{
@@ -229,7 +234,6 @@
     font-size: 25px;
     padding-left: 30%;
     font-weight: bolder;
-    text-decoration: underline;
     
 }
 #description_xiaomi_1{
@@ -271,7 +275,6 @@
     font-size: 25px;
     padding-left: 30%;
     font-weight: bolder;
-    text-decoration: underline;
     
 }
 #description_asuz_phone_1{
@@ -309,16 +312,10 @@
     top: 35px;
     left: 50px;
 }
-#affichage_prix_1{
-    position: absolute;
-    padding-left: 300px;
-    font-weight: bold;  
-}
 #description_oneplus_1_head{
     font-size: 25px;
     padding-left: 30%;
     font-weight: bolder;
-    text-decoration: underline;
     
 }
 #description_oneplus_1{
@@ -371,7 +368,6 @@
     font-size: 25px;
     padding-left: 30%;
     font-weight: bolder;
-    text-decoration: underline;
     
 }
 #description_lenovo_legion_1{
@@ -412,7 +408,6 @@
     font-size: 25px;
     padding-left: 30%;
     font-weight: bolder;
-    text-decoration: underline;
     
 }
 #description_redmagic_1{
@@ -453,7 +448,6 @@
     font-size: 25px;
     padding-left: 30%;
     font-weight: bolder;
-    text-decoration: underline;
     
 }
 #description_quest_1{
@@ -503,16 +497,10 @@
     top: 35px;
     left: 50px;
 }
-#affichage_prix_1{
-    position: absolute;
-    padding-left: 300px;
-    top: 150px; 
-}
 #description_htc_1_head{
     font-size: 25px;
     padding-left: 30%;
     font-weight: bolder;
-    text-decoration: underline;
     
 }
 #description_htc_1{
@@ -562,16 +550,10 @@
     top: 35px;
     left: 50px;
 }
-#affichage_prix_1{
-    position: absolute;
-    padding-left: 300px;
-    font-weight: bold;  
-}
 #description_hp_reverb_G2_1_head{
     font-size: 25px;
     padding-left: 30%;
     font-weight: bolder;
-    text-decoration: underline;
     
 }
 #description_hp_reverb_G2_1{
@@ -625,7 +607,6 @@
     font-size: 25px;
     padding-left: 30%;
     font-weight: bolder;
-    text-decoration: underline;
     
 }
 #description_xbox_1{
@@ -667,7 +648,6 @@
     font-size: 25px;
     padding-left: 30%;
     font-weight: bolder;
-    text-decoration: underline;
     
 }
 #description_playstation_1{
@@ -708,7 +688,6 @@
     font-size: 25px;
     padding-left: 30%;
     font-weight: bolder;
-    text-decoration: underline;
     
 }
 #description_switch_1{
@@ -749,7 +728,6 @@
     font-size: 25px;
     padding-left: 30%;
     font-weight: bolder;
-    text-decoration: underline;
     
 }
 #description_playstation_pro_1{
@@ -790,8 +768,7 @@
     font-size: 25px;
     padding-left: 30%;
     font-weight: bolder;
-    text-decoration: underline;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 #description_xbox_x_1{
     font-size: 15px;
@@ -810,42 +787,35 @@
     color: white;
     cursor: pointer;
 }
-/*------------------------------cartes cadeau ---------------*/
-/*Xiaomi*/
-.choix_xiaomi{
+/*------------------------------cartes cadeau -------------------------*/
+/*Xbox Gift Card*/
+.choix_xbox_gift_card{
     width: 100%;
     height: 275px;
     background-color: white;
     position: absolute;
     left: -1px;
-    top: 150px;
+    top: 70px;
 }
-.photo_xiaomi{
+.photo_xbox_gift_card{
     width: 200px;
     height: 200px;
     position: absolute;
     top: 35px;
     left: 50px;
 }
-#affichage_prix_1{
-    position: absolute;
-    padding-left: 300px;
-    font-weight: bold;  
-    font-size: 50px;
-}
-#description_xiaomi_1_head{
+#description_xbox_gift_card_1_head{
     font-size: 25px;
     padding-left: 30%;
     font-weight: bolder;
-    text-decoration: underline;
-    
 }
-#description_xiaomi_1{
+#description_xbox_gift_card_1{
     font-size: 15px;
     padding-left: 30%;
+    padding-right: 40%;
     
 }
-.xiaomi_1{
+.xbox_gift_card_1{
     position:absolute;
     left: 70%;
     top: 85px;
@@ -855,18 +825,6 @@
     background-color: rgba(117, 114, 255, 1);
     font-size: 50px;
     color: white; 
-    cursor: pointer;
-}
-.bouton__panier{
-    position:absolute;
-    left: 90%;
-    top: 100px;
-    border-radius: 11px;
-    width: 4%;
-    height: 70px;
-    background-color: rgb(190, 190, 190);
-    font-size: 60px;
-    color: white;
     cursor: pointer;
 }
 /*asuz*/
@@ -886,16 +844,10 @@
     top: 35px;
     left: 50px;
 }
-#affichage_prix_1{
-    position: absolute;
-    padding-left: 300px;
-    top: 150px; 
-}
 #description_asuz_1_head{
     font-size: 25px;
     padding-left: 30%;
     font-weight: bolder;
-    text-decoration: underline;
     
 }
 #description_asuz_1{
@@ -944,16 +896,10 @@
     top: 35px;
     left: 50px;
 }
-#affichage_prix_1{
-    position: absolute;
-    padding-left: 300px;
-    font-weight: bold;  
-}
 #description_oneplus_1_head{
     font-size: 25px;
     padding-left: 30%;
     font-weight: bolder;
-    text-decoration: underline;
     
 }
 #description_oneplus_1{

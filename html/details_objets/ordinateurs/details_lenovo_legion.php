@@ -1,4 +1,4 @@
-<?php>
+<?php
 //  Cookies pour la connexion sur tout le site
     $E_mail = $_POST['E_mail'];
     setcookie("Cookie", $E_mail, time()+3600000000000000000000000000000000000000000000000000000000000000000000000000000000000000);
@@ -59,21 +59,18 @@
             <div id="img_wishlist">
                 <img src="../../../images/category/pc_legion.avif" class="produit_image" alt="pc legion">
             </div>
-            <form action="....">
-                <input class="ajouter_liste_souhaits" type="submit" value="Ajouter à la Liste des Souhaits">
-            </form>
             <div class="titre_description">
                 <h2 class="details">Détails du produit :</h2>
                 <p class="description_complete">
                     Jouez aux derniers jeux vidéos à des paramètres élevés avec le Lenovo Legion T5 26AMR5 90RC00LTMH. 
-                                          <br>
-                                          La carte graphique NVIDIA GeForce RTX 3060 est suffisamment puissante pour ça. 
-                                          <br>
-                                          La carte graphique convient aussi à la VR, branchez donc un casque VR et jouez à votre jeu vidéo favori en réalité virtuelle. 
-                                          <br>
-                                          Jouez pendant que vous discutez avec vos amis sur Discord grâce aux 16 Go de mémoire vive.
-                                          <br>
-                                          Installez vos jeux préférés sur le SSD de 512 Go pour qu'ils démarrent rapidement.                      
+                    <br>
+                    La carte graphique NVIDIA GeForce RTX 3060 est suffisamment puissante pour ça. 
+                    <br>
+                    La carte graphique convient aussi à la VR, branchez donc un casque VR et jouez à votre jeu vidéo favori en réalité virtuelle. 
+                    <br>
+                    Jouez pendant que vous discutez avec vos amis sur Discord grâce aux 16 Go de mémoire vive.
+                    <br>
+                    Installez vos jeux préférés sur le SSD de 512 Go pour qu'ils démarrent rapidement.                      
                 </p>
                 </div>
             </div>
@@ -101,6 +98,9 @@
             <form action="../../../php/recup_com.php" method="POST">
                 <textarea class="ajouter_commentaire" name="Commentaire"
                 rows="5" cols="33" placeholder="Ajoutez un commentaire..."></textarea>
+                <form action="....">
+                <input class="ajouter_liste_souhaits" type="submit" value="Ajouter à la Liste des Souhaits">
+                </form>
             <!--Bouton-->
                 <input class="bt_send_com" type="submit" value="Envoyer">
             </form>   

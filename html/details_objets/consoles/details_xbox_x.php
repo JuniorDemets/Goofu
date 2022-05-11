@@ -1,4 +1,4 @@
-<?php>
+<?php
 //  Cookies pour la connexion sur tout le site
     $E_mail = $_POST['E_mail'];
     setcookie("Cookie", $E_mail, time()+3600000000000000000000000000000000000000000000000000000000000000000000000000000000000000);
@@ -59,9 +59,6 @@
             <div id="img_wishlist">
                 <img src="../../../images/category/console_xbox_x.jpg" class="produit_image" alt="console xbox one x">
             </div>
-            <form action="....">
-                <input class="ajouter_liste_souhaits" type="submit" value="Ajouter à la Liste des Souhaits">
-            </form>
             <div class="titre_description">
                 <h2 class="details">Microsoft Xbox One X :</h2>
                 <p class="description_complete">
@@ -101,6 +98,9 @@
             <form action="../../../php/recup_com.php" method="POST">
                 <textarea class="ajouter_commentaire" name="Commentaire"
                 rows="5" cols="33" placeholder="Ajoutez un commentaire..."></textarea>
+                <form action="....">
+                <input class="ajouter_liste_souhaits" type="submit" value="Ajouter à la Liste des Souhaits">
+                </form>
             <!--Bouton-->
                 <input class="bt_send_com" type="submit" value="Envoyer">
             </form>   

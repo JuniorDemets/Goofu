@@ -59,9 +59,6 @@
             <div id="img_wishlist">
                 <img src="../../../images/category/tel_asuz.jpg" class="produit_image" alt="asuz phone">
             </div>
-            <form action="....">
-                <input class="ajouter_liste_souhaits" type="submit" value="Ajouter à la Liste des Souhaits">
-            </form>
             <div class="titre_description">
                 <h2 class="details">Détails du produit :</h2>
                 <p class="description_complete">
@@ -99,6 +96,9 @@
             <form action="../../../php/recup_com.php" method="POST">
                 <textarea class="ajouter_commentaire" name="Commentaire"
                 rows="5" cols="33" placeholder="Ajoutez un commentaire..."></textarea>
+                <form action="....">
+                <input class="ajouter_liste_souhaits" type="submit" value="Ajouter à la Liste des Souhaits">
+                </form>
             <!--Bouton-->
                 <input class="bt_send_com" type="submit" value="Envoyer">
             </form>   

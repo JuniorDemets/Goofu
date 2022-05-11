@@ -1,4 +1,4 @@
-<?php>
+<?php
 //  Cookies pour la connexion sur tout le site
     $E_mail = $_POST['E_mail'];
     setcookie("Cookie", $E_mail, time()+3600000000000000000000000000000000000000000000000000000000000000000000000000000000000000);
@@ -16,7 +16,7 @@
         <link rel="stylesheet" type="text/css" href="../../../css/style.css">
         <link rel="stylesheet" type="text/css" href="../../../css/details.css">
         <script src="ajouter_panier.js"></script> 
-        <title>Xbox</title>
+        <title>Xbox Series X</title>
     </head>
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
@@ -59,9 +59,6 @@
             <div id="img_wishlist">
                 <img src="../../../images/category/console_xbox.jpg" class="produit_image" alt="Console xbox">
             </div>
-            <form action="....">
-                <input class="ajouter_liste_souhaits" type="submit" value="Ajouter à la Liste des Souhaits">
-            </form>
             <div class="titre_description">
                 <h2 class="details">Console Microsoft Xbox Series X :</h2>
                 <p class="description_complete">
@@ -101,10 +98,13 @@
                     <option value="4">10</option>
                 </select>
             </div>
-            <!--Commentaires sur l'article-->
+          <!--Commentaires sur l'article-->
             <form action="../../../php/recup_com.php" method="POST">
-                <textarea class="ajouter_commentaire" name="commentaire"
+                <textarea class="ajouter_commentaire" name="Commentaire"
                 rows="5" cols="33" placeholder="Ajoutez un commentaire..."></textarea>
+                <form action="....">
+                <input class="ajouter_liste_souhaits" type="submit" value="Ajouter à la Liste des Souhaits">
+            </form>
             <!--Bouton-->
                 <input class="bt_send_com" type="submit" value="Envoyer">
             </form>   

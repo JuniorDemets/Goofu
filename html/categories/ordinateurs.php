@@ -1,4 +1,4 @@
-<?php>
+<?php
 //  Cookies pour la connexion sur tout le site
     $E_mail = $_POST['E_mail'];
     setcookie("Cookie", $E_mail, time()+3600000000000000000000000000000000000000000000000000000000000000000000000000000000000000);
@@ -59,8 +59,7 @@
             <img class="photo_msi" src="../../images/category/pc_msi.jpg" alt="Image1">
             <h2 id="affichage_prix_1">4999€</h2>
             <p id="description_msi_1_head">MSI MAG Codex X5</p>
-            <p id="description_msi_1">Le MSI MAG Codex X5 11-463MYS est un PC gamer puissant qui vous permet de jouer aux jeux actuels et futurs avec des paramètres ultra. 
-            Grâce à la carte graphique NVIDIA GeForce RTX 3090, vous pourrez atteindre des fréquences d'images élevées dans des jeux exigeants tels que Cyberpunk 2077 et Elden Ring. </p>
+            <p id="description_msi_1">Le MSI MAG Codex X5 11-463MYS est un PC gamer puissant qui vous permet de jouer aux jeux actuels et futurs avec des paramètres ultra. </p>
             <form action="../details_objets/ordinateurs/details_msi_codex.php" >
                 <input class="msi_1" type="submit" value="Détails">
             </form>
@@ -76,11 +75,7 @@
             <p id="description_acer_1">L'Acer Predator Orion 3000 630 I511-02GA vous permet de jouer à des jeux 
                                       comme Call of Duty avec les paramètres les plus 
                                       élevés et à 60 images par seconde. 
-                                      La carte graphique NVIDIA GeForce GTX 1660 Super est assez puissante pour ce type d'activité. 
-                                      Pendant ce temps, chattez avec vos amis via Discord. 
-                                      La mémoire vive de 16 Go vous permet de le faire sans problème. 
-                                      Sauvegardez vos jeux préférés sur le SSD de 512 Go ;
-                                      ils démarrent ainsi en quelques secondes et vous rejoignez la partie en un rien de temps. </p>
+                                      </p>
             <form action="../details_objets/ordinateurs/details_acer_pred.php" >
                 <input class="acer_1" type="submit" value="Détails">
             </form>
@@ -96,9 +91,7 @@
             <p id="description_legion_1_head">Lenovo Legion T5 26AMR5 </p>
             <p id="description_legion_1">Jouez aux derniers jeux vidéos à des paramètres élevés avec le Lenovo Legion T5 26AMR5 90RC00LTMH. 
                                     La carte graphique NVIDIA GeForce RTX 3060 est suffisamment puissante pour ça. 
-                                    La carte graphique convient aussi à la VR, branchez donc un casque VR et jouez à votre jeu vidéo favori en réalité virtuelle. 
-                                    Jouez pendant que vous discutez avec vos amis sur Discord grâce aux 16 Go de mémoire vive.
-                                    Installez vos jeux préférés sur le SSD de 512 Go pour qu'ils démarrent rapidement.  </p>
+                                    </p>
             <form action="../details_objets/ordinateurs/details_lenovo_legion.php" >
                 <input class="legion_1" type="submit" value="Détails">
             </form>
@@ -112,9 +105,8 @@
             <img class="photo_rog" src="../../images/category/pc_asuz.jpg" alt="rog">
             <h2 id="affichage_prix_1">1499€</h2>
             <p id="description_rog_1_head">ASUS ROG STRIX G17</p>
-            <p id="description_rog_1">Le PC Portable Gaming ASUS ROG STRIX G17 vous permettra de jouer dans les meilleures conditions à vos jeux PC favoris grâce à des composants ultra-performants,
-                                    <br> 
-                                    un écran 144 Hz et une conception haut de gamme qui ne laisse rien au hasard.</p>
+            <p id="description_rog_1">Le PC Portable Gaming ASUS ROG STRIX G17 vous permettra de jouer dans les meilleures conditions à vos jeux PC favoris grâce à des composants ultra-performants.
+                                    </p>
             <form action="../details_objets/ordinateurs/details_asuz_rog.php" >
                 <input class="rog_1" type="submit" value="Détails">
             </form>
@@ -129,10 +121,7 @@
             <h2 id="affichage_prix_1">1299€</h2>
             <p id="description_hp_1_head">HP Pavilion Gaming TG01-2960nd</p>
             <p id="description_hp_1">Jouez aux jeux vidéo les plus récents comme Cyberpunk 2077 aux paramètres 
-                                       les plus élevés sur le HP Pavillon Gaming TG01-2960nd. 
-                                       La carte graphique NVIDIA RTX 3060Ti est suffisamment puissante pour ça. 
-                                       Grâce à cette nouvelle génération de carte graphique, 
-                                       vous pourrez même jouer en 4K avec un nombre élevé d'images par seconde.</p>
+                                       les plus élevés sur le HP Pavillon Gaming TG01-2960nd. </p>
             <form action="../details_objets/ordinateurs/details_hp_pavilion.php" >
                 <input class="hp_1" type="submit" value="Détails">
             </form>

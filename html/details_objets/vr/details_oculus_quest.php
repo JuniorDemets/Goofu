@@ -1,4 +1,13 @@
-<!DOCTYPE html>
+<?php
+//  Cookies pour la connexion sur tout le site
+    $E_mail = $_POST['E_mail'];
+    setcookie("Cookie", $E_mail, time()+3600000000000000000000000000000000000000000000000000000000000000000000000000000000000000);
+    if (isset($_COOKIE["Cookie"])){ 
+        echo 'Le cookie existe ' . $_COOKIE["Cookie"] . '!<br />';
+    }else
+        echo 'Le cookie n\'existe pas <br />';
+?>
+!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -12,20 +21,20 @@
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
         <div class="pageup">
-            <a href="../../index.php"><img class="logo" src="../../../images/logo.png" alt="logo"></a>
-        </div>
-        <div class="search_total">
-            <input class="barre_cherche" placeholder="Recherche..." >
-            <input class="bouton_rechercher"  type="submit" value="Rechercher"> 
-                <form action="../../panier.php">
-                    <input class="panier" type="submit" value="Panier">
-                </form>
-                <form action="../../connexion.php" target="_blank">
-                    <input class="connexion" type="submit" value="Connexion">
-                </form>
-                <form action="../../compte.php" target="_blank">
-                    <input class="compte" type="submit" value="Compte">
-                </form>
+            <a href="index.php" class="lien_logo"><img class="logo" src="../../../images/logo.png" alt="logo"></a>
+            <div class="search_total">
+                <input class="barre_cherche" placeholder="Recherche..." >
+                <input class="bouton_rechercher"  type="submit" value="Rechercher">
+            </div> 
+            <form action="panier.php">
+                <input class="panier" type="submit" value="Panier">
+            </form>
+            <form action="connexion.php" target="_blank">
+                <input class="connexion" type="submit" value="Connexion">
+            </form>
+            <form action="compte/compte.php" target="_blank">
+                <input class="compte" type="submit" value="Compte">
+            </form>
         </div>   
          <!--choix des catégories (nav bar)-->
         <div class="category_total">
@@ -48,7 +57,7 @@
         <!--Boite qui prends tout-->
         <div class="all_items">
             <div id="img_wishlist">
-                <img src="../../../images/category/oculus-quest.png" class="msi_image" alt="pc msi">
+                <img src="../../../images/category/oculus-quest.png" class="produit_image" alt="Oculus Quest">
             </div>
             <form action="....">
                 <input class="ajouter_liste_souhaits" type="submit" value="Ajouter à la Liste des Souhaits">

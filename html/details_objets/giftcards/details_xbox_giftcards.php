@@ -16,7 +16,7 @@
         <link rel="stylesheet" type="text/css" href="../../../css/style.css">
         <link rel="stylesheet" type="text/css" href="../../../css/details.css">
         <script src="ajouter_panier.js"></script> 
-        <title>MSI Mag Codex</title>
+        <title>Carte cadeau Xbox</title>
     </head>
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
@@ -57,27 +57,18 @@
         <!--Boite qui prends tout-->
         <div class="all_items">
             <div id="img_wishlist">
-                <img src="../../../images/category/pc_msi.jpg" class="produit_image" alt="pc msi">
+                <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1XDkS?ver=6779&q=90&m=6&h=200&w=200&b=%23FFFFFFFF&o=f&aim=true" class="produit_image" alt="pc msi">
             </div>
+            
             <div class="titre_description">
-                <h2 class="details">Détails du produit :</h2>
+                <h2 class="details">Carte cadeau Xbox :</h2>
                 <p class="description_complete">
-                    Le MSI MAG Codex X5 11-463MYS est un PC gamer puissant qui vous permet de jouer aux jeux actuels et futurs avec des paramètres ultra.
-                    <br>
-                    Grâce à la carte graphique NVIDIA GeForce RTX 3090, vous pourrez atteindre des fréquences d'images élevées dans des jeux exigeants tels que Cyberpunk 2077 et Elden Ring.
-                    <br>
-                    Quelle que soit l'intensité de vos sessions de jeu, le MSI continuera de bien fonctionner grâce au refroidissement liquide.
-                    <br>
-                    Équipé d'un processeur Intel Core i9 et d'une mémoire vive de 32 Go, ce PC ne ralentira pas si vous exécutez plusieurs programmes lourds en même temps ou streamez votre gameplay à vos amis via Twitch ou Discord. 
-                    <br>
-                    Grâce à la capacité de stockage totale de 4 téraoctets, vous pourrez sauvegarder au moins 80 jeux de 45 Go en moyenne.
-                    <br>
-                    Besoin d'encore plus de puissance ou de stockage ? La paroi latérale en verre vous permet d'accéder à tous les composants pour une mise à niveau facile. 
+                Avec la carte prépayée Xbox Gift Card de Microsoft pour Xbox One et Xbox 360, profitez au maximum du Market Place présent sur le Xbox Live.
                 </p>
                 </div>
             </div>
             <div class="prix_panier">
-                <p class="prix">4999€</p>
+                <p class="prix">10€</p>
                 <form action="../../panier.php">
                     <input class="ajouter_panier" type="submit" value="Ajouter au panier">
                 </form>
@@ -96,8 +87,9 @@
                     <option value="4">10</option>
                 </select>
             </div>
-           <!--Commentaires sur l'article-->
-           <form action="../../../php/recup_com.php" method="POST">
+            
+            <!--Commentaires sur l'article-->
+            <form action="../../../php/recup_com.php" method="POST">
                 <textarea class="ajouter_commentaire" name="Commentaire"
                 rows="5" cols="33" placeholder="Ajoutez un commentaire..."></textarea>
                 <form action="....">
@@ -107,6 +99,6 @@
                 <input class="bt_send_com" type="submit" value="Envoyer">
             </form>   
         </div>
-        <div class="signature">Standaert-De Clercq Simon, Demets Junior et Ugo Koch </div>         
+        <div class="signature">Standaert-De Clercq Simon, Demets Junior et Koch Ugo </div>         
     </body>
 </html>
