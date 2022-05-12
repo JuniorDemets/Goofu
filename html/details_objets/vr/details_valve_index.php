@@ -21,21 +21,21 @@
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
         <div class="pageup">
-            <a href="../../index.php"><img class="logo" src="../../../images/logo.png" alt="logo"></a>
+            <a href="../index.php"><img class="logo" src="../../../images/index/logo.jpg" alt="logo"></a>
+            <div class="search_total">
+                <input class="barre_cherche" placeholder="Recherche..." >
+                <input class="bouton_rechercher"  type="submit" value="Rechercher">
+            </div> 
+            <form action="../panier.php">
+                <input class="panier" type="submit" value="Panier">
+            </form>
+            <form action="../connexion.php" target="_blank">
+                <input class="connexion" type="submit" value="Connexion">
+            </form>
+            <form action="../compte/compte.php" target="_blank">
+                <input class="compte" type="submit" value="Compte">
+            </form>
         </div>
-        <div class="search_total">
-            <input class="barre_cherche" placeholder="Recherche..." >
-            <input class="bouton_rechercher"  type="submit" value="Rechercher"> 
-                <form action="../../panier.php">
-                    <input class="panier" type="submit" value="Panier">
-                </form>
-                <form action="../../connexion.php" target="_blank">
-                    <input class="connexion" type="submit" value="Connexion">
-                </form>
-                <form action="../../compte.php" target="_blank">
-                    <input class="compte" type="submit" value="Compte">
-                </form>
-        </div>   
          <!--choix des catégories (nav bar)-->
         <div class="category_total">
             <form action="../../categories/ordinateurs.php">
@@ -57,15 +57,11 @@
         <!--Boite qui prends tout-->
         <div class="all_items">
             <div id="img_wishlist">
-                <img src="../../../images/category/valve-index.jpg" class="msi_image" alt="pc msi">
-            </div>
-            <form action="....">
-                <input class="ajouter_liste_souhaits" type="submit" value="Ajouter à la Liste des Souhaits">
-            </form>
+                <img src="../../../images/category/valve-index.jpg" class="produit_image" alt="valve index"></div>
             <div class="titre_description">
                 <h2 class="details">Détails du produit :</h2>
                 <p class="description_complete">
-                Quoi de mieux pour jouer au nouveau jeu de Valve que le casque de VR de Valve ? 
+                Quoi de mieux pour jouer au nouveau jeu de Valve que le casque de VR de Valve ? 
                 Il s’appelle Valve Index, et fonctionnera bien évidemment avec Half-Life : Alyx. 
                 C’est aujourd’hui l’un des casques les plus haut de gamme du marché. 
                 Il atteint ce statut grâce à son affichage basé autour de deux écrans LCD de 1440 x 1600 pixels 
@@ -98,6 +94,10 @@
             <form action="../../../php/recup_com.php" method="POST">
                 <textarea class="ajouter_commentaire" name="Commentaire"
                 rows="5" cols="33" placeholder="Ajoutez un commentaire..."></textarea>
+            <form action="....">
+                <input class="ajouter_liste_souhaits" type="submit" value="Ajouter à la Liste des Souhaits">
+            </form>
+                
             <!--Bouton-->
                 <input class="bt_send_com" type="submit" value="Envoyer">
             </form>   
