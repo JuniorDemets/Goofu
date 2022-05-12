@@ -1,3 +1,25 @@
+<?php
+//Démarrage de la session 
+session_start()
+
+//Connexion à la base de données
+$dbh = new PDO('mysql:host=localhost;dbname=4tt_junior', 'junior', 'junior5');
+
+$email = $E_mail;
+$expire = time() + 60*60*24*3; // 3 days from now
+
+//Mis en route des cookies
+setcookie("utilisateur", $email, $expire); 
+
+
+//Test de la présence de cookies
+if(!isset($_COOKIE["utilisateur"])) {
+    echo "pas de cookie ! ";
+  } else {
+    echo  $_COOKIE[$email];
+  }
+
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -6,7 +28,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="../../css/style.css">
         <link rel="stylesheet" type="text/css" href="../../css/style_compte.css">
-        <title>Mes retours</title>
+        <title>Sécurité</title>
     </head>
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
@@ -46,12 +68,23 @@
         </div>
         <!--Contenu-->
         <div>
-            <h1 id="account_title" class="code-title"> Mes retours </h1>
+            <h1 id="account_title" class="code-title"> Sécurité / Données personnelles</h1>
         </div>  
-        <form action="../../php/recup_com.php" method="POST">
-            <textarea cols="100" rows="20" id="commentaire" name="Commentaire" placeholder="Votre commentaire!!"></textarea>
-            <input type="submit" value="Envoyer" id="bt-commentaire">
-        </form>
+        <div id="données-perso">
+            <div>Nom: XXXXXXX </div>
+            <br />
+            <br />
+            <div>Prénom: XXXXXX</div>
+            <br/>
+            <br />
+            <div>Genre: Homme/Femme/non-binaire</div>
+            <br />
+            <br />
+            <div>E-mail: XXXXXXX@gmail.com </div>
+            <br />
+            <br />
+            <div>Mot de passe: XXXXXX1652</div>
+        </div>
         <div class="boutons_ducompte">
             <form action="compte.html">
                 <input id="bt_compte" type="submit" value="Compte">
@@ -76,5 +109,6 @@
             </form>
         </div>
         <div class="signature">Standaert-De Clercq Simon  et Demets Junior </div>
+    </body>
     </body>
 </html>

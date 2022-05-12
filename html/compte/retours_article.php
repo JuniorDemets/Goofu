@@ -1,3 +1,25 @@
+<?php
+//Démarrage de la session 
+session_start()
+
+//Connexion à la base de données
+$dbh = new PDO('mysql:host=localhost;dbname=4tt_junior', 'junior', 'junior5');
+
+$email = $E_mail;
+$expire = time() + 60*60*24*3; // 3 days from now
+
+//Mis en route des cookies
+setcookie("utilisateur", $email, $expire); 
+
+
+//Test de la présence de cookies
+if(!isset($_COOKIE["utilisateur"])) {
+    echo "pas de cookie ! ";
+  } else {
+    echo  $_COOKIE[$email];
+  }
+
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -6,7 +28,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="../../css/style.css">
         <link rel="stylesheet" type="text/css" href="../../css/style_compte.css">
-        <title>Code promo</title>
+        <title>Retour d'article</title>
     </head>
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
@@ -44,23 +66,16 @@
                 <input class="cartes_cadeau" type="submit" value="Cartes Cadeau">
             </form>
         </div>
-    <!--Contenu-->
+        <!--Contenu-->
         <div>
-            <h1 id="account_title" class="code-title"> Code promotionnel </h1>
+            <h1 id="account_title" class="code-title"> Retourner des articles </h1>
         </div>   
-        <div id="code">
-            <p id="code1"> Code 1: </p>
-            <p> AbXpmIk9 </p>
-            <p id="code2"> Code 2: </p>
-            <p> PMghJk55 </p>
-            <p id="code3"> Code 3: </p>
-            <p> mKldjF47 </p>
-            <p id="code4"> Code 4: </p>
-            <p> SDGjqsv3 </p>
-            <p id="code5"> Code 5: </p>
-            <p> AGXWm6k9 </p>
-            <p id="code6"> Code 6: </p>
-            <p> MjkDlB28 </p>
+        <div>
+            <p id="sous-titre-retour">Pour retourner un article, veuillez remplir le document ci-dessous <br /> afin de nous l'envoyer à l'adresse suivante: Goofu2022@gmail.com. </p><br />
+            <p id="sous-titre-retour1">
+                Lien pour accéder au formulaire:
+                <a href="../document/formulaire_retour.pdf"> Formulaire de retour</a>
+            </p>
         </div>
         <div class="boutons_ducompte">
             <form action="compte.html">

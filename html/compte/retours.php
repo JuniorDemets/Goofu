@@ -1,3 +1,25 @@
+<?php
+//Démarrage de la session 
+session_start()
+
+//Connexion à la base de données
+$dbh = new PDO('mysql:host=localhost;dbname=4tt_junior', 'junior', 'junior5');
+
+$email = $E_mail;
+$expire = time() + 60*60*24*3; // 3 days from now
+
+//Mis en route des cookies
+setcookie("utilisateur", $email, $expire); 
+
+
+//Test de la présence de cookies
+if(!isset($_COOKIE["utilisateur"])) {
+    echo "pas de cookie ! ";
+  } else {
+    echo  $_COOKIE[$email];
+  }
+
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -6,7 +28,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="../../css/style.css">
         <link rel="stylesheet" type="text/css" href="../../css/style_compte.css">
-        <title>Retour d'article</title>
+        <title>Mes retours</title>
     </head>
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
@@ -46,15 +68,12 @@
         </div>
         <!--Contenu-->
         <div>
-            <h1 id="account_title" class="code-title"> Retourner des articles </h1>
-        </div>   
-        <div>
-            <p id="sous-titre-retour">Pour retourner un article, veuillez remplir le document ci-dessous <br /> afin de nous l'envoyer à l'adresse suivante: Goofu2022@gmail.com. </p><br />
-            <p id="sous-titre-retour1">
-                Lien pour accéder au formulaire:
-                <a href="../document/formulaire_retour.pdf"> Formulaire de retour</a>
-            </p>
-        </div>
+            <h1 id="account_title" class="code-title"> Mes retours </h1>
+        </div>  
+        <form action="../../php/recup_com.php" method="POST">
+            <textarea cols="100" rows="20" id="commentaire" name="Commentaire" placeholder="Votre commentaire!!"></textarea>
+            <input type="submit" value="Envoyer" id="bt-commentaire">
+        </form>
         <div class="boutons_ducompte">
             <form action="compte.html">
                 <input id="bt_compte" type="submit" value="Compte">

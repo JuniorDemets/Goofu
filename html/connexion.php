@@ -25,9 +25,9 @@
 
                 <input class="button" type=submit name="envoi" value="Connexion">
 
-                <a class="link_co" href="http://localhost/phpmyadmin/sql.php?db=goofu&table=goofu&pos=0" id="mdp_oublier"><p>Mot de passe oublié</p></a>
+                <a class="link_co" href="mdp_oublie.php" id="mdp_oublier"><p>Mot de passe oublié</p></a>
 
-                <a class="link_co" href="registration.html"><p  id="lien_inscription"> Inscription </p></a>
+                <a class="link_co" href="registration.php"><p  id="lien_inscription"> Inscription </p></a>
             </div>
         </form>
     </body>

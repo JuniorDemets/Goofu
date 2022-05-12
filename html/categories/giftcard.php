@@ -1,11 +1,24 @@
-<?php>
-//  Cookies pour la connexion sur tout le site
-    $E_mail = $_POST['E_mail'];
-    setcookie("Cookie", $E_mail, time()+3600000000000000000000000000000000000000000000000000000000000000000000000000000000000000);
-    if (isset($_COOKIE["Cookie"])){ 
-        echo 'Le cookie existe ' . $_COOKIE["Cookie"] . '!<br />';
-    }else
-        echo 'Le cookie n\'existe pas <br />';
+<?php
+//Démarrage de la session 
+session_start()
+
+//Connexion à la base de données
+$dbh = new PDO('mysql:host=localhost;dbname=4tt_junior', 'junior', 'junior5');
+
+$email = $E_mail;
+$expire = time() + 60*60*24*3; // 3 days from now
+
+//Mis en route des cookies
+setcookie("utilisateur", $email, $expire); 
+
+
+//Test de la présence de cookies
+if(!isset($_COOKIE["utilisateur"])) {
+    echo "pas de cookie ! ";
+  } else {
+    echo  $_COOKIE[$email];
+  }
+
 ?>
 <!DOCTYPE HTML>
 <HTML lang="en">
@@ -20,7 +33,7 @@
     </head>
     <body>
         <div class="pageup">
-            <a href="../index.php"><img class="logo" src="https://via.placeholder.com/140x100" alt="logo"></a>
+            <a href="../index.php"><img class="logo" src="../../images/index/logo.jpg" alt="logo"></a>
             <div class="search_total">
                 <input class="barre_cherche" placeholder="Recherche..." >
                 <input class="bouton_rechercher"  type="submit" value="Rechercher">
@@ -63,6 +76,7 @@
             <form action="ajouter_panier.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
+        </div>
         <!-- Fin boite un -->
         <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
         <div class="choix_htc">
@@ -76,6 +90,7 @@
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
+        </div>
         <!-- Fin boite un -->
         <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
         <div class="choix_oneplus">
@@ -89,6 +104,7 @@
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
+        </div>
         <!-- Fin boite un -->
         <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
         <div class="choix_asuz">
@@ -102,10 +118,11 @@
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
+        </div> 
         <!-- Fin boite un -->
         <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
         <div class="choix_asuz">
-        <img class="photo_asuz" src="../images/category/150.png" alt="Image2">
+            <img class="photo_asuz" src="../images/category/150.png" alt="Image2">
             <h2 id="affichage_prix_1">$00.00</h2>
             <p id="description_asuz_1_head">PC Gamer de marque Asuz :</p>
             <p id="description_asuz_1">Ce pc de marque Asuz exellent pour gaming next-gen. </p>
@@ -115,6 +132,7 @@
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
+        </div>
         <!-- Fin boite un -->
         <div class="signature">Standaert-De Clercq Simon  et Demets Junior </div>
     </body>
