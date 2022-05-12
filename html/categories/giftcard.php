@@ -64,75 +64,75 @@ if(!isset($_COOKIE["utilisateur"])) {
             <form action="giftcard.php">
                 <input class="cartes_cadeau" type="submit" value="Cartes Cadeau">
             </form>
-        <!-- boite pc msi (présentation) +  bouton pour voir le pc msi -->
-        <div class="choix_oculus">
-            <img class="photo_oculus" src="../images/category/150.png" alt="Image1">
-            <h2 id="affichage_prix_1">$00.00</h2>
-            <p id="description_oculus_1_head">PC Gamer de marque oculus :</p>
-            <p id="description_oculus_1">Ce pc de marque oculus exellent pour gaming next-gen. </p>
-            <form action="oculus.php" >
-                <input class="oculus_1" type="submit" value="Détails">
+        <!-- boite giftcard xbox  (présentation) +  bouton pour voir le giftcard xbox -->
+        <div class="choix_xbox_gift">
+            <img class="photo_category" src="../../images/category/xbox.png" alt="xbox logo">
+            <h2 id="affichage_prix_1">25€</h2>
+            <p id="description_category_1_head">Carte cadeau xbox 25€ :</p>
+            <p id="description_category_1">A dépenser sur le microsoft store ! </p>
+            <form action="../details_objets/giftcard/details_xbox_giftcard.php" >
+                <input class="produit_1" type="submit" value="Détails">
             </form>
             <form action="ajouter_panier.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
         </div>
         <!-- Fin boite un -->
-        <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
-        <div class="choix_htc">
-            <img class="photo_htc" src="../images/category/150.png" alt="Image2">
-            <h2 id="affichage_prix_1">$00.00</h2>
-            <p id="description_htc_1_head">PC Gamer de marque htc :</p>
-            <p id="description_htc_1">Ce pc de marque htc exellent pour gaming next-gen. </p>
-            <form action="htc.php" >
-                <input class="htc_1" type="submit" value="Détails">
+        <!-- boite giftcard ps (présentation) +  bouton pour voir le giftcard ps -->
+        <div class="choix_playstation_gift">
+        <img class="photo_category" src="../../images/category/playstation.jpg" alt="Image1">
+            <h2 id="affichage_prix_1">25€</h2>
+            <p id="description_category_1_head">Carte cadeau playstation 25€ :</p>
+            <p id="description_category_1">A dépenser sur le playstation store ! </p>
+            <form action="../details_objets/giftcard/details_playstation_giftcard.php" >
+                <input class="produit_1" type="submit" value="Détails">
             </form>
-            <form action="ajouter_panier2.php" >
+            <form action="ajouter_panier.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
         </div>
         <!-- Fin boite un -->
-        <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
-        <div class="choix_oneplus">
-            <img class="photo_oneplus" src="../../images/category/150.png" alt="Image2">
-            <h2 id="affichage_prix_1">$00.00</h2>
-            <p id="description_oneplus_1_head">Téléphone gaming de marque OnePlus :</p>
-            <p id="description_oneplus_1">Téléphone gaming de marque OnePlus exellent pour gaming next-gen. </p>
-            <form action="oneplus.php" >
-                <input class="oneplus_1" type="submit" value="Détails">
+        <!-- boite nintendo (présentation) +  bouton pour voir le nintendo -->
+        <div class="choix_nintendo_gift">
+        <img class="photo_category" src="../../images/category/nintendo.png" alt="Image1">
+            <h2 id="affichage_prix_1">25€</h2>
+            <p id="description_category_1_head">Carte cadeau nintendo 25€ :</p>
+            <p id="description_category_1">A dépenser sur le nintendo e-shop ! </p>
+            <form action="../details_objets/giftcard/details_nintendo_giftcard.php" >
+                <input class="produit_1" type="submit" value="Détails">
             </form>
-            <form action="ajouter_panier2.php" >
+            <form action="ajouter_panier.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
         </div>
         <!-- Fin boite un -->
-        <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
-        <div class="choix_asuz">
-            <img class="photo_asuz" src="../images/category/150.png" alt="Image2">
-            <h2 id="affichage_prix_1">$00.00</h2>
-            <p id="description_asuz_1_head">PC Gamer de marque Asuz :</p>
-            <p id="description_asuz_1">Ce pc de marque Asuz exellent pour gaming next-gen. </p>
-            <form action="asuz.php" >
-                <input class="asuz_1" type="submit" value="Détails">
+        <!-- boite steam (présentation) +  bouton pour voir le steam -->
+        <div class="choix_steam_gift">
+        <img class="photo_category" src="../../images/category/steam.png" alt="steam gift">
+            <h2 id="affichage_prix_1">25€</h2>
+            <p id="description_category_1_head">Carte cadeau steam de 25€ :</p>
+            <p id="description_category_1">A dépenser sur Steam ! </p>
+            <form action="../details_objets/giftcard/details_steam_giftcard.php" >
+                <input class="produit_1" type="submit" value="Détails">
             </form>
-            <form action="ajouter_panier2.php" >
+            <form action="ajouter_panier.php" >
+                <input class="bouton__panier_1" type="submit" value="+">
+            </form>
+        </div>
+        <!-- Fin boite un -->
+        <!-- boite paysafe (présentation) +  bouton pour voir le paysafe -->
+         <div class="choix_paysafe_gift">
+        <img class="photo_category" src="../../images/category/paysafe.png" alt="paysafe logo">
+            <h2 id="affichage_prix_1">25€</h2>
+            <p id="description_category_1_head">Carte paysafe de 25€ :</p>
+            <p id="description_category_1">A dépenser partout  ! </p>
+            <form action="../details_objets/giftcard/details_paysafe_giftcard.php" >
+                <input class="produit_1" type="submit" value="Détails">
+            </form>
+            <form action="ajouter_panier.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
         </div> 
-        <!-- Fin boite un -->
-        <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
-        <div class="choix_asuz">
-            <img class="photo_asuz" src="../images/category/150.png" alt="Image2">
-            <h2 id="affichage_prix_1">$00.00</h2>
-            <p id="description_asuz_1_head">PC Gamer de marque Asuz :</p>
-            <p id="description_asuz_1">Ce pc de marque Asuz exellent pour gaming next-gen. </p>
-            <form action="asuz.php" >
-                <input class="asuz_1" type="submit" value="Détails">
-            </form>
-            <form action="ajouter_panier2.php" >
-                <input class="bouton__panier_1" type="submit" value="+">
-            </form>
-        </div>
         <!-- Fin boite un -->
         <div class="signature">Standaert-De Clercq Simon  et Demets Junior </div>
     </body>
