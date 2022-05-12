@@ -1,3 +1,12 @@
+<?php
+//  Cookies pour la connexion sur tout le site
+    $E_mail = $_POST['E_mail'];
+    setcookie("Cookie", $E_mail, time()+3600000000000000000000000000000000000000000000000000000000000000000000000000000000000000);
+    if (isset($_COOKIE["Cookie"])){ 
+        echo 'Le cookie existe ' . $_COOKIE["Cookie"] . '!<br />';
+    }else
+        echo 'Le cookie n\'existe pas <br />';
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -7,12 +16,12 @@
         <link rel="stylesheet" type="text/css" href="../../../css/style.css">
         <link rel="stylesheet" type="text/css" href="../../../css/details.css">
         <script src="ajouter_panier.js"></script> 
-        <title>htc vive pro 2</title>
+        <title>playstation vr</title>
     </head>
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
         <div class="pageup">
-            <a href="../../index.php"><img class="logo" src="https://via.placeholder.com/140x100" alt="logo"></a>
+            <a href="../../index.php"><img class="logo" src="../../../images/logo.png" alt="logo"></a>
         </div>
         <div class="search_total">
             <input class="barre_cherche" placeholder="Recherche..." >
@@ -48,7 +57,7 @@
         <!--Boite qui prends tout-->
         <div class="all_items">
             <div id="img_wishlist">
-                <img src="../../../images/category/vr-htc-vive-pro2.jpg" class="msi_image" alt="pc msi">
+                <img src="../../../images/category/playstation-vr.jpg" class="msi_image" alt="pc msi">
             </div>
             <form action="....">
                 <input class="ajouter_liste_souhaits" type="submit" value="Ajouter à la Liste des Souhaits">
@@ -56,14 +65,14 @@
             <div class="titre_description">
                 <h2 class="details">Détails du produit :</h2>
                 <p class="description_complete">
-                Conçu pour répondre aux besoins des utilisateurs de RV les plus exigeants, HTC VIVE Pro 2 est un système de Réalité Virtuelle qui offre des graphismes et un son de niveau supérieur.
-                Avec une ergonomie utile et pragmatique, bénéficiez d'une immersion fluide et confortable.
+                Avec le PlayStation VR, le nouveau casque de réalité virtuelle pour PlayStation 4, vous ferez une expérience de jeu totalement inédite.
+                Vous serez au cœur de l'action, découvrant chaque détail de nouveaux mondes extraordinaires et vous aurez la sensation d’être réellement dans le jeu.
                 </p>
                 </div>
             </div>
             <div class="prix_panier">
-                <p class="prix">1 399€</p>
-                <form action="add_cart">
+                <p class="prix">330€</p>
+                <form action="../../panier.php">
                     <input class="ajouter_panier" type="submit" value="Ajouter au panier">
                 </form>
                 <select name="Nombre d'ajouts" id="nbre_panier">
@@ -82,13 +91,13 @@
                 </select>
             </div>
             <!--Commentaires sur l'article-->
-            <form action="commentaire.php">
-                <textarea class="ajouter_commentaire" name="commentaires"
+            <form action="../../../php/recup_com.php" method="POST">
+                <textarea class="ajouter_commentaire" name="Commentaire"
                 rows="5" cols="33" placeholder="Ajoutez un commentaire..."></textarea>
             <!--Bouton-->
                 <input class="bt_send_com" type="submit" value="Envoyer">
             </form>   
         </div>
-        <div class="signature">Standaert-De Clercq Simon  et Demets Junior </div>         
+        <div class="signature">Standaert-De Clercq Simon, Demets Junior et Ugo Koch </div>         
     </body>
 </html>

@@ -1,3 +1,968 @@
+<<<<<<< HEAD
+=======
+
+/*msi*/
+.choix_msi{
+    width: 100%;
+    height: 275px;
+    background-color: white;
+    position: absolute;
+    left: -1px;
+    top: 800px;
+}
+.photo_msi{
+    width: 124px;
+    height: 170;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
+#description_msi_1_head{
+    font-size: 25px;
+    padding-left: 30%;
+    font-weight: bolder;
+    text-decoration: underline;
+    
+}
+#description_msi_1{
+    font-size: 15px;
+    padding-left: 30%;
+    width: 50%;
+    
+}
+.msi_1{
+    position:absolute;
+    left: 70%;
+    top: 85px;
+    border-radius: 25px;
+    width: 15%;
+    height: 100px;
+    background-color: rgba(117, 114, 255, 1);
+    font-size: 50px;
+    color: white; 
+    cursor: pointer;
+}
+/*Acer*/
+.choix_acer{
+    width: 100%;
+    height: 275px;
+    background-color: white;
+    position: absolute;
+    left: -1px;
+    top: 560px;
+   
+}
+.photo_acer{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
+#description_acer_1_head{
+    font-size: 25px;
+    padding-left: 30%;
+    font-weight: bolder;
+    text-decoration: underline;
+    
+}
+#description_acer_1{
+    font-size: 15px;
+    padding-left: 30%;
+    padding-right: 40%;
+    
+}
+.acer_1{
+    position:absolute;
+    left: 70%;
+    top: 85px;
+    border-radius: 25px;
+    width: 15%;
+    height: 100px;
+    background-color: rgba(117, 114, 255, 1);
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+/*choix_legion*/
+.choix_legion{
+    width: 100%;
+    height: 275px;
+    background-color: white;
+    position: absolute;
+    left: -1px;
+    top: 840px;
+   
+}
+.photo_legion{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
+#description_legion_1_head{
+    font-size: 25px;
+    padding-left: 30%;
+    font-weight: bolder;
+    text-decoration: underline;
+    
+}
+#description_legion_1{
+    font-size: 15px;
+    padding-left: 30%;
+    padding-right: 40%;
+    
+}
+.legion_1{
+    position:absolute;
+    left: 70%;
+    top: 85px;
+    border-radius: 25px;
+    width: 15%;
+    height: 100px;
+    background-color: rgba(117, 114, 255, 1);
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+/*asuz*/
+.choix_rog{
+    width: 100%;
+    height: 275px;
+    background-color: white;
+    position: absolute;
+    left: -1px;
+    top: 1120px;
+}
+.photo_rog{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
+#description_rog_1_head{
+    font-size: 25px;
+    padding-left: 30%;
+    font-weight: bolder;
+    text-decoration: underline;
+    
+}
+#description_rog_1{
+    font-size: 15px;
+    padding-left: 30%;
+    width: 50%;
+    
+}
+.rog_1{
+    position:absolute;
+    left: 70%;
+    top: 85px;
+    border-radius: 25px;
+    width: 15%;
+    height: 100px;
+    background-color: rgba(117, 114, 255, 1);
+    font-size: 50px;
+    color: white; 
+    cursor: pointer;
+}
+/*HP*/
+.choix_hp{
+    width: 100%;
+    height: 275px;
+    background-color: white;
+    position: absolute;
+    left: -1px;
+    top: 900px;
+}
+.photo_hp{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
+#description_hp_1_head{
+    font-size: 25px;
+    padding-left: 30%;
+    font-weight: bolder;
+    text-decoration: underline;
+    
+}
+#description_hp_1{
+    position: absolute;
+    font-size: 15px;
+    padding-left: 30%;
+    width: 50%;
+    
+}
+.hp_1{
+    position:absolute;
+    left: 70%;
+    top: 85px;
+    border-radius: 25px;
+    width: 15%;
+    height: 100px;
+    background-color: rgba(117, 114, 255, 1);
+    font-size: 50px;
+    color: white; 
+    cursor: pointer;
+}
+
+/*------------------Téléphones------------------*/
+/*Xiaomi*/
+.choix_xiaomi{
+    width: 100%;
+    height: 275px;
+    background-color: white;
+    position: absolute;
+    left: -1px;
+    top: 150px;
+}
+.photo_xiaomi{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
+#description_xiaomi_1_head{
+    font-size: 25px;
+    padding-left: 30%;
+    font-weight: bolder;
+    text-decoration: underline;
+    
+}
+#description_xiaomi_1{
+    font-size: 15px;
+    padding-left: 30%;
+    padding-right: 40%;
+    
+}
+.xiaomi_1{
+    position:absolute;
+    left: 70%;
+    top: 85px;
+    border-radius: 25px;
+    width: 15%;
+    height: 100px;
+    background-color: rgba(117, 114, 255, 1);
+    font-size: 50px;
+    color: white; 
+    cursor: pointer;
+}
+/*asuz phone*/
+.choix_asuz_phone{
+    width: 100%;
+    height: 275px;
+    background-color: white;
+    position: absolute;
+    left: -1px;
+    top: 280px;
+   
+}
+.photo_asuz_phone{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
+#description_asuz_phone_1_head{
+    font-size: 25px;
+    padding-left: 30%;
+    font-weight: bolder;
+    text-decoration: underline;
+    
+}
+#description_asuz_phone_1{
+    font-size: 15px;
+    padding-left: 30%;
+    padding-right: 40%;
+    
+}
+.asuz_phone_1{
+    position:absolute;
+    left: 70%;
+    top: 85px;
+    border-radius: 25px;
+    width: 15%;
+    height: 100px;
+    background-color: rgba(117, 114, 255, 1);
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+/*oneplus*/
+.choix_oneplus{
+    width: 100%;
+    height: 275px;
+    background-color: white;
+    position: absolute;
+    left: -1px;
+    top: 280px;
+   
+}
+.photo_oneplus{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
+#affichage_prix_1{
+    position: absolute;
+    padding-left: 300px;
+    font-weight: bold;  
+}
+#description_oneplus_1_head{
+    font-size: 25px;
+    padding-left: 30%;
+    font-weight: bolder;
+    text-decoration: underline;
+    
+}
+#description_oneplus_1{
+    font-size: 15px;
+    padding-left: 30%;
+    padding-right: 40%;
+}
+.oneplus_1{
+    position:absolute;
+    left: 70%;
+    top: 85px;
+    border-radius: 25px;
+    width: 15%;
+    height: 100px;
+    background-color: rgba(117, 114, 255, 1);
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+.bouton__panier_1{
+    position:absolute;
+    left: 90%;
+    top: 100px;
+    border-radius: 11px;
+    width: 4%;
+    height: 70px;
+    background-color: rgb(190, 190, 190);
+    font-size: 60px;
+    color: white;
+    cursor: pointer;
+}
+/*---------------------Réalité Virtuelle------------------------*/
+/*Oculus*/
+.choix_quest{
+    width: 100%;
+    height: 275px;
+    background-color: white;
+    position: absolute;
+    left: -1px;
+    top: 150px;
+}
+.photo_quest{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
+#description_quest_1_head{
+    font-size: 25px;
+    padding-left: 30%;
+    font-weight: bolder;
+    text-decoration: underline;
+    
+}
+#description_quest_1{
+    font-size: 15px;
+    padding-left: 30%;
+    padding-right: 40%;
+    
+}
+.quest_1{
+    position:absolute;
+    left: 70%;
+    top: 85px;
+    border-radius: 25px;
+    width: 15%;
+    height: 100px;
+    background-color: rgba(117, 114, 255, 1);
+    font-size: 50px;
+    color: white; 
+    cursor: pointer;
+}
+.bouton__panier{
+    position:absolute;
+    left: 90%;
+    top: 100px;
+    border-radius: 11px;
+    width: 4%;
+    height: 70px;
+    background-color: rgb(190, 190, 190);
+    font-size: 60px;
+    color: white;
+    cursor: pointer;
+}
+/*asuz*/
+.choix_htc{
+    width: 100%;
+    height: 275px;
+    background-color: white;
+    position: absolute;
+    left: -1px;
+    top: 280px;
+   
+}
+.photo_htc{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
+#affichage_prix_1{
+    position: absolute;
+    padding-left: 300px;
+    top: 150px; 
+}
+#description_htc_1_head{
+    font-size: 25px;
+    padding-left: 30%;
+    font-weight: bolder;
+    text-decoration: underline;
+    
+}
+#description_htc_1{
+    font-size: 15px;
+    padding-left: 30%;
+    padding-right: 40%;
+    
+}
+.htc_1{
+    position:absolute;
+    left: 70%;
+    top: 85px;
+    border-radius: 25px;
+    width: 15%;
+    height: 100px;
+    background-color: rgba(117, 114, 255, 1);
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+.bouton__panier_1{
+    position:absolute;
+    left: 90%;
+    top: 100px;
+    border-radius: 11px;
+    width: 4%;
+    height: 70px;
+    background-color: rgb(190, 190, 190);
+    font-size: 60px;
+    color: white;
+    cursor: pointer;
+}
+/*hp*/
+.choix_hp_reverb_G2{
+    width: 100%;
+    height: 275px;
+    background-color: white;
+    position: absolute;
+    left: -1px;
+    top: 280px;
+   
+}
+.photo_hp_reverb_G2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
+#description_hp_reverb_G2_1_head{
+    font-size: 25px;
+    padding-left: 30%;
+    font-weight: bolder;
+    
+}
+#description_hp_reverb_G2_1{
+    font-size: 15px;
+    padding-left: 30%;
+    padding-right: 40%;
+    
+}
+.hp_reverb_G2_1{
+    position:absolute;
+    left: 70%;
+    top: 85px;
+    border-radius: 25px;
+    width: 15%;
+    height: 100px;
+    background-color: rgba(117, 114, 255, 1);
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+.bouton__panier_1{
+    position:absolute;
+    left: 90%;
+    top: 100px;
+    border-radius: 11px;
+    width: 4%;
+    height: 70px;
+    background-color: rgb(190, 190, 190);
+    font-size: 60px;
+    color: white;
+    cursor: pointer;
+}
+/*valve*/
+.choix_valve_index{
+    width: 100%;
+    height: 275px;
+    background-color: white;
+    position: absolute;
+    left: -1px;
+    top: 280px;
+   
+}
+.photo_valve_index{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
+#description_valve_index_1_head{
+    font-size: 25px;
+    padding-left: 30%;
+    font-weight: bolder;
+    
+}
+#description_valve_index_1{
+    font-size: 15px;
+    padding-left: 30%;
+    padding-right: 40%;
+    
+}
+.valve_index_1{
+    position:absolute;
+    left: 70%;
+    top: 85px;
+    border-radius: 25px;
+    width: 15%;
+    height: 100px;
+    background-color: rgba(117, 114, 255, 1);
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+.bouton__panier_1{
+    position:absolute;
+    left: 90%;
+    top: 100px;
+    border-radius: 11px;
+    width: 4%;
+    height: 70px;
+    background-color: rgb(190, 190, 190);
+    font-size: 60px;
+    color: white;
+    cursor: pointer;
+}
+/*playstation*/
+.choix_playstation_vr{
+    width: 100%;
+    height: 275px;
+    background-color: white;
+    position: absolute;
+    left: -1px;
+    top: 280px;
+   
+}
+.photo_playstation_vr{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
+#description_playstation_vr_1_head{
+    font-size: 25px;
+    padding-left: 30%;
+    font-weight: bolder;
+    
+}
+#description_playstation_vr_1{
+    font-size: 15px;
+    padding-left: 30%;
+    padding-right: 40%;
+    
+}
+.playstation_vr_1{
+    position:absolute;
+    left: 70%;
+    top: 85px;
+    border-radius: 25px;
+    width: 15%;
+    height: 100px;
+    background-color: rgba(117, 114, 255, 1);
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+.bouton__panier_1{
+    position:absolute;
+    left: 90%;
+    top: 100px;
+    border-radius: 11px;
+    width: 4%;
+    height: 70px;
+    background-color: rgb(190, 190, 190);
+    font-size: 60px;
+    color: white;
+    cursor: pointer;
+}
+/*----------------------consoles-----------------------------*/
+/*msi*/
+.choix_msi{
+    width: 100%;
+    height: 275px;
+    background-color: white;
+    position: absolute;
+    left: -1px;
+    top: 150px;
+}
+.photo_msi{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
+#affichage_prix_1{
+    position: absolute;
+    padding-left: 300px;
+    font-weight: bold;  
+    font-size: 50px;
+}
+#description_msi_1_head{
+    font-size: 25px;
+    padding-left: 30%;
+    font-weight: bolder;
+    text-decoration: underline;
+    
+}
+#description_msi_1{
+    font-size: 15px;
+    padding-left: 30%;
+    
+}
+.msi_1{
+    position:absolute;
+    left: 70%;
+    top: 85px;
+    border-radius: 25px;
+    width: 15%;
+    height: 100px;
+    background-color: rgba(117, 114, 255, 1);
+    font-size: 50px;
+    color: white; 
+    cursor: pointer;
+}
+.bouton__panier{
+    position:absolute;
+    left: 90%;
+    top: 100px;
+    border-radius: 11px;
+    width: 4%;
+    height: 70px;
+    background-color: rgb(190, 190, 190);
+    font-size: 60px;
+    color: white;
+    cursor: pointer;
+}
+/*asuz*/
+.choix_asuz{
+    width: 100%;
+    height: 275px;
+    background-color: white;
+    position: absolute;
+    left: -1px;
+    top: 280px;
+   
+}
+.photo_asuz{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
+#affichage_prix_1{
+    position: absolute;
+    padding-left: 300px;
+    top: 150px; 
+}
+#description_asuz_1_head{
+    font-size: 25px;
+    padding-left: 30%;
+    font-weight: bolder;
+    text-decoration: underline;
+    
+}
+#description_asuz_1{
+    font-size: 15px;
+    padding-left: 30%;
+    
+}
+.asuz_1{
+    position:absolute;
+    left: 70%;
+    top: 85px;
+    border-radius: 25px;
+    width: 15%;
+    height: 100px;
+    background-color: rgba(117, 114, 255, 1);
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+.bouton__panier_1{
+    position:absolute;
+    left: 90%;
+    top: 100px;
+    border-radius: 11px;
+    width: 4%;
+    height: 70px;
+    background-color: rgb(190, 190, 190);
+    font-size: 60px;
+    color: white;
+    cursor: pointer;
+}
+/*hp*/
+.choix_hp{
+    width: 100%;
+    height: 275px;
+    background-color: white;
+    position: absolute;
+    left: -1px;
+    top: 280px;
+   
+}
+.photo_hp{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
+#affichage_prix_1{
+    position: absolute;
+    padding-left: 300px;
+    font-weight: bold;  
+}
+#description_hp_1_head{
+    font-size: 25px;
+    padding-left: 30%;
+    font-weight: bolder;
+    text-decoration: underline;
+    
+}
+#description_hp_1{
+    font-size: 15px;
+    padding-left: 30%;
+    
+}
+.hp_1{
+    position:absolute;
+    left: 70%;
+    top: 85px;
+    border-radius: 25px;
+    width: 15%;
+    height: 100px;
+    background-color: rgba(117, 114, 255, 1);
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+.bouton__panier_1{
+    position:absolute;
+    left: 90%;
+    top: 100px;
+    border-radius: 11px;
+    width: 4%;
+    height: 70px;
+    background-color: rgb(190, 190, 190);
+    font-size: 60px;
+    color: white;
+    cursor: pointer;
+}
+/*------------------------------cartes cadeau ---------------*/
+/*Xiaomi*/
+.choix_xiaomi{
+    width: 100%;
+    height: 275px;
+    background-color: white;
+    position: absolute;
+    left: -1px;
+    top: 150px;
+}
+.photo_xiaomi{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
+#affichage_prix_1{
+    position: absolute;
+    padding-left: 300px;
+    font-weight: bold;  
+    font-size: 50px;
+}
+#description_xiaomi_1_head{
+    font-size: 25px;
+    padding-left: 30%;
+    font-weight: bolder;
+    text-decoration: underline;
+    
+}
+#description_xiaomi_1{
+    font-size: 15px;
+    padding-left: 30%;
+    
+}
+.xiaomi_1{
+    position:absolute;
+    left: 70%;
+    top: 85px;
+    border-radius: 25px;
+    width: 15%;
+    height: 100px;
+    background-color: rgba(117, 114, 255, 1);
+    font-size: 50px;
+    color: white; 
+    cursor: pointer;
+}
+.bouton__panier{
+    position:absolute;
+    left: 90%;
+    top: 100px;
+    border-radius: 11px;
+    width: 4%;
+    height: 70px;
+    background-color: rgb(190, 190, 190);
+    font-size: 60px;
+    color: white;
+    cursor: pointer;
+}
+/*asuz*/
+.choix_asuz{
+    width: 100%;
+    height: 275px;
+    background-color: white;
+    position: absolute;
+    left: -1px;
+    top: 280px;
+   
+}
+.photo_asuz{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
+#affichage_prix_1{
+    position: absolute;
+    padding-left: 300px;
+    top: 150px; 
+}
+#description_asuz_1_head{
+    font-size: 25px;
+    padding-left: 30%;
+    font-weight: bolder;
+    text-decoration: underline;
+    
+}
+#description_asuz_1{
+    font-size: 15px;
+    padding-left: 30%;
+    
+}
+.asuz_1{
+    position:absolute;
+    left: 70%;
+    top: 85px;
+    border-radius: 25px;
+    width: 15%;
+    height: 100px;
+    background-color: rgba(117, 114, 255, 1);
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+.bouton__panier_1{
+    position:absolute;
+    left: 90%;
+    top: 100px;
+    border-radius: 11px;
+    width: 4%;
+    height: 70px;
+    background-color: rgb(190, 190, 190);
+    font-size: 60px;
+    color: white;
+    cursor: pointer;
+}
+/*oneplus*/
+.choix_oneplus{
+    width: 100%;
+    height: 275px;
+    background-color: white;
+    position: absolute;
+    left: -1px;
+    top: 280px;
+   
+}
+.photo_oneplus{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
+#affichage_prix_1{
+    position: absolute;
+    padding-left: 300px;
+    font-weight: bold;  
+}
+#description_oneplus_1_head{
+    font-size: 25px;
+    padding-left: 30%;
+    font-weight: bolder;
+    text-decoration: underline;
+    
+}
+#description_oneplus_1{
+    font-size: 15px;
+    padding-left: 30%;
+    
+}
+.oneplus_1{
+    position:absolute;
+    left: 70%;
+    top: 85px;
+    border-radius: 25px;
+    width: 15%;
+    height: 100px;
+    background-color: rgba(117, 114, 255, 1);
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+>>>>>>> 5e9329a4852e7b9c179f41db926e09d2753f8967
 .bouton__panier_1{
     position:absolute;
     left: 90%;

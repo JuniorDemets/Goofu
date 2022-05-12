@@ -1,3 +1,12 @@
+<?php
+//  Cookies pour la connexion sur tout le site
+    $E_mail = $_POST['E_mail'];
+    setcookie("Cookie", $E_mail, time()+3600000000000000000000000000000000000000000000000000000000000000000000000000000000000000);
+    if (isset($_COOKIE["Cookie"])){ 
+        echo 'Le cookie existe ' . $_COOKIE["Cookie"] . '!<br />';
+    }else
+        echo 'Le cookie n\'existe pas <br />';
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -7,12 +16,12 @@
         <link rel="stylesheet" type="text/css" href="../../../css/style.css">
         <link rel="stylesheet" type="text/css" href="../../../css/details.css">
         <script src="ajouter_panier.js"></script> 
-        <title>htc vive pro 2</title>
+        <title>valve index</title>
     </head>
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
         <div class="pageup">
-            <a href="../../index.php"><img class="logo" src="https://via.placeholder.com/140x100" alt="logo"></a>
+            <a href="../../index.php"><img class="logo" src="../../../images/logo.png" alt="logo"></a>
         </div>
         <div class="search_total">
             <input class="barre_cherche" placeholder="Recherche..." >
@@ -48,7 +57,7 @@
         <!--Boite qui prends tout-->
         <div class="all_items">
             <div id="img_wishlist">
-                <img src="../../../images/category/vr-htc-vive-pro2.jpg" class="msi_image" alt="pc msi">
+                <img src="../../../images/category/valve-index.jpg" class="msi_image" alt="pc msi">
             </div>
             <form action="....">
                 <input class="ajouter_liste_souhaits" type="submit" value="Ajouter à la Liste des Souhaits">
@@ -56,14 +65,18 @@
             <div class="titre_description">
                 <h2 class="details">Détails du produit :</h2>
                 <p class="description_complete">
-                Conçu pour répondre aux besoins des utilisateurs de RV les plus exigeants, HTC VIVE Pro 2 est un système de Réalité Virtuelle qui offre des graphismes et un son de niveau supérieur.
-                Avec une ergonomie utile et pragmatique, bénéficiez d'une immersion fluide et confortable.
+                Quoi de mieux pour jouer au nouveau jeu de Valve que le casque de VR de Valve ? 
+                Il s’appelle Valve Index, et fonctionnera bien évidemment avec Half-Life : Alyx. 
+                C’est aujourd’hui l’un des casques les plus haut de gamme du marché. 
+                Il atteint ce statut grâce à son affichage basé autour de deux écrans LCD de 1440 x 1600 pixels 
+                (par œil, ou 2880 x 1600 pixels au total) 
+                dont le taux de rafraîchissement peut monter jusqu’à 144 Hz.
                 </p>
                 </div>
             </div>
             <div class="prix_panier">
-                <p class="prix">1 399€</p>
-                <form action="add_cart">
+                <p class="prix">659€</p>
+                <form action="../../panier.php">
                     <input class="ajouter_panier" type="submit" value="Ajouter au panier">
                 </form>
                 <select name="Nombre d'ajouts" id="nbre_panier">
@@ -82,13 +95,13 @@
                 </select>
             </div>
             <!--Commentaires sur l'article-->
-            <form action="commentaire.php">
-                <textarea class="ajouter_commentaire" name="commentaires"
+            <form action="../../../php/recup_com.php" method="POST">
+                <textarea class="ajouter_commentaire" name="Commentaire"
                 rows="5" cols="33" placeholder="Ajoutez un commentaire..."></textarea>
             <!--Bouton-->
                 <input class="bt_send_com" type="submit" value="Envoyer">
             </form>   
         </div>
-        <div class="signature">Standaert-De Clercq Simon  et Demets Junior </div>         
+        <div class="signature">Standaert-De Clercq Simon, Demets Junior et Ugo Koch </div>         
     </body>
 </html>
