@@ -9,7 +9,7 @@
     top: 150px;
     left: 5%;
 }
-.msi_image, .acer_image, .legion_image{
+.produit_image{
     max-width: 75%;
     height: auto;
     position: absolute;
