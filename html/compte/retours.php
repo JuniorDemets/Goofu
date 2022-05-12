@@ -1,3 +1,25 @@
+<?php
+//Démarrage de la session 
+session_start()
+
+//Connexion à la base de données
+$dbh = new PDO('mysql:host=localhost;dbname=4tt_junior', 'junior', 'junior5');
+
+$email = $E_mail;
+$expire = time() + 60*60*24*3; // 3 days from now
+
+//Mis en route des cookies
+setcookie("utilisateur", $email, $expire); 
+
+
+//Test de la présence de cookies
+if(!isset($_COOKIE["utilisateur"])) {
+    echo "pas de cookie ! ";
+  } else {
+    echo  $_COOKIE[$email];
+  }
+
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>

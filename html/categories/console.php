@@ -1,11 +1,24 @@
-<?php>
-//  Cookies pour la connexion sur tout le site
-    $E_mail = $_POST['E_mail'];
-    setcookie("Cookie", $E_mail, time()+3600000000000000000000000000000000000000000000000000000000000000000000000000000000000000);
-    if (isset($_COOKIE["Cookie"])){ 
-        echo 'Le cookie existe ' . $_COOKIE["Cookie"] . '!<br />';
-    }else
-        echo 'Le cookie n\'existe pas <br />';
+<?php
+//Démarrage de la session 
+session_start()
+
+//Connexion à la base de données
+$dbh = new PDO('mysql:host=localhost;dbname=4tt_junior', 'junior', 'junior5');
+
+$email = $E_mail;
+$expire = time() + 60*60*24*3; // 3 days from now
+
+//Mis en route des cookies
+setcookie("utilisateur", $email, $expire); 
+
+
+//Test de la présence de cookies
+if(!isset($_COOKIE["utilisateur"])) {
+    echo "pas de cookie ! ";
+  } else {
+    echo  $_COOKIE[$email];
+  }
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
