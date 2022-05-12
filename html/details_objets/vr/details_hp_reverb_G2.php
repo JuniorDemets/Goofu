@@ -15,8 +15,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" type="text/css" href="../../../css/style.css">
         <link rel="stylesheet" type="text/css" href="../../../css/details.css">
-        <script src="ajouter_panier.js"></script> 
-        <title>Oculus Quest</title>
+        <script src="ajouter_panier.js"></script>
         <title>HP Reverb G2</title>
     </head>
     <body>

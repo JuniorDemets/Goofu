@@ -74,8 +74,9 @@
         <div class="choix_htc">
             <img class="photo_htc" src="../../images/category/vr-htc-vive-pro2.jpg" alt="Image2">
             <h2 id="affichage_prix_1">1 399€</h2>
-            <p id="description_htc_1_head">PC Gamer de marque htc :</p>
-            <p id="description_htc_1">Ce pc de marque htc exellent pour gaming next-gen. </p>
+            <p id="description_htc_1_head">HTC VIVE pro 2</p>
+            <p id="description_htc_1">Conçu pour répondre aux besoins des utilisateurs de RV les plus exigeants, 
+                HTC VIVE Pro 2 est un système de Réalité Virtuelle qui offre des graphismes et un son de niveau supérieur. </p>
             <form action="../details_objets/vr/details_htc_vive_pro2.php" >
                 <input class="htc_1" type="submit" value="Détails">
             </form>
@@ -94,32 +95,38 @@
                 Vous avez donc plus de pixels que sur un écran 4K.</p>
             <form action="../details_objets/vr/details_hp_reverb_G2.php" >
                 <input class="hp_reverb_G2_1" type="submit" value="Détails">
+                </form>
+                <form action="ajouter_panier2.php" >
+                <input class="bouton__panier_1" type="submit" value="+">
+            </form>
         <!-- Fin boite un -->
-        <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
-        <!-- <div class="choix_asuz">
-            <img class="photo_asuz" src="../images/category/150.png" alt="Image2">
-            <h2 id="affichage_prix_1">$00.00</h2>
-            <p id="description_asuz_1_head">PC Gamer de marque Asuz :</p>
-            <p id="description_asuz_1">Ce pc de marque Asuz exellent pour gaming next-gen. </p>
-            <form action="asuz.php" >
-                <input class="asuz_1" type="submit" value="Détails">
+        <!-- valve_index (présentation) +  bouton pour voir le valve_index -->
+        <div class="choix_valve_index">
+            <img class="photo_valve_index" src="../../images/category/valve-index.jpg" alt="Image2">
+            <h2 id="affichage_prix_1">580 €</h2>
+            <p id="description_valve_index_1_head">Valve index :</p>
+            <p id="description_valve_index_1">Quoi de mieux pour jouer au nouveau jeu de Valve que le casque de VR de Valve ? 
+                Il s’appelle Valve Index, et fonctionnera bien évidemment avec Half-Life : Alyx.  </p>
+            <form action="../details_objets/vr/details_valve_index.php" >
+                <input class="valve_index_1" type="submit" value="Détails">
             </form>
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
-            </form> -->
+            </form>
         <!-- Fin boite un -->
         <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
-        <!-- <div class="choix_asuz">
-            <img class="photo_asuz" src="../images/category/150.png" alt="Image2">
-            <h2 id="affichage_prix_1">$00.00</h2>
-            <p id="description_asuz_1_head">PC Gamer de marque Asuz :</p>
-            <p id="description_asuz_1">Ce pc de marque Asuz exellent pour gaming next-gen. </p>
-            <form action="asuz.php" >
-                <input class="asuz_1" type="submit" value="Détails">
+        <div class="choix_playstation_vr">
+            <img class="photo_playstation_vr" src="../../images/category/playstation-vr.jpg" alt="Image2">
+            <h2 id="affichage_prix_1">330 €</h2>
+            <p id="description_playstation_vr_1_head">Playstation VR :</p>
+            <p id="description_playstation_vr_1">Avec le PlayStation VR, vous ferez une expérience de jeu totalement inédite. 
+                Vous serez au cœur de l'action, découvrant chaque détail de nouveaux mondes extraordinaires et vous aurez la sensation d’être réellement dans le jeu. </p>
+            <form action="../details_objets/vr/details_playstation_vr.php" >
+                <input class="playstation_vr_1" type="submit" value="Détails">
             </form>
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
-            </form> -->
+            </form>
         <!-- Fin boite un -->
         <div class="signature">Standaert-De Clercq Simon  et Demets Junior </div>
     </body>
