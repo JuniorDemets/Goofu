@@ -118,4 +118,26 @@
 .choix_htc{
     top: 280px;
 }
-
+/*consoles*/
+.choix_xbox, .choix_playstation, .choix_switch, .choix_playstation_pro, .choix_xbox_x{
+    width: 100%;
+    height: 275px;
+    background-color: white;
+    position: absolute;
+    left: -1px;
+}
+.choix_xbox{
+    top: 150px;
+}
+.choix_playstation{
+    top: 280px;
+}
+.choix_switch{
+    top: 280px;
+}
+.choix_playstation_pro{
+    top: 280px;
+}
+.choix_xbox_x{
+    top: 280px;
+}

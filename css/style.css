@@ -26,7 +26,7 @@ body{
 }
 .lien_logo{
     width: 70px;
-    position: fixed;
+    position: absolute;
     height: 70px;
     cursor: pointer;
     display: flex;
