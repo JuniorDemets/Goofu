@@ -33,7 +33,7 @@ if(!isset($_COOKIE["utilisateur"])) {
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
         <div class="pageup">
-            <a href="index.php"><img class="logo" src="https://via.placeholder.com/140x100" alt="logo"></a>
+            <a href="index.php"><img class="logo" src="../images/index/logo.jpg" alt="logo"></a>
             <form action="panier.php">
                 <input class="panier" type="submit" value="Panier">
             </form>
@@ -83,5 +83,6 @@ if(!isset($_COOKIE["utilisateur"])) {
                 <input id="bt-commentaire" type="submit" value="Envoyer">
             </form>
         </div>
+        <div class="signature">Standaert-De Clercq Simon, Demets Junior et Koch Ugo</div>
     </body>
 </HTML>

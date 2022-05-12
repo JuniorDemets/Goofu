@@ -1,13 +1,5 @@
 <?php
-<<<<<<< HEAD
-//  Cookies pour la connexion sur tout le site
-    $E_mail = $_POST['E_mail'];
-    setcookie("Cookie", $E_mail, time()+3600000000000000000000000000000000000000000000000000000000000000000000000000000000000000);
-    if (isset($_COOKIE["Cookie"])){ 
-        echo 'Le cookie existe ' . $_COOKIE["Cookie"] . '!<br />';
-    }else
-        echo 'Le cookie n\'existe pas <br />';
-=======
+
 //Démarrage de la session 
 session_start()
 
@@ -28,7 +20,6 @@ if(!isset($_COOKIE["utilisateur"])) {
     echo  $_COOKIE[$email];
   }
 
->>>>>>> 89e3a56033519cce6e07afdf9412c9452c1052dc
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -164,22 +155,6 @@ if(!isset($_COOKIE["utilisateur"])) {
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
         <!-- Fin boite un -->
-        <!-- <div class="signature2">Standaert-De Clercq Simon, Demets Junior et Koch Ugo </div> -->
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="signature">Standaert-De Clercq Simon, Demets Junior et Koch Ugo </div>  
+        <div class="signature2">Standaert-De Clercq Simon, Demets Junior et Koch Ugo</div>
     </body>
 </html>

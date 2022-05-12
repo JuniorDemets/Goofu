@@ -33,7 +33,7 @@ if(!isset($_COOKIE["utilisateur"])) {
     <body>
         <!-- Haut de page + logo + recherche  + panier + connexion -->
         <div class="pageup">
-            <a href="index.php" class="lien_logo"><img class="logo" src="https://via.placeholder.com/140x100" alt="logo"></a>
+            <a href="index.php" class="lien_logo"><img class="logo" src="../images/index/logo.jpg" alt="logo"></a>
             <div class="search_total">
                 <input class="barre_cherche" placeholder="Recherche..." >
                 <input class="bouton_rechercher"  type="submit" value="Rechercher">
@@ -110,6 +110,6 @@ if(!isset($_COOKIE["utilisateur"])) {
                 <input class="bouton_achat" type="submit" value="Passer votre commande">
             </form>
         </div> 
-        <div class="signature">Standaert-De Clercq Simon  et Demets Junior </div>
+        <div class="signature">Standaert-De Clercq Simon, Demets Junior et Koch Ugo</div>
     </body>
 </HTML>

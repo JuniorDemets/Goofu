@@ -143,6 +143,6 @@ Il embarque un Snapdragon 835, 6 ou 8 Go de mémoire vive, un écran de 5.99 pou
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
         <!-- Fin boite un -->
-        <div class="signature">Standaert-De Clercq Simon  et Demets Junior </div>
+        <div class="signature">Standaert-De Clercq Simon, Demets Junior et Koch Ugo</div>
     </body>
 </HTML>

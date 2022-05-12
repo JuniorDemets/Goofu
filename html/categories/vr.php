@@ -141,6 +141,6 @@ if(!isset($_COOKIE["utilisateur"])) {
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
         <!-- Fin boite un -->
-        <div class="signature">Standaert-De Clercq Simon  et Demets Junior </div>
+        <div class="signature">Standaert-De Clercq Simon, Demets Junior et Koch Ugo</div>
     </body>
 </html>
