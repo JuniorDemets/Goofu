@@ -33,7 +33,7 @@ if(!isset($_COOKIE["utilisateur"])) {
     </head>
     <body>
         <div class="pageup">
-            <a href="../index.php"><img class="logo" src="https://via.placeholder.com/140x100" alt="logo"></a>
+            <a href="../index.php"><img class="logo" src="../../images/index/logo.jpg" alt="logo"></a>
             <div class="search_total">
                 <input class="barre_cherche" placeholder="Recherche..." >
                 <input class="bouton_rechercher"  type="submit" value="Rechercher">
@@ -76,6 +76,7 @@ if(!isset($_COOKIE["utilisateur"])) {
             <form action="ajouter_panier.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
+        </div>
         <!-- Fin boite un -->
         <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
         <div class="choix_htc">
@@ -89,6 +90,7 @@ if(!isset($_COOKIE["utilisateur"])) {
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
+        </div>
         <!-- Fin boite un -->
         <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
         <div class="choix_oneplus">
@@ -102,6 +104,7 @@ if(!isset($_COOKIE["utilisateur"])) {
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
+        </div>
         <!-- Fin boite un -->
         <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
         <div class="choix_asuz">
@@ -115,10 +118,11 @@ if(!isset($_COOKIE["utilisateur"])) {
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
+        </div> 
         <!-- Fin boite un -->
         <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
         <div class="choix_asuz">
-        <img class="photo_asuz" src="../images/category/150.png" alt="Image2">
+            <img class="photo_asuz" src="../images/category/150.png" alt="Image2">
             <h2 id="affichage_prix_1">$00.00</h2>
             <p id="description_asuz_1_head">PC Gamer de marque Asuz :</p>
             <p id="description_asuz_1">Ce pc de marque Asuz exellent pour gaming next-gen. </p>
@@ -128,6 +132,7 @@ if(!isset($_COOKIE["utilisateur"])) {
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
+        </div>
         <!-- Fin boite un -->
         <div class="signature">Standaert-De Clercq Simon  et Demets Junior </div>
     </body>
