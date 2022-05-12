@@ -107,6 +107,6 @@ if(!isset($_COOKIE["utilisateur"])) {
                 <input id="bt_deconnexion" type="submit" value="Se déconnecter">
             </form>
         </div>
-        <div class="signature">Standaert-De Clercq Simon  et Demets Junior </div>
+        <div class="signature">Standaert-De Clercq Simon, Demets Junior et Koch Ugo</div>
     </body>
 </html>

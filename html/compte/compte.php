@@ -136,6 +136,6 @@ if(!isset($_COOKIE["utilisateur"])) {
                 </form>
             </div>
         </div>
-        <div class="signature">Standaert-De Clercq Simon  et Demets Junior </div>
+        <div class="signature">Standaert-De Clercq Simon, Demets Junior et Koch Ugo</div>
     </body>
 </html>
