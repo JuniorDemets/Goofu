@@ -1,6 +1,4 @@
-.panier, .connexion, .compte{
-    top: 0px;
-}
+
 .all_items{
     position: absolute;
     background-color: white;
@@ -16,8 +14,8 @@
 }
 .ajouter_liste_souhaits{
     width: 15%;
-    margin-top: 21%;
-    left: 5%;
+    margin-top: 27%;
+    left: 9.5%;
     position: absolute;
     background-color: rgba(117, 114, 255, 1);
     color: white;
@@ -84,7 +82,7 @@
 }
 .ajouter_commentaire{
     width: 20%;
-    height: auto;
+    height: 10%;
     position: absolute;
     top: 63%;
     left: 7%;

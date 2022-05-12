@@ -1,4 +1,4 @@
-<?php>
+<?php
 //  Cookies pour la connexion sur tout le site
     $E_mail = $_POST['E_mail'];
     setcookie("Cookie", $E_mail, time()+3600000000000000000000000000000000000000000000000000000000000000000000000000000000000000);
@@ -21,7 +21,7 @@
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
         <div class="pageup">
-            <a href="../index.php"><img class="logo" src="https://via.placeholder.com/140x100" alt="logo"></a>
+            <a href="../index.php"><img class="logo" src="../../images/index/logo.jpg" alt="logo"></a>
             <div class="search_total">
                 <input class="barre_cherche" placeholder="Recherche..." >
                 <input class="bouton_rechercher"  type="submit" value="Rechercher">
@@ -54,31 +54,25 @@
                 <input class="cartes_cadeau" type="submit" value="Cartes Cadeau">
             </form>
         </div>
-        <!-- boite pc msi (présentation) +  bouton pour voir le pc msi -->
+        <!-- boite tel xiaomi (présentation) +  bouton pour voir le tel xiaomi -->
         <div class="choix_xiaomi">
-            <img class="photo_xiaomi" src="../../images/category/tel_xiaomi.jpg" alt="Image1">
+            <img class="photo_category" src="../../images/category/tel_xiaomi.jpg" alt="tel xiaomi">
             <h2 id="affichage_prix_1">449€</h2>
-            <p id="description_xiaomi_1_head">Xiaomi Black Shark 2 :</p>
-            <p id="description_xiaomi_1">Le Black Shark 2 est un smartphone haut de gamme annoncé le 18 mars 2019. 
-                                         <br>
-                                         Orienté pour les joueurs nomades, il est équipé d'un SoC Qualcomm Snapdragon 855 
-                                         <br>
-                                         épaulé par 6 à 12 Go de RAM, 
-                                         <br>
-                                         d'un écran AMOLED de 6,39 pouces et d'une batterie de 4000 mAh. </p>
+            <p id="description_category_1_head">Xiaomi Black Shark 2 :</p>
+            <p id="description_category_1">Le Black Shark 2 est un smartphone haut de gamme annoncé le 18 mars 2019. </p>
             <form action="../details_objets/Telephones/details_xiaomi_shark.php" >
-                <input class="xiaomi_1" type="submit" value="Détails">
+                <input class="produit_1" type="submit" value="Détails">
             </form>
             <form action="ajouter_panier.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
         <!-- Fin boite un -->
-        <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
+        <!-- boite tel asuz (présentation) +  bouton pour voir le tel asuz -->
         <div class="choix_asuz_phone">
-            <img class="photo_asuz_phone" src="../../images/category/tel_asuz.jpg" alt="Image2">
+            <img class="photo_category" src="../../images/category/tel_asuz.jpg" alt="tel asuz">
             <h2 id="affichage_prix_1">999€</h2>
-            <p id="description_asuz_phone_1_head">Asus ROG Phone 5s</p>
-            <p id="description_asuz_phone_1">Équipé du dernier processeur Qualcomm® Snapdragon® 888+ 5G, 
+            <p id="description_category_1_head">Asus ROG Phone 5s</p>
+            <p id="description_category_1">Équipé du dernier processeur Qualcomm® Snapdragon® 888+ 5G, 
                                              <br>
                                              le ROG Phone 5s propulse votre expérience gaming sur mobile dans une nouvelle dimension. 
                                              <br>
@@ -86,54 +80,55 @@
                                              <br>
                                              la dalle 144 Hz/ 1 ms du ROG Phone 5s met à votre portée une expérience visuelle ultra-fluide.</p>
             <form action="../details_objets/Telephones/details_asuz_rog_phone.php" >
-                <input class="asuz_phone_1" type="submit" value="Détails">
+                <input class="produit_1" type="submit" value="Détails">
             </form>
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
         <!-- Fin boite un -->
-        <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
+        <!-- boite tel oneplus (présentation) +  bouton pour voir le tel oneplus -->
         <div class="choix_oneplus">
-            <img class="photo_oneplus" src="../../images/category/tel_oneplus.jpg" alt="Image2">
+            <img class="photo_category" src="../../images/category/tel_oneplus.jpg" alt="oneplus phone">
             <h2 id="affichage_prix_1">349€</h2>
-            <p id="description_oneplus_1_head">OnePlus 7 Pro :</p>
-            <p id="description_oneplus_1">Le OnePlus 7 Pro est un smartphone haut de gamme annoncé le 14 mai 2019, version améliorée du OnePlus 7. 
+            <p id="description_category_1_head">OnePlus 7 Pro :</p>
+            <p id="description_category_1">Le OnePlus 7 Pro est un smartphone haut de gamme annoncé le 14 mai 2019, version améliorée du OnePlus 7. 
                                           <br>
                                           Il est équipé d'un écran AMOLED QHD+ de 6,67 pouces sans encoche, 
                                           <br>
                                           d'un SoC Qualcomm Snapdragon 855 et d'un triple capteur photo de 48+8+16 mégapixels .</p>
             <form action="../details_objets/Telephones/details_oneplus_pro.php" >
-                <input class="oneplus_1" type="submit" value="Détails">
+                <input class="produit_1" type="submit" value="Détails">
             </form>
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
         <!-- Fin boite un -->
-        <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
-        <!-- <div class="choix_asuz">
-            <img class="photo_asuz" src="../images/category/150.png" alt="Image2">
-            <h2 id="affichage_prix_1">$00.00</h2>
-            <p id="description_asuz_1_head">PC Gamer de marque Asuz :</p>
-            <p id="description_asuz_1">Ce pc de marque Asuz exellent pour gaming next-gen. </p>
-            <form action="asuz.php" >
-                <input class="asuz_1" type="submit" value="Détails">
+        <!-- boite tel lenovo (présentation) +  bouton pour voir le tel lenovo -->
+        <div class="choix_lenovo_phone">
+            <img class="photo_category" src="../../images/category/tel_lenovo.jpg" alt="lenovo phone">
+            <h2 id="affichage_prix_1">819€</h2>
+            <p id="description_category_1_head">Lenovo Legion Duel Dual Sim  :</p>
+            <p id="description_category_1">Conçu pour êre fluide lors de vos parties, le Lenovo Legion Duel Dual Sim vous surprendra. </p>
+            <form action="../details_objets/Telephones/details_lenovo_phone.php" >
+                <input class="produit_1" type="submit" value="Détails">
             </form>
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
-            </form> -->
+            </form>
         <!-- Fin boite un -->
-        <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
-        <!-- <div class="choix_asuz">
-            <img class="photo_asuz" src="../images/category/150.png" alt="Image2">
-            <h2 id="affichage_prix_1">$00.00</h2>
-            <p id="description_asuz_1_head">PC Gamer de marque Asuz :</p>
-            <p id="description_asuz_1">Ce pc de marque Asuz exellent pour gaming next-gen. </p>
-            <form action="asuz.php" >
-                <input class="asuz_1" type="submit" value="Détails">
+        <!-- boite tel redmagic (présentation) +  bouton pour voir le tel redmagic -->
+        <div class="choix_redmagic">
+            <img class="photo_category" src="../../images/category/tel_redmagic.jpg" alt="Redmagic phone">
+            <h2 id="affichage_prix_1">400€</h2>
+            <p id="description_category_1_head">Nubia Red Magic 2 :</p>
+            <p id="description_category_1">Le Nubia Red Magic est un smartphone haut de gamme destiné aux gamers.
+Il embarque un Snapdragon 835, 6 ou 8 Go de mémoire vive, un écran de 5.99 pouces et une batterie de 3800 mAh.</p>
+            <form action="../details_objets/Telephones/details_redmagic.php" >
+                <input class="produit_1" type="submit" value="Détails">
             </form>
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
-            </form> -->
+            </form>
         <!-- Fin boite un -->
         <div class="signature">Standaert-De Clercq Simon  et Demets Junior </div>
     </body>

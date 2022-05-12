@@ -16,7 +16,7 @@
         <link rel="stylesheet" type="text/css" href="../../../css/style.css">
         <link rel="stylesheet" type="text/css" href="../../../css/details.css">
         <script src="ajouter_panier.js"></script> 
-        <title>Msi Mag Codex</title>
+        <title>Nubia Redmagic 2</title>
     </head>
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
@@ -57,27 +57,17 @@
         <!--Boite qui prends tout-->
         <div class="all_items">
             <div id="img_wishlist">
-                <img src="../../../images/category/pc_msi.jpg" class="produit_image" alt="pc msi">
+                <img src="../../../images/category/tel_redmagic.jpg" class="produit_image" alt="tel xiaomi">
             </div>
             <div class="titre_description">
                 <h2 class="details">Détails du produit :</h2>
                 <p class="description_complete">
-                    Le MSI MAG Codex X5 11-463MYS est un PC gamer puissant qui vous permet de jouer aux jeux actuels et futurs avec des paramètres ultra.
-                    <br>
-                    Grâce à la carte graphique NVIDIA GeForce RTX 3090, vous pourrez atteindre des fréquences d'images élevées dans des jeux exigeants tels que Cyberpunk 2077 et Elden Ring.
-                    <br>
-                    Quelle que soit l'intensité de vos sessions de jeu, le MSI continuera de bien fonctionner grâce au refroidissement liquide.
-                    <br>
-                    Équipé d'un processeur Intel Core i9 et d'une mémoire vive de 32 Go, ce PC ne ralentira pas si vous exécutez plusieurs programmes lourds en même temps ou streamez votre gameplay à vos amis via Twitch ou Discord. 
-                    <br>
-                    Grâce à la capacité de stockage totale de 4 téraoctets, vous pourrez sauvegarder au moins 80 jeux de 45 Go en moyenne.
-                    <br>
-                    Besoin d'encore plus de puissance ou de stockage ? La paroi latérale en verre vous permet d'accéder à tous les composants pour une mise à niveau facile. 
+                Ainsi prend-on connaissance de son processeur, un Qualcomm Snapdragon 845 (soit le meilleur du fabricant à l’heure actuelle), et de sa mémoire vive : 10 Go. Le Red Magic 2 rejoint ainsi le cercle très fermé des smartphones dotés d’une telle configuration, notamment composé du Xiaomi BlackShark Helo et du Xiaomi Mi Mix 3, fraîchement présenté par la société asiatique.
                 </p>
                 </div>
             </div>
             <div class="prix_panier">
-                <p class="prix">4999€</p>
+                <p class="prix">449€</p>
                 <form action="add_cart">
                     <input class="ajouter_panier" type="submit" value="Ajouter au panier">
                 </form>
@@ -96,7 +86,7 @@
                     <option value="4">10</option>
                 </select>
             </div>
-            <!--Commentaires sur l'article + liste de souhaits-->
+            <!--Commentaires sur l'article + wishlist-->
             <form action="commentaire.php">
                 <textarea class="ajouter_commentaire" name="commentaires"
                 rows="5" cols="33" placeholder="Ajoutez un commentaire..."></textarea>
