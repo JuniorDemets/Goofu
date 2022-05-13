@@ -1,6 +1,6 @@
 <?php
 //Démarrage de la session 
-session_start()
+session_start();
 
 //Connexion à la base de données
 $dbh = new PDO('mysql:host=localhost;dbname=4tt_junior', 'junior', 'junior5');
@@ -74,7 +74,7 @@ if(!isset($_COOKIE["utilisateur"])) {
             <p id="sous-titre-retour">Pour retourner un article, veuillez remplir le document ci-dessous <br /> afin de nous l'envoyer à l'adresse suivante: Goofu2022@gmail.com. </p><br />
             <p id="sous-titre-retour1">
                 Lien pour accéder au formulaire:
-                <a href="../document/formulaire_retour.pdf"> Formulaire de retour</a>
+                <a href="../../document/formulaire_retour.pdf"> Formulaire de retour</a>
             </p>
         </div>
         <div class="boutons_ducompte">

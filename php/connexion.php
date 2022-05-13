@@ -11,9 +11,8 @@ if (isset($_POST['E_mail'], $_POST['Mot_de_passe'])) {
             header("Location:../html/index.php");
         }
         $dbh = null;
-    } catch (PDOException $e) {
-        print "Error!: " . $e->getMessage() . "<br/>";
-        die();
+    } finally  {
+        header("Location: ../html/connexion.php");
     }
 }
 ?>

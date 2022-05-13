@@ -1,7 +1,7 @@
 <?php
 
 //Démarrage de la session 
-session_start()
+session_start();
 
 //Connexion à la base de données
 $dbh = new PDO('mysql:host=localhost;dbname=4tt_junior', 'junior', 'junior5');
