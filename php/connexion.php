@@ -8,12 +8,11 @@ if (isset($_POST['E_mail'], $_POST['Mot_de_passe'])) {
     try {
         $dbh = new PDO('mysql:host=localhost;dbname=4tt_junior', 'junior', 'junior5');
         foreach($dbh->query("SELECT * from goofu where E_mail='$E_mail'") as $row) {
-            header("Location:../html/index.html");
+            header("Location:../html/index.php");
         }
         $dbh = null;
-    } catch (PDOException $e) {
-        print "Error!: " . $e->getMessage() . "<br/>";
-        die();
+    } finally  {
+        header("Location: ../html/connexion.php");
     }
 }
 ?>

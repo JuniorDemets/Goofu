@@ -1,6 +1,6 @@
 <?php
 //Démarrage de la session 
-session_start()
+session_start();
 
 //Connexion à la base de données
 $dbh = new PDO('mysql:host=localhost;dbname=4tt_junior', 'junior', 'junior5');
@@ -106,8 +106,8 @@ if(!isset($_COOKIE["utilisateur"])) {
                 </select>
             </div>
             <!--Commentaires sur l'article-->
-            <form action="commentaire.php">
-                <textarea class="ajouter_commentaire" name="commentaires"
+            <form action="../../php/recup_com.php" method="POST">
+                <textarea class="ajouter_commentaire" name="Commentaire"
                 rows="5" cols="33" placeholder="Ajoutez un commentaire..."></textarea>
             <form action="....">
                 <input class="ajouter_liste_souhaits" type="submit" value="Ajouter à la Liste des Souhaits">
