@@ -57,19 +57,19 @@
     left: -1px;
 }
 .choix_msi_codex{
-    top: 175px;
+    top: 150px;
 }
 .choix_acer_pred{
-    top: 465px;
+    top: 430px;
 }
 .choix_lenovo_legion{
-    top: 755px;
+    top: 710px;
 }
 .choix_asus_rog{
-    top: 1045px;
+    top: 990px;
 }
 .choix_hp_pavillion{
-    top: 1335px;
+    top: 1270px;
 }
 /*telephones*/
 .choix_xiaomi, .choix_oneplus, .choix_asuz_phone, .choix_redmagic, .choix_lenovo_phone{
@@ -80,19 +80,19 @@
     left: -1px;
 }
 .choix_xiaomi{
-    top: 175px;
+    top: 150px;
 }
 .choix_asuz_phone{
-    top: 465px;
+    top: 430px;
 }
 .choix_oneplus{
-    top: 755px;
+    top: 710px;
 }
 .choix_lenovo_phone{
-    top: 1045px;
+    top: 990px;
 }
 .choix_redmagic{
-    top: 1335px;
+    top: 1270px;
 }
 /*vr*/
 .choix_htc, .choix_hp_reverb_G2, .choix_valve_index, .choix_playstation_vr, .choix_quest{
@@ -103,19 +103,19 @@
     left: -1px;
 }
 .choix_quest{
-    top: 175px;
+    top: 150px;
 }
 .choix_hp_reverb_G2{
-    top: 465px;
+    top: 430px;
 }
 .choix_valve_index{
-    top: 755px;
+    top: 710px;
 }
 .choix_playstation_vr{
-    top: 1045px;
+    top: 990px;
 }
 .choix_htc{
-    top: 1335px;
+    top: 1270px;
 }
 /*consoles*/
 .choix_xbox, .choix_playstation, .choix_switch, .choix_playstation_pro, .choix_xbox_x{
@@ -126,19 +126,19 @@
     left: -1px;
 }
 .choix_xbox{
-    top: 175px;
+    top: 150px;
 }
 .choix_playstation{
-    top: 465px;
+    top: 430px;
 }
 .choix_switch{
-    top: 755px;
+    top: 710px;
 }
 .choix_playstation_pro{
-    top: 1045px;
+    top: 990px;
 }
 .choix_xbox_x{
-    top: 1335px;
+    top: 1270px;
 }
 /*giftcard*/
 .choix_xbox_gift, .choix_playstation_gift, .choix_nintendo_gift, .choix_steam_gift, .choix_paysafe_gift{
@@ -149,17 +149,17 @@
     left: -1px;
 }
 .choix_xbox_gift{
-    top: 175px;
+    top: 150px;
 }
 .choix_playstation_gift{
-    top: 460px;
+    top: 430px;
 }
 .choix_nintendo_gift{
-    top: 745px;
+    top: 710px;
 }
 .choix_steam_gift{
-    top: 1030px;
+    top: 990px;
 }
 .choix_paysafe_gift{
-    top: 1318px;
+    top: 1270px;
 }
