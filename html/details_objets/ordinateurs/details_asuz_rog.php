@@ -34,7 +34,7 @@ if(!isset($_COOKIE["utilisateur"])) {
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
         <div class="pageup">
-            <a href="../index.php"><img class="logo" src="../../../images/index/logo.jpg" alt="logo"></a>
+            <a href="../../index.php"><img class="logo" src="../../../images/index/logo.jpg" alt="logo"></a>
             <div class="search_total">
                 <input class="barre_cherche" placeholder="Recherche..." >
                 <input class="bouton_rechercher"  type="submit" value="Rechercher">
@@ -90,11 +90,9 @@ if(!isset($_COOKIE["utilisateur"])) {
                     Avec cet ordinateur portable de jeu aux vitesses d'affichage ultrarapides, mettez vous dans la peau d'un professionnel de l'eSport ! 
                     <br>
                     La dalle de 144 Hz / 3 ms permet de jouer aux meilleurs jeux FPS du moment afin que vous soyez toujours au meilleur niveau, prêt à côtoyer l'élite.
-                
-                
                 </p>
-                </div>
             </div>
+        </div>
             <div class="prix_panier">
                 <p class="prix">1499€</p>
                 <form action="add_cart">

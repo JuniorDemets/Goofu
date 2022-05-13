@@ -34,7 +34,7 @@ if(!isset($_COOKIE["utilisateur"])) {
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
         <div class="pageup">
-            <a href="../index.php"><img class="logo" src="../../../images/index/logo.jpg" alt="logo"></a>
+            <a href="../../index.php"><img class="logo" src="../../../images/index/logo.jpg" alt="logo"></a>
             <div class="search_total">
                 <input class="barre_cherche" placeholder="Recherche..." >
                 <input class="bouton_rechercher"  type="submit" value="Rechercher">
@@ -77,8 +77,8 @@ if(!isset($_COOKIE["utilisateur"])) {
                 <p class="description_complete">
                 Ainsi prend-on connaissance de son processeur, un Qualcomm Snapdragon 845 (soit le meilleur du fabricant à l’heure actuelle), et de sa mémoire vive : 10 Go. Le Red Magic 2 rejoint ainsi le cercle très fermé des smartphones dotés d’une telle configuration, notamment composé du Xiaomi BlackShark Helo et du Xiaomi Mi Mix 3, fraîchement présenté par la société asiatique.
                 </p>
-                </div>
             </div>
+        </div>
             <div class="prix_panier">
                 <p class="prix">449€</p>
                 <form action="add_cart">

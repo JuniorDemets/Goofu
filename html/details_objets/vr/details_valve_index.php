@@ -34,7 +34,7 @@ if(!isset($_COOKIE["utilisateur"])) {
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
         <div class="pageup">
-            <a href="../index.php"><img class="logo" src="../../../images/index/logo.jpg" alt="logo"></a>
+            <a href="../../index.php"><img class="logo" src="../../../images/index/logo.jpg" alt="logo"></a>
             <div class="search_total">
                 <input class="barre_cherche" placeholder="Recherche..." >
                 <input class="bouton_rechercher"  type="submit" value="Rechercher">
@@ -70,8 +70,9 @@ if(!isset($_COOKIE["utilisateur"])) {
         <!--Boite qui prends tout-->
         <div class="all_items">
             <div id="img_wishlist">
-                <img src="../../../images/category/valve-index.jpg" class="produit_image" alt="valve index"></div>
-            <div class="titre_description">
+                <img src="../../../images/category/valve-index.jpg" class="produit_image" alt="valve index">
+            </div>
+                <div class="titre_description">
                 <h2 class="details">Détails du produit :</h2>
                 <p class="description_complete">
                 Quoi de mieux pour jouer au nouveau jeu de Valve que le casque de VR de Valve ? 
@@ -82,7 +83,7 @@ if(!isset($_COOKIE["utilisateur"])) {
                 dont le taux de rafraîchissement peut monter jusqu’à 144 Hz.
                 </p>
                 </div>
-            </div>
+        </div>
             <div class="prix_panier">
                 <p class="prix">659€</p>
                 <form action="../../panier.php">

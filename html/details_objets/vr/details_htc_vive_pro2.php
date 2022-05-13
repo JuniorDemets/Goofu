@@ -34,7 +34,7 @@ if(!isset($_COOKIE["utilisateur"])) {
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
         <div class="pageup">
-            <a href="../index.php"><img class="logo" src="../../../images/index/logo.jpg" alt="logo"></a>
+            <a href="../../index.php"><img class="logo" src="../../../images/index/logo.jpg" alt="logo"></a>
             <div class="search_total">
                 <input class="barre_cherche" placeholder="Recherche..." >
                 <input class="bouton_rechercher"  type="submit" value="Rechercher">
@@ -104,7 +104,6 @@ if(!isset($_COOKIE["utilisateur"])) {
             <form action="commentaire.php">
                 <textarea class="ajouter_commentaire" name="commentaires"
                 rows="5" cols="33" placeholder="Ajoutez un commentaire..."></textarea>
-                </div>
             <form action="....">
                 <input class="ajouter_liste_souhaits" type="submit" value="Ajouter à la Liste des Souhaits">
             </form>
