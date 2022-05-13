@@ -114,7 +114,7 @@ if(!isset($_COOKIE["utilisateur"])) {
             </div>
             <!--Commentaires sur l'article-->
             <form action="../../../php/recup_com.php" method="POST">
-                <textarea class="ajouter_commentaire" name="commentaire"
+                <textarea class="ajouter_commentaire" name="Commentaire"
                 rows="5" cols="33" placeholder="Ajoutez un commentaire..."></textarea>
             <form action="....">
                 <input class="ajouter_liste_souhaits" type="submit" value="Ajouter à la Liste des Souhaits">
