@@ -34,18 +34,18 @@ if(!isset($_COOKIE["utilisateur"])) {
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
         <div class="pageup">
-            <a href="../index.php"><img class="logo" src="../../../images/index/logo.jpg" alt="logo"></a>
+            <a href="../../index.php"><img class="logo" src="../../../images/index/logo.jpg" alt="logo"></a>
             <div class="search_total">
                 <input class="barre_cherche" placeholder="Recherche..." >
                 <input class="bouton_rechercher"  type="submit" value="Rechercher">
             </div> 
-            <form action="../panier.php">
+            <form action="../../panier.php">
                 <input class="panier" type="submit" value="Panier">
             </form>
-            <form action="../connexion.php" target="_blank">
+            <form action="../../connexion.php" target="_blank">
                 <input class="connexion" type="submit" value="Connexion">
             </form>
-            <form action="../compte/compte.php" target="_blank">
+            <form action="../../compte/compte.php" target="_blank">
                 <input class="compte" type="submit" value="Compte">
             </form>
         </div>
@@ -76,17 +76,13 @@ if(!isset($_COOKIE["utilisateur"])) {
                 <h2 class="details">Détails du produit :</h2>
                 <p class="description_complete">
                     Jouez aux derniers jeux vidéos à des paramètres élevés avec le Lenovo Legion T5 26AMR5 90RC00LTMH. 
-                                          <br>
-                                          La carte graphique NVIDIA GeForce RTX 3060 est suffisamment puissante pour ça. 
-                                          <br>
-                                          La carte graphique convient aussi à la VR, branchez donc un casque VR et jouez à votre jeu vidéo favori en réalité virtuelle. 
-                                          <br>
-                                          Jouez pendant que vous discutez avec vos amis sur Discord grâce aux 16 Go de mémoire vive.
-                                          <br>
-                                          Installez vos jeux préférés sur le SSD de 512 Go pour qu'ils démarrent rapidement.                      
+                    La carte graphique NVIDIA GeForce RTX 3060 est suffisamment puissante pour ça. 
+                    La carte graphique convient aussi à la VR, branchez donc un casque VR et jouez à votre jeu vidéo favori en réalité virtuelle. 
+                    Jouez pendant que vous discutez avec vos amis sur Discord grâce aux 16 Go de mémoire vive.
+                    Installez vos jeux préférés sur le SSD de 512 Go pour qu'ils démarrent rapidement.                      
                 </p>
-                </div>
             </div>
+        </div>
             <div class="prix_panier">
                 <p class="prix">1299€</p>
                 <form action="add_cart">

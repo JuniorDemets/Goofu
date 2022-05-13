@@ -34,18 +34,18 @@ if(!isset($_COOKIE["utilisateur"])) {
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
         <div class="pageup">
-            <a href="../index.php"><img class="logo" src="../../../images/index/logo.jpg" alt="logo"></a>
+            <a href="../../index.php"><img class="logo" src="../../../images/index/logo.jpg" alt="logo"></a>
             <div class="search_total">
                 <input class="barre_cherche" placeholder="Recherche..." >
                 <input class="bouton_rechercher"  type="submit" value="Rechercher">
             </div> 
-            <form action="../panier.php">
+            <form action="../../panier.php">
                 <input class="panier" type="submit" value="Panier">
             </form>
-            <form action="../connexion.php" target="_blank">
+            <form action="../../connexion.php" target="_blank">
                 <input class="connexion" type="submit" value="Connexion">
             </form>
-            <form action="../compte/compte.php" target="_blank">
+            <form action="../../compte/compte.php" target="_blank">
                 <input class="compte" type="submit" value="Compte">
             </form>
         </div>
@@ -83,8 +83,8 @@ if(!isset($_COOKIE["utilisateur"])) {
                     <br>
                     Le ROG Phone 5 amènera votre niveau de jeu dans une nouvelle dimension, si vous l’osez !
                 </p>
-                </div>
             </div>
+        </div>
             <div class="prix_panier">
                 <p class="prix">999€</p>
                 <form action="add_cart">

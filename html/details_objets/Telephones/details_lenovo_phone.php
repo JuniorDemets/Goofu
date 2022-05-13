@@ -34,18 +34,18 @@ if(!isset($_COOKIE["utilisateur"])) {
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
         <div class="pageup">
-            <a href="../index.php"><img class="logo" src="../../../images/index/logo.jpg" alt="logo"></a>
+            <a href="../../index.php"><img class="logo" src="../../../images/index/logo.jpg" alt="logo"></a>
             <div class="search_total">
                 <input class="barre_cherche" placeholder="Recherche..." >
                 <input class="bouton_rechercher"  type="submit" value="Rechercher">
             </div> 
-            <form action="../panier.php">
+            <form action="../../panier.php">
                 <input class="panier" type="submit" value="Panier">
             </form>
-            <form action="../connexion.php" target="_blank">
+            <form action="../../connexion.php" target="_blank">
                 <input class="connexion" type="submit" value="Connexion">
             </form>
-            <form action="../compte/compte.php" target="_blank">
+            <form action="../../compte/compte.php" target="_blank">
                 <input class="compte" type="submit" value="Compte">
             </form>
         </div> 
@@ -78,8 +78,8 @@ if(!isset($_COOKIE["utilisateur"])) {
                 Le Legion Phone Duel 2 reprend la structure du premier modèle. Nous avons donc affaire à un smartphone conçu pour être naturellement utilisé à l'horizontale, a contrario de ce qui se fait habituellement. L'intérieur du mobile a été placé de sorte qu'une fois entre vos mains, son usage paraisse tout ce qu'il y a de plus classique.
                 Comme dans la première version, la batterie est divisée en deux et placée de chaque côté du smartphone. Ce placement a d'ailleurs été repris cette année sur d'autres modèles gaming tels que l'Asus ROG Phone 5 ou encore le BlackShark 4. Au centre, l'espace est réservé au refroidissement du téléphone. Celui-ci est équipé de deux ventilateurs et d'un tunnel de cuivre permettant de diriger la chaleur vers la grille d'aération.
                 </p>
-                </div>
             </div>
+        </div>
             <div class="prix_panier">
                 <p class="prix">449€</p>
                 <form action="add_cart">
