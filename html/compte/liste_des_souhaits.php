@@ -99,6 +99,6 @@ if(!isset($_COOKIE["utilisateur"])) {
                 <p id="prix1"> 00.00$ </p>
             </div>
         </div>
-        <div class="signature1">Standaert-De Clercq Simon, Demets Junior et Koch Ugo</div>
+        <div class="signature">Standaert-De Clercq Simon, Demets Junior et Koch Ugo</div>
     </body>
 </html>

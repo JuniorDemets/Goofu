@@ -69,14 +69,14 @@ if(!isset($_COOKIE["utilisateur"])) {
         </div>
         <!-- boite tel xiaomi (présentation) +  bouton pour voir le tel xiaomi -->
         <div class="choix_xiaomi">
-            <img class="photo_category" src="../../images/category/tel_xiaomi.jpg" alt="tel xiaomi">
+            <img class="photo_category" src="../../images/category/tel_xiaomi.jpg" alt="tel xiaomi" title="Téléphone Xiaomi">
             <h2 id="affichage_prix_1">449€</h2>
             <p id="description_category_1_head">Xiaomi Black Shark 2 :</p>
             <p id="description_category_1">Le Black Shark 2 est un smartphone haut de gamme annoncé le 18 mars 2019. </p>
             <form action="../details_objets/Telephones/details_xiaomi_shark.php" >
                 <input class="produit_1" type="submit" value="Détails">
             </form>
-            <form action="ajouter_panier.php" >
+            <form action="../compte/liste_des_souhaits.php">
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
         </div>
@@ -96,7 +96,7 @@ if(!isset($_COOKIE["utilisateur"])) {
             <form action="../details_objets/Telephones/details_asuz_rog_phone.php" >
                 <input class="produit_1" type="submit" value="Détails">
             </form>
-            <form action="ajouter_panier2.php" >
+            <form action="../compte/liste_des_souhaits.php">
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
         </div>
@@ -114,7 +114,7 @@ if(!isset($_COOKIE["utilisateur"])) {
             <form action="../details_objets/Telephones/details_oneplus_pro.php" >
                 <input class="produit_1" type="submit" value="Détails">
             </form>
-            <form action="ajouter_panier2.php" >
+            <form action="../compte/liste_des_souhaits.php">
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
         </div>
@@ -128,7 +128,7 @@ if(!isset($_COOKIE["utilisateur"])) {
             <form action="../details_objets/Telephones/details_lenovo_phone.php" >
                 <input class="produit_1" type="submit" value="Détails">
             </form>
-            <form action="ajouter_panier2.php" >
+            <form action="../compte/liste_des_souhaits.php">
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
         </div>
@@ -143,7 +143,7 @@ if(!isset($_COOKIE["utilisateur"])) {
             <form action="../details_objets/Telephones/details_redmagic.php" >
                 <input class="produit_1" type="submit" value="Détails">
             </form>
-            <form action="ajouter_panier2.php" >
+            <form action="../compte/liste_des_souhaits.php">
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
         </div>
