@@ -76,7 +76,7 @@ if(!isset($_COOKIE["utilisateur"])) {
             <form action="../details_objets/ordinateurs/details_msi_codex.php" >
                 <input class="produit_1" type="submit" value="Détails">
             </form>
-            <form action="ajouter_panier.php" >
+            <form action="../compte/liste_des_souhaits.php">
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
         </div>
@@ -92,7 +92,7 @@ if(!isset($_COOKIE["utilisateur"])) {
             <form action="../details_objets/ordinateurs/details_acer_pred.php" >
                 <input class="produit_1" type="submit" value="Détails">
             </form>
-            <form action="ajouter_panier2.php" >
+            <form action="../compte/liste_des_souhaits.php">
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
         </div>
@@ -106,7 +106,7 @@ if(!isset($_COOKIE["utilisateur"])) {
             <form action="../details_objets/ordinateurs/details_lenovo_legion.php" >
                 <input class="produit_1" type="submit" value="Détails">
             </form>
-            <form action="ajouter_panier2.php" >
+            <form action="../compte/liste_des_souhaits.php">
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
         </div>
@@ -120,7 +120,7 @@ if(!isset($_COOKIE["utilisateur"])) {
             <form action="../details_objets/ordinateurs/details_asuz_rog.php" >
                 <input class="produit_1" type="submit" value="Détails">
             </form>
-            <form action="ajouter_panier2.php" >
+            <form action="../compte/liste_des_souhaits.php">
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
         </div>
@@ -135,7 +135,7 @@ if(!isset($_COOKIE["utilisateur"])) {
             <form action="../details_objets/ordinateurs/details_hp_pavilion.php" >
                 <input class="produit_1" type="submit" value="Détails">
             </form>
-            <form action="ajouter_panier2.php" >
+            <form action="../compte/liste_des_souhaits.php">
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
         </div>
