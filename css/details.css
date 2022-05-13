@@ -48,7 +48,7 @@
 .ajouter_panier{
     right: auto;
     width: 75%;
-    top: 1200%;
+    top: 20%;
     position: absolute;
     background-color: rgba(117, 114, 255, 1);
     color: white;
@@ -58,7 +58,7 @@
 #nbre_panier{
     right: auto;
     text-align: center;
-    top: 1500%;
+    top: 25%;
     width: 75%;
     position: absolute;
     background-color: rgba(117, 114, 255, 1);
@@ -77,8 +77,9 @@
 .prix_panier{
     position: absolute; 
     width: 15%;
+    height: 100%;
     left: 80%;
-    top: 25vh;
+    top: 30vh;
 }
 .ajouter_commentaire{
     width: 20%;
