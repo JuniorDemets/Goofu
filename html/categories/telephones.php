@@ -34,7 +34,7 @@ if(!isset($_COOKIE["utilisateur"])) {
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
         <div class="pageup">
-            <a href="../index.php"><img class="logo" src="../../images/index/logo.jpg" alt="logo"></a>
+            <a href="../index.php"><img class="logo" src="../../images/index/logo.jpg" alt="logo" title="logo"></a>
             <div class="search_total">
                 <input class="barre_cherche" placeholder="Recherche..." >
                 <input class="bouton_rechercher"  type="submit" value="Rechercher">
@@ -79,10 +79,11 @@ if(!isset($_COOKIE["utilisateur"])) {
             <form action="ajouter_panier.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
+        </div>
         <!-- Fin boite un -->
         <!-- boite tel asuz (présentation) +  bouton pour voir le tel asuz -->
         <div class="choix_asuz_phone">
-            <img class="photo_category" src="../../images/category/tel_asuz.jpg" alt="tel asuz">
+            <img class="photo_category" src="../../images/category/tel_asuz.jpg" alt="tel asuz" title="Téléphone Asus">
             <h2 id="affichage_prix_1">999€</h2>
             <p id="description_category_1_head">Asus ROG Phone 5s</p>
             <p id="description_category_1">Équipé du dernier processeur Qualcomm® Snapdragon® 888+ 5G, 
@@ -98,10 +99,11 @@ if(!isset($_COOKIE["utilisateur"])) {
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
+        </div>
         <!-- Fin boite un -->
         <!-- boite tel oneplus (présentation) +  bouton pour voir le tel oneplus -->
         <div class="choix_oneplus">
-            <img class="photo_category" src="../../images/category/tel_oneplus.jpg" alt="oneplus phone">
+            <img class="photo_category" src="../../images/category/tel_oneplus.jpg" alt="oneplus phone" title="OnePlus Phone">
             <h2 id="affichage_prix_1">349€</h2>
             <p id="description_category_1_head">OnePlus 7 Pro :</p>
             <p id="description_category_1">Le OnePlus 7 Pro est un smartphone haut de gamme annoncé le 14 mai 2019, version améliorée du OnePlus 7. 
@@ -115,10 +117,11 @@ if(!isset($_COOKIE["utilisateur"])) {
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
+        </div>
         <!-- Fin boite un -->
         <!-- boite tel lenovo (présentation) +  bouton pour voir le tel lenovo -->
         <div class="choix_lenovo_phone">
-            <img class="photo_category" src="../../images/category/tel_lenovo.jpg" alt="lenovo phone">
+            <img class="photo_category" src="../../images/category/tel_lenovo.jpg" alt="lenovo phone" title="Lenovo Phone">
             <h2 id="affichage_prix_1">819€</h2>
             <p id="description_category_1_head">Lenovo Legion Duel Dual Sim  :</p>
             <p id="description_category_1">Conçu pour êre fluide lors de vos parties, le Lenovo Legion Duel Dual Sim vous surprendra. </p>
@@ -128,20 +131,22 @@ if(!isset($_COOKIE["utilisateur"])) {
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
+        </div>
         <!-- Fin boite un -->
         <!-- boite tel redmagic (présentation) +  bouton pour voir le tel redmagic -->
         <div class="choix_redmagic">
-            <img class="photo_category" src="../../images/category/tel_redmagic.jpg" alt="Redmagic phone">
+            <img class="photo_category" src="../../images/category/tel_redmagic.jpg" alt="Redmagic phone" title="Redmagic Phone">
             <h2 id="affichage_prix_1">400€</h2>
             <p id="description_category_1_head">Nubia Red Magic 2 :</p>
             <p id="description_category_1">Le Nubia Red Magic est un smartphone haut de gamme destiné aux gamers.
-Il embarque un Snapdragon 835, 6 ou 8 Go de mémoire vive, un écran de 5.99 pouces et une batterie de 3800 mAh.</p>
+            Il embarque un Snapdragon 835, 6 ou 8 Go de mémoire vive, un écran de 5.99 pouces et une batterie de 3800 mAh.</p>
             <form action="../details_objets/Telephones/details_redmagic.php" >
                 <input class="produit_1" type="submit" value="Détails">
             </form>
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
+        </div>
         <!-- Fin boite un -->
         <div class="signature">Standaert-De Clercq Simon, Demets Junior et Koch Ugo</div>
     </body>

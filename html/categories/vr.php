@@ -34,7 +34,7 @@ if(!isset($_COOKIE["utilisateur"])) {
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
         <div class="pageup">
-            <a href="../index.php"><img class="logo" src="../../images/index/logo.jpg" alt="logo"></a>
+            <a href="../index.php"><img class="logo" src="../../images/index/logo.jpg" alt="logo" title="logo"></a>
             <div class="search_total">
                 <input class="barre_cherche" placeholder="Recherche..." >
                 <input class="bouton_rechercher"  type="submit" value="Rechercher">
@@ -69,7 +69,7 @@ if(!isset($_COOKIE["utilisateur"])) {
         </div>
         <!-- boite pc msi (présentation) +  bouton pour voir le pc msi -->
         <div class="choix_quest">
-            <img class="photo_category" src="../../images/category/oculus-quest.png" alt="Image1">
+            <img class="photo_category" src="../../images/category/oculus-quest.png" alt="Image1" title="images1">
             <h2 id="affichage_prix_1">449€</h2>
             <p id="description_category_1_head">Oculus Quest 2 :</p>
             <p id="description_category_1">
@@ -82,10 +82,11 @@ if(!isset($_COOKIE["utilisateur"])) {
             <form action="ajouter_panier.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
+        </div>
         <!-- Fin boite un -->
         <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
         <div class="choix_htc">
-            <img class="photo_category" src="../../images/category/vr-htc-vive-pro2.jpg" alt="Image2">
+            <img class="photo_category" src="../../images/category/vr-htc-vive-pro2.jpg" alt="Image2" title="Image 2">
             <h2 id="affichage_prix_1">1 399€</h2>
             <p id="description_category_1_head">HTC VIVE pro 2</p>
             <p id="description_category_1">Conçu pour répondre aux besoins des utilisateurs de RV les plus exigeants, 
@@ -96,10 +97,11 @@ if(!isset($_COOKIE["utilisateur"])) {
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
+        </div>
         <!-- Fin boite un -->
         <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
         <div class="choix_hp_reverb_G2">
-            <img class="photo_category" src="../../images/category/HP-reverb-g2.jpg" alt="Image2">
+            <img class="photo_category" src="../../images/category/HP-reverb-g2.jpg" alt="Image2" title="Images 3">
             <h2 id="affichage_prix_1">659 €</h2>
             <p id="description_category_1_head">HP Reverb G2 :</p>
             <p id="description_category_1">
@@ -112,10 +114,11 @@ if(!isset($_COOKIE["utilisateur"])) {
                 <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
+        </div>
         <!-- Fin boite un -->
         <!-- valve_index (présentation) +  bouton pour voir le valve_index -->
         <div class="choix_valve_index">
-            <img class="photo_category" src="../../images/category/valve-index.jpg" alt="Image2">
+            <img class="photo_category" src="../../images/category/valve-index.jpg" alt="Image2" title="Images 4">
             <h2 id="affichage_prix_1">580 €</h2>
             <p id="description_category_1_head">Valve index :</p>
             <p id="description_category_1">Quoi de mieux pour jouer au nouveau jeu de Valve que le casque de VR de Valve ? 
@@ -126,10 +129,11 @@ if(!isset($_COOKIE["utilisateur"])) {
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
+        </div>
         <!-- Fin boite un -->
         <!-- boite pc asuz (présentation) +  bouton pour voir le pc asuz -->
         <div class="choix_playstation_vr">
-            <img class="photo_category" src="../../images/category/playstation-vr.jpg" alt="Image2">
+            <img class="photo_category" src="../../images/category/playstation-vr.jpg" alt="Image2" title="Images 5">
             <h2 id="affichage_prix_1">330 €</h2>
             <p id="description_category_1_head">Playstation VR :</p>
             <p id="description_category_1">Avec le PlayStation VR, vous ferez une expérience de jeu totalement inédite. 
@@ -140,6 +144,7 @@ if(!isset($_COOKIE["utilisateur"])) {
             <form action="ajouter_panier2.php" >
                 <input class="bouton__panier_1" type="submit" value="+">
             </form>
+        </div>
         <!-- Fin boite un -->
         <div class="signature">Standaert-De Clercq Simon, Demets Junior et Koch Ugo</div>
     </body>

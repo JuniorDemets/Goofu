@@ -12,7 +12,7 @@
         <form action="../php/inscription.php" name="login" method="POST">
             <div id="form">
         
-                <img src="../images/image_connexion.jpg" class="img_co" alt="Icône de connexion.">
+                <img src="../images/image_connexion.jpg" class="img_co" alt="Icône de connexion." title="Icone de connnexion">
 
                 <h1> Inscription </h1>
                 <label><br /> Nom </label>

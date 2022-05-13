@@ -33,7 +33,7 @@ if(!isset($_COOKIE["utilisateur"])) {
     <body>
         <!-- haut de page + logo + recherche  + panier + connexion-->
         <div class="pageup">
-            <a href="index.php"><img class="logo" src="../images/index/logo.jpg" alt="logo"></a>
+            <a href="index.php"><img class="logo" src="../images/index/logo.jpg" alt="logo" title="logo"></a>
             <form action="panier.php">
                 <input class="panier" type="submit" value="Panier">
             </form>
@@ -46,7 +46,7 @@ if(!isset($_COOKIE["utilisateur"])) {
         </div>
         <!--Boite qui contient tout-->
         <div class="box">
-            <img class="image_produit" src="https://via.placeholder.com/140x100" alt="logo">
+            <img class="image_produit" src="https://via.placeholder.com/140x100" alt="logo" title="images1">
             <h2 id="nom_article">Votre commande :</h2>
         </div>
         <div id="box-principal">

@@ -33,7 +33,7 @@ if(!isset($_COOKIE["utilisateur"])) {
     </head>
     <body>
         <div class="pageup">
-            <a href="../index.php"><img class="logo" src="../../images/index/logo.jpg" alt="logo"></a>
+            <a href="../index.php"><img class="logo" src="../../images/index/logo.jpg" alt="logo" title="logo"></a>
             <div class="search_total">
                 <input class="barre_cherche" placeholder="Recherche..." >
                 <input class="bouton_rechercher"  type="submit" value="Rechercher">
@@ -47,6 +47,7 @@ if(!isset($_COOKIE["utilisateur"])) {
             <form action="../compte/compte.php" target="_blank">
                 <input class="compte" type="submit" value="Compte">
             </form>
+        </div>
         <!--choix des catégories (nav bar)-->
         <div class="category_total">
             <form action="ordinateurs.php">
@@ -64,9 +65,10 @@ if(!isset($_COOKIE["utilisateur"])) {
             <form action="giftcard.php">
                 <input class="cartes_cadeau" type="submit" value="Cartes Cadeau">
             </form>
+        </div>
         <!-- boite giftcard xbox  (présentation) +  bouton pour voir le giftcard xbox -->
         <div class="choix_xbox_gift">
-            <img class="photo_category" src="../../images/category/xbox.png" alt="xbox logo">
+            <img class="photo_category" src="../../images/category/xbox.png" alt="xbox logo" title="Xbox">
             <h2 id="affichage_prix_1">25€</h2>
             <p id="description_category_1_head">Carte cadeau xbox 25€ :</p>
             <p id="description_category_1">A dépenser sur le microsoft store ! </p>
@@ -80,7 +82,7 @@ if(!isset($_COOKIE["utilisateur"])) {
         <!-- Fin boite un -->
         <!-- boite giftcard ps (présentation) +  bouton pour voir le giftcard ps -->
         <div class="choix_playstation_gift">
-        <img class="photo_category" src="../../images/category/playstation.jpg" alt="Image1">
+            <img class="photo_category" src="../../images/category/playstation.jpg" alt="Image1" title="images1">
             <h2 id="affichage_prix_1">25€</h2>
             <p id="description_category_1_head">Carte cadeau playstation 25€ :</p>
             <p id="description_category_1">A dépenser sur le playstation store ! </p>
@@ -94,7 +96,7 @@ if(!isset($_COOKIE["utilisateur"])) {
         <!-- Fin boite un -->
         <!-- boite nintendo (présentation) +  bouton pour voir le nintendo -->
         <div class="choix_nintendo_gift">
-        <img class="photo_category" src="../../images/category/nintendo.png" alt="Image1">
+            <img class="photo_category" src="../../images/category/nintendo.png" alt="Image1" title="images1">
             <h2 id="affichage_prix_1">25€</h2>
             <p id="description_category_1_head">Carte cadeau nintendo 25€ :</p>
             <p id="description_category_1">A dépenser sur le nintendo e-shop ! </p>
@@ -108,7 +110,7 @@ if(!isset($_COOKIE["utilisateur"])) {
         <!-- Fin boite un -->
         <!-- boite steam (présentation) +  bouton pour voir le steam -->
         <div class="choix_steam_gift">
-        <img class="photo_category" src="../../images/category/steam.png" alt="steam gift">
+            <img class="photo_category" src="../../images/category/steam.png" alt="steam gift" title="Steam Gift">
             <h2 id="affichage_prix_1">25€</h2>
             <p id="description_category_1_head">Carte cadeau steam de 25€ :</p>
             <p id="description_category_1">A dépenser sur Steam ! </p>
@@ -121,8 +123,8 @@ if(!isset($_COOKIE["utilisateur"])) {
         </div>
         <!-- Fin boite un -->
         <!-- boite paysafe (présentation) +  bouton pour voir le paysafe -->
-         <div class="choix_paysafe_gift">
-        <img class="photo_category" src="../../images/category/paysafe.png" alt="paysafe logo">
+        <div class="choix_paysafe_gift">
+            <img class="photo_category" src="../../images/category/paysafe.png" alt="paysafe logo" title="PaysafeCard">
             <h2 id="affichage_prix_1">25€</h2>
             <p id="description_category_1_head">Carte paysafe de 25€ :</p>
             <p id="description_category_1">A dépenser partout  ! </p>

@@ -33,7 +33,7 @@ if(!isset($_COOKIE["utilisateur"])) {
     <body>
         <!-- Haut de page + logo + recherche  + panier + connexion -->
         <div class="pageup">
-            <a href="index.php" class="lien_logo"><img class="logo" src="../images/index/logo.jpg" alt="logo"></a>
+            <a href="index.php" class="lien_logo"><img class="logo" src="../images/index/logo.jpg" alt="logo" title="logo"></a>
             <div class="search_total">
                 <input class="barre_cherche" placeholder="Recherche..." >
                 <input class="bouton_rechercher"  type="submit" value="Rechercher">
@@ -69,34 +69,34 @@ if(!isset($_COOKIE["utilisateur"])) {
         </div>
         <!-- Affichage des articles -->
         <div class="choix_article">
-            <img class="photo_produit" src="../images/category/150.png" alt="Image1">
+            <img class="photo_produit" src="../images/category/150.png" alt="Image1" title="images1">
             <p id="affichage_prix_1">$00.00</p>
-            <p id="description_produit_1_head">PC Gamer de marque MSI :</p>
-            <p id="description_produit_1">Ce pc de marque MSI exellent pour gaming next-gen. </p>
+            <p id="description_produit_1_head"></p>
+            <p id="description_produit_1"></p>
             <form action="produit_1.php" >
                 <input class="produit_1" type="submit" value="Détails">
             </form>
         <div class="choix_article_2">
-            <img class="photo_produit" src="../images/category/150.png" alt="Image1">
+            <img class="photo_produit" src="../images/category/150.png" alt="Image1" title="images1">
             <p id="affichage_prix_1">$00.00</p>
-            <p id="description_produit_1_head">PC Gamer de marque MSI :</p>
-            <p id="description_produit_1">Ce pc de marque MSI exellent pour gaming next-gen. </p>
+            <p id="description_produit_1_head"></p>
+            <p id="description_produit_1"></p>
             <form action="produit_1.php" >
                 <input class="produit_1" type="submit" value="Détails">
             </form>
         <div class="choix_article_3">
-            <img class="photo_produit" src="../images/category/150.png" alt="Image1">
+            <img class="photo_produit" src="../images/category/150.png" alt="Image1" title="images1">
             <p id="affichage_prix_1">$00.00</p>
-            <p id="description_produit_1_head">PC Gamer de marque MSI :</p>
-            <p id="description_produit_1">Ce pc de marque MSI exellent pour gaming next-gen. </p>
+            <p id="description_produit_1_head"></p>
+            <p id="description_produit_1"></p>
             <form action="produit_1.php" >
                 <input class="produit_1" type="submit" value="Détails">
             </form>
         <div class="choix_article_4">
-            <img class="photo_produit" src="../images/category/150.png" alt="Image1">
+            <img class="photo_produit" src="../images/category/150.png" alt="Image1" title="images1">
             <p id="affichage_prix_1">$00.00</p>
-            <p id="description_produit_1_head">PC Gamer de marque MSI :</p>
-            <p id="description_produit_1">Ce pc de marque MSI exellent pour gaming next-gen. </p>
+            <p id="description_produit_1_head"></p>
+            <p id="description_produit_1"></p>
             <form action="produit_1.php" >
                 <input class="produit_1" type="submit" value="Détails">
             </form>

@@ -11,7 +11,7 @@
         <form action="../php/connexion.php" name="login" method="POST">
             <div id="form_connexion">
         
-                <img src="../images/image_connexion.jpg" class="img_co" alt="Icône de connexion.">
+                <img src="../images/image_connexion.jpg" class="img_co" alt="Icône de connexion." title="Icône de connexion">
 
                 <h1> Connexion </h1>
 
