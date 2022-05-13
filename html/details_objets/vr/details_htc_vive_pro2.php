@@ -100,14 +100,15 @@ if(!isset($_COOKIE["utilisateur"])) {
                     <option value="4">10</option>
                 </select>
             </div>
-            <!--Commentaires sur l'article +  wishlist-->
-            <form action="../../php/recup_com.php" method="POST">
-                <textarea class="ajouter_commentaire" name="Commentaire"
-                rows="5" cols="33" placeholder="Ajoutez un commentaire..."></textarea>
-            <form action="....">
+            <!--Commentaires sur l'article + wishlist-->
+            <form>
+                <textarea class="ajouter_commentaire" name="Commentaire" placeholder="Ajoutez un commentaire..."></textarea>
+            </form>
+            <form action="../../compte/liste_des_souhaits.php">
                 <input class="ajouter_liste_souhaits" type="submit" value="Ajouter à la Liste des Souhaits">
             </form>
             <!--Bouton-->
+            <form action="../../php/recup_com.php" method="POST">
                 <input class="bt_send_com" type="submit" value="Envoyer">
             </form>   
         </div>

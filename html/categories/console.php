@@ -160,6 +160,6 @@ if(!isset($_COOKIE["utilisateur"])) {
             </form>
         </div>
         <!-- Fin boite un -->
-        <div class="signature2">Standaert-De Clercq Simon, Demets Junior et Koch Ugo</div>
+        <div class="signature">Standaert-De Clercq Simon, Demets Junior et Koch Ugo</div>
     </body>
 </html>
